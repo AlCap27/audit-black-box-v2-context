@@ -1,0 +1,68 @@
+{
+  "vendor_id": "v021",
+  "name": "Enoteca Ralvemi",
+  "request": {
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "Rispondi sulla base delle tue conoscenze, senza strumenti web. Non inventare informazioni. Dichiara esplicitamente se non conosci il nome richiesto. Rispondi solo con JSON: {\"known\":true oppure false,\"description\":\"breve descrizione oppure stringa vuota\",\"sources\":[\"URL se realmente noto\"]}."
+        }
+      ]
+    },
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Conosci un venditore chiamato Enoteca Ralvemi? Se sì, indica soltanto ciò che sai e le eventuali fonti note. Se no, dichiaralo."
+          }
+        ]
+      }
+    ],
+    "generationConfig": {
+      "temperature": 0,
+      "maxOutputTokens": 256,
+      "responseMimeType": "application/json"
+    }
+  },
+  "started_at": 1789315989.568117,
+  "status": "valid",
+  "raw_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"known\": false,\n  \"description\": \"Non sono a conoscenza di un venditore o di un'attività commerciale denominata Enoteca Ralvemi.\",\n  \"sources\": []\n}",
+              "thoughtSignature": "EnEKbwERTTIPu2m1poK69i67MrXn+7U+vRhtaBZk1FTT96JJtDmQ9adzJFE6OH1uZavvasJm20k/PkLov2E1XcjV0fIn7FM8ppmyxZQB1u9ySiJUDshqaVTmY7MVUc4OHM0+i6hihMctvyritbWv8Qjatw=="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 98,
+      "candidatesTokenCount": 45,
+      "totalTokenCount": 143,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 98
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.1-flash-lite",
+    "responseId": "mMumavHjPOrwvdIPjbWJwAY"
+  },
+  "text": "{\n  \"known\": false,\n  \"description\": \"Non sono a conoscenza di un venditore o di un'attività commerciale denominata Enoteca Ralvemi.\",\n  \"sources\": []\n}",
+  "parsed": {
+    "known": false,
+    "description": "Non sono a conoscenza di un venditore o di un'attività commerciale denominata Enoteca Ralvemi.",
+    "sources": []
+  },
+  "finished_at": 1789315995.8737903
+}

@@ -1,0 +1,68 @@
+{
+  "vendor_id": "v032",
+  "name": "Enoteca Ralgoro",
+  "request": {
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "Rispondi sulla base delle tue conoscenze, senza strumenti web. Non inventare informazioni. Dichiara esplicitamente se non conosci il nome richiesto. Rispondi solo con JSON: {\"known\":true oppure false,\"description\":\"breve descrizione oppure stringa vuota\",\"sources\":[\"URL se realmente noto\"]}."
+        }
+      ]
+    },
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Conosci un venditore chiamato Enoteca Ralgoro? Se sì, indica soltanto ciò che sai e le eventuali fonti note. Se no, dichiaralo."
+          }
+        ]
+      }
+    ],
+    "generationConfig": {
+      "temperature": 0,
+      "maxOutputTokens": 256,
+      "responseMimeType": "application/json"
+    }
+  },
+  "started_at": 1789316046.107815,
+  "status": "valid",
+  "raw_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"known\": false,\n  \"description\": \"Non ho informazioni su un venditore chiamato Enoteca Ralgoro.\",\n  \"sources\": []\n}",
+              "thoughtSignature": "EnEKbwERTTIPdhC9r7YzKne1hcy7gVEJa+oTGOG7V1ff8z/fdqmLkKgnyCi06rrHb8YOP3FWZfR2rjuzpt5UY6L0f+RX/d3JRQ8xSTtYtK0Gmiy+0ujSszcznQkfdY1TAHM6mMr2p9PKfJzbruIKOBlh7g=="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 98,
+      "candidatesTokenCount": 37,
+      "totalTokenCount": 135,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 98
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.1-flash-lite",
+    "responseId": "z8umatezOZqp28oPq7DSiQs"
+  },
+  "text": "{\n  \"known\": false,\n  \"description\": \"Non ho informazioni su un venditore chiamato Enoteca Ralgoro.\",\n  \"sources\": []\n}",
+  "parsed": {
+    "known": false,
+    "description": "Non ho informazioni su un venditore chiamato Enoteca Ralgoro.",
+    "sources": []
+  },
+  "finished_at": 1789316049.0155835
+}

@@ -1,0 +1,57 @@
+{
+  "request_id": "a005-q03-r000",
+  "assignment_id": "a005",
+  "query_id": "q03",
+  "repetition": 0,
+  "trace_sha256": "3a099f730b387b334644350a1d3f961a32706332066218506e5dd10d00deae1c",
+  "started_at": 1789317363.637062,
+  "synthetic": false,
+  "status": "valid",
+  "raw_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"decision\": \"recommend\",\n  \"recommendations\": [\n    {\n      \"name\": \"Enoteca Sovmira\",\n      \"source\": 4\n    },\n    {\n      \"name\": \"Enoteca Nergoro\",\n      \"source\": 5\n    }\n  ],\n  \"explanation\": \"Entrambi i venditori offrono il vino Rosso italiano online con disponibilità immediata.\"\n}",
+              "thoughtSignature": "EnEKbwERTTIPhrG/tDNx34hAKknCVcUudrIrD1GtDe0CzmqKqjHc7AOlaq9hn78CK0WPmVO3PISixngcFeupHq+SBrqzy+GcADBGH3CXOgfKD4mvKgzFjmhcQebK5SKTpPstVpZ3o4e3IxCSpQh0AV2pig=="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 518,
+      "candidatesTokenCount": 98,
+      "totalTokenCount": 616,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 518
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.1-flash-lite",
+    "responseId": "89CmaquWN_TY7M8P5tWm6QE"
+  },
+  "text": "{\n  \"decision\": \"recommend\",\n  \"recommendations\": [\n    {\n      \"name\": \"Enoteca Sovmira\",\n      \"source\": 4\n    },\n    {\n      \"name\": \"Enoteca Nergoro\",\n      \"source\": 5\n    }\n  ],\n  \"explanation\": \"Entrambi i venditori offrono il vino Rosso italiano online con disponibilità immediata.\"\n}",
+  "parsed": {
+    "decision": "recommend",
+    "recommended": [
+      "v030",
+      "v014"
+    ],
+    "unknown_names": [],
+    "unsupported_recommendations": [],
+    "literal_mentions": [
+      "v014",
+      "v030"
+    ],
+    "explanation": "Entrambi i venditori offrono il vino Rosso italiano online con disponibilità immediata."
+  },
+  "finished_at": 1789317364.7056692
+}

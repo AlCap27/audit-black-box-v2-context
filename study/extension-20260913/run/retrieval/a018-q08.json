@@ -1,0 +1,143 @@
+{
+  "assignment_id": "a018",
+  "query": {
+    "query_id": "q08",
+    "intent": "transactional",
+    "text": "Dove posso comprare vino da un'enoteca indipendente online?"
+  },
+  "retrieved": [
+    {
+      "chunk_id": "editorial/a018/e007.txt:editorial:0",
+      "vendor_id": null,
+      "url": "https://e007.editorial.invalid/",
+      "source": "editorial",
+      "text": "Guida editoriale 8. vino da un'enoteca indipendente online. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "word_start": 0,
+      "word_end": 29,
+      "sha256": "2e409a80cdb92de9965e6311958c07106808047df55c2611546fa8036dfbb2f6",
+      "bm25_score": 4.518831769214035,
+      "rank": 1
+    },
+    {
+      "chunk_id": "editorial/a018/e019.txt:editorial:0",
+      "vendor_id": null,
+      "url": "https://e019.editorial.invalid/",
+      "source": "editorial",
+      "text": "Guida editoriale 20. vino da un'enoteca indipendente online. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "word_start": 0,
+      "word_end": 29,
+      "sha256": "0906f95e7efd5e10d87961bb4414dfd2a0720edb178c9910f7646509393a44fe",
+      "bm25_score": 4.518831769214035,
+      "rank": 2
+    },
+    {
+      "chunk_id": "editorial/a018/e031.txt:editorial:0",
+      "vendor_id": null,
+      "url": "https://e031.editorial.invalid/",
+      "source": "editorial",
+      "text": "Guida editoriale 32. vino da un'enoteca indipendente online. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "word_start": 0,
+      "word_end": 29,
+      "sha256": "01631d3ea09d499fb2fb1671672ce5c7dd7e2085e264df7511133be0524bf92f",
+      "bm25_score": 4.518831769214035,
+      "rank": 3
+    },
+    {
+      "chunk_id": "sites/a018/v013/index.html:html:0",
+      "vendor_id": "v013",
+      "url": "https://v013.audit.invalid/",
+      "source": "html",
+      "text": "Enoteca Vorvemi Enoteca Vorvemi è un'enoteca online indipendente. Vende Rosso italiano in bottiglia da 750 ml a 20.00 EUR. Il vino è disponibile. Spedizione in Italia: 6.00 EUR, consegna in 3-5 giorni.",
+      "word_start": 0,
+      "word_end": 32,
+      "sha256": "a0a32e44cf80a3f2ee27b3d4cf7dc7ea47608b35134f14668635194ebfae0bee",
+      "bm25_score": 4.428742107672206,
+      "rank": 4
+    },
+    {
+      "chunk_id": "sites/a018/v001/index.html:html:0",
+      "vendor_id": "v001",
+      "url": "https://v001.audit.invalid/",
+      "source": "html",
+      "text": "Enoteca Talceni Enoteca Talceni è un'enoteca online indipendente. Vende Rosso italiano in bottiglia da 750 ml a 20.00 EUR. Il vino è disponibile. Spedizione in Italia: 6.00 EUR, consegna in 3-5 giorni.",
+      "word_start": 0,
+      "word_end": 32,
+      "sha256": "126fafa5f53b4e6f412d7ecc7b6db3b166f45b16f0a8b9b5878c0fecc23639db",
+      "bm25_score": 4.428742107672206,
+      "rank": 5
+    }
+  ],
+  "shown": [
+    {
+      "chunk_id": "editorial/a018/e007.txt:editorial:0",
+      "vendor_id": null,
+      "url": "https://e007.editorial.invalid/",
+      "source": "editorial",
+      "text": "Guida editoriale 8. vino da un'enoteca indipendente online. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "word_start": 0,
+      "word_end": 29,
+      "sha256": "2e409a80cdb92de9965e6311958c07106808047df55c2611546fa8036dfbb2f6",
+      "bm25_score": 4.518831769214035,
+      "rank": 1,
+      "shown_text": "Guida editoriale 8. vino da un'enoteca indipendente online. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "truncated": false
+    },
+    {
+      "chunk_id": "editorial/a018/e019.txt:editorial:0",
+      "vendor_id": null,
+      "url": "https://e019.editorial.invalid/",
+      "source": "editorial",
+      "text": "Guida editoriale 20. vino da un'enoteca indipendente online. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "word_start": 0,
+      "word_end": 29,
+      "sha256": "0906f95e7efd5e10d87961bb4414dfd2a0720edb178c9910f7646509393a44fe",
+      "bm25_score": 4.518831769214035,
+      "rank": 2,
+      "shown_text": "Guida editoriale 20. vino da un'enoteca indipendente online. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "truncated": false
+    },
+    {
+      "chunk_id": "editorial/a018/e031.txt:editorial:0",
+      "vendor_id": null,
+      "url": "https://e031.editorial.invalid/",
+      "source": "editorial",
+      "text": "Guida editoriale 32. vino da un'enoteca indipendente online. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "word_start": 0,
+      "word_end": 29,
+      "sha256": "01631d3ea09d499fb2fb1671672ce5c7dd7e2085e264df7511133be0524bf92f",
+      "bm25_score": 4.518831769214035,
+      "rank": 3,
+      "shown_text": "Guida editoriale 32. vino da un'enoteca indipendente online. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "truncated": false
+    },
+    {
+      "chunk_id": "sites/a018/v013/index.html:html:0",
+      "vendor_id": "v013",
+      "url": "https://v013.audit.invalid/",
+      "source": "html",
+      "text": "Enoteca Vorvemi Enoteca Vorvemi è un'enoteca online indipendente. Vende Rosso italiano in bottiglia da 750 ml a 20.00 EUR. Il vino è disponibile. Spedizione in Italia: 6.00 EUR, consegna in 3-5 giorni.",
+      "word_start": 0,
+      "word_end": 32,
+      "sha256": "a0a32e44cf80a3f2ee27b3d4cf7dc7ea47608b35134f14668635194ebfae0bee",
+      "bm25_score": 4.428742107672206,
+      "rank": 4,
+      "shown_text": "Enoteca Vorvemi Enoteca Vorvemi è un'enoteca online indipendente. Vende Rosso italiano in bottiglia da 750 ml a 20.00 EUR. Il vino è disponibile. Spedizione in Italia: 6.00 EUR, consegna in 3-5 giorni.",
+      "truncated": false
+    },
+    {
+      "chunk_id": "sites/a018/v001/index.html:html:0",
+      "vendor_id": "v001",
+      "url": "https://v001.audit.invalid/",
+      "source": "html",
+      "text": "Enoteca Talceni Enoteca Talceni è un'enoteca online indipendente. Vende Rosso italiano in bottiglia da 750 ml a 20.00 EUR. Il vino è disponibile. Spedizione in Italia: 6.00 EUR, consegna in 3-5 giorni.",
+      "word_start": 0,
+      "word_end": 32,
+      "sha256": "126fafa5f53b4e6f412d7ecc7b6db3b166f45b16f0a8b9b5878c0fecc23639db",
+      "bm25_score": 4.428742107672206,
+      "rank": 5,
+      "shown_text": "Enoteca Talceni Enoteca Talceni è un'enoteca online indipendente. Vende Rosso italiano in bottiglia da 750 ml a 20.00 EUR. Il vino è disponibile. Spedizione in Italia: 6.00 EUR, consegna in 3-5 giorni.",
+      "truncated": false
+    }
+  ],
+  "prompt": "FONTI:\nFonte 1\nURL: https://e007.editorial.invalid/\nGuida editoriale 8. vino da un'enoteca indipendente online. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.\n\nFonte 2\nURL: https://e019.editorial.invalid/\nGuida editoriale 20. vino da un'enoteca indipendente online. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.\n\nFonte 3\nURL: https://e031.editorial.invalid/\nGuida editoriale 32. vino da un'enoteca indipendente online. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.\n\nFonte 4\nURL: https://v013.audit.invalid/\nEnoteca Vorvemi Enoteca Vorvemi è un'enoteca online indipendente. Vende Rosso italiano in bottiglia da 750 ml a 20.00 EUR. Il vino è disponibile. Spedizione in Italia: 6.00 EUR, consegna in 3-5 giorni.\n\nFonte 5\nURL: https://v001.audit.invalid/\nEnoteca Talceni Enoteca Talceni è un'enoteca online indipendente. Vende Rosso italiano in bottiglia da 750 ml a 20.00 EUR. Il vino è disponibile. Spedizione in Italia: 6.00 EUR, consegna in 3-5 giorni.\n\nRICHIESTA:\nDove posso comprare vino da un'enoteca indipendente online?"
+}

@@ -1,0 +1,57 @@
+{
+  "request_id": "a002-q05-r000",
+  "assignment_id": "a002",
+  "query_id": "q05",
+  "repetition": 0,
+  "trace_sha256": "3bd42c39901178908e7900537a4ecefc3850149b029269ae90668720e6bfd568",
+  "started_at": 1789316267.8869312,
+  "synthetic": false,
+  "status": "valid",
+  "raw_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"decision\": \"recommend\",\n  \"recommendations\": [\n    {\n      \"name\": \"Enoteca Vorzuno\",\n      \"source\": 4\n    },\n    {\n      \"name\": \"Enoteca Talbula\",\n      \"source\": 5\n    }\n  ],\n  \"explanation\": \"Enoteca Vorzuno ed Enoteca Talbula offrono vino rosso italiano con consegna prevista tra i 3 e i 5 giorni.\"\n}",
+              "thoughtSignature": "EnEKbwERTTIPzIJJ65cHGTQQ1f5beIEteZXuhnT8mWrfdTvRTMMKn5Khk34ckl0Fu+o3t6mJXYVLrLDMopLh5r0gB5jT3gM6mF8srIbL0GQhKmrIl84ew6++1ucVKcs5SERxW1cOQEPOtjZThHRLL21WuQ=="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 541,
+      "candidatesTokenCount": 110,
+      "totalTokenCount": 651,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 541
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.1-flash-lite",
+    "responseId": "rMymatCWB6WD3boP28Xy6A4"
+  },
+  "text": "{\n  \"decision\": \"recommend\",\n  \"recommendations\": [\n    {\n      \"name\": \"Enoteca Vorzuno\",\n      \"source\": 4\n    },\n    {\n      \"name\": \"Enoteca Talbula\",\n      \"source\": 5\n    }\n  ],\n  \"explanation\": \"Enoteca Vorzuno ed Enoteca Talbula offrono vino rosso italiano con consegna prevista tra i 3 e i 5 giorni.\"\n}",
+  "parsed": {
+    "decision": "recommend",
+    "recommended": [
+      "v008",
+      "v004"
+    ],
+    "unknown_names": [],
+    "unsupported_recommendations": [],
+    "literal_mentions": [
+      "v004",
+      "v008"
+    ],
+    "explanation": "Enoteca Vorzuno ed Enoteca Talbula offrono vino rosso italiano con consegna prevista tra i 3 e i 5 giorni."
+  },
+  "finished_at": 1789316269.9458554
+}

@@ -1,0 +1,143 @@
+{
+  "assignment_id": "a013",
+  "query": {
+    "query_id": "q19",
+    "intent": "evaluative",
+    "text": "Quali enoteche online valuteresti per bottiglia di rosso italiano sotto 25 euro?"
+  },
+  "retrieved": [
+    {
+      "chunk_id": "editorial/a013/e018.txt:editorial:0",
+      "vendor_id": null,
+      "url": "https://e018.editorial.invalid/",
+      "source": "editorial",
+      "text": "Guida editoriale 19. bottiglia di rosso italiano sotto 25 euro. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "word_start": 0,
+      "word_end": 31,
+      "sha256": "bc7e05764b6484034470d7ae677a73f4df0acaa37ddb8692492424a0bc3b5488",
+      "bm25_score": 10.545813534198373,
+      "rank": 1
+    },
+    {
+      "chunk_id": "editorial/a013/e006.txt:editorial:0",
+      "vendor_id": null,
+      "url": "https://e006.editorial.invalid/",
+      "source": "editorial",
+      "text": "Guida editoriale 7. bottiglia di rosso italiano sotto 25 euro. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "word_start": 0,
+      "word_end": 31,
+      "sha256": "d04e3fc9ec95221a78cd0c33fd0cd331730c26f04e0e210625d644089ce44f5d",
+      "bm25_score": 10.545813534198373,
+      "rank": 2
+    },
+    {
+      "chunk_id": "editorial/a013/e030.txt:editorial:0",
+      "vendor_id": null,
+      "url": "https://e030.editorial.invalid/",
+      "source": "editorial",
+      "text": "Guida editoriale 31. bottiglia di rosso italiano sotto 25 euro. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "word_start": 0,
+      "word_end": 31,
+      "sha256": "b41972ccdfe82c3999fe7bae58e70e5534f80767ebc13359d77b3e395b983905",
+      "bm25_score": 10.545813534198373,
+      "rank": 3
+    },
+    {
+      "chunk_id": "editorial/a013/e024.txt:editorial:0",
+      "vendor_id": null,
+      "url": "https://e024.editorial.invalid/",
+      "source": "editorial",
+      "text": "Guida editoriale 25. vino rosso italiano da 20 euro. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "word_start": 0,
+      "word_end": 30,
+      "sha256": "827f29e2ab540536d29994b7baa9b001e38c6924b0e69580e594839dba59770f",
+      "bm25_score": 6.782432836304698,
+      "rank": 4
+    },
+    {
+      "chunk_id": "editorial/a013/e000.txt:editorial:0",
+      "vendor_id": null,
+      "url": "https://e000.editorial.invalid/",
+      "source": "editorial",
+      "text": "Guida editoriale 1. vino rosso italiano da 20 euro. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "word_start": 0,
+      "word_end": 30,
+      "sha256": "13c8b90385bcff34aa400a5b138ae566eab87cd24fc230f8f9b57d13724ce140",
+      "bm25_score": 3.477462700956382,
+      "rank": 5
+    }
+  ],
+  "shown": [
+    {
+      "chunk_id": "editorial/a013/e018.txt:editorial:0",
+      "vendor_id": null,
+      "url": "https://e018.editorial.invalid/",
+      "source": "editorial",
+      "text": "Guida editoriale 19. bottiglia di rosso italiano sotto 25 euro. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "word_start": 0,
+      "word_end": 31,
+      "sha256": "bc7e05764b6484034470d7ae677a73f4df0acaa37ddb8692492424a0bc3b5488",
+      "bm25_score": 10.545813534198373,
+      "rank": 1,
+      "shown_text": "Guida editoriale 19. bottiglia di rosso italiano sotto 25 euro. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "truncated": false
+    },
+    {
+      "chunk_id": "editorial/a013/e006.txt:editorial:0",
+      "vendor_id": null,
+      "url": "https://e006.editorial.invalid/",
+      "source": "editorial",
+      "text": "Guida editoriale 7. bottiglia di rosso italiano sotto 25 euro. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "word_start": 0,
+      "word_end": 31,
+      "sha256": "d04e3fc9ec95221a78cd0c33fd0cd331730c26f04e0e210625d644089ce44f5d",
+      "bm25_score": 10.545813534198373,
+      "rank": 2,
+      "shown_text": "Guida editoriale 7. bottiglia di rosso italiano sotto 25 euro. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "truncated": false
+    },
+    {
+      "chunk_id": "editorial/a013/e030.txt:editorial:0",
+      "vendor_id": null,
+      "url": "https://e030.editorial.invalid/",
+      "source": "editorial",
+      "text": "Guida editoriale 31. bottiglia di rosso italiano sotto 25 euro. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "word_start": 0,
+      "word_end": 31,
+      "sha256": "b41972ccdfe82c3999fe7bae58e70e5534f80767ebc13359d77b3e395b983905",
+      "bm25_score": 10.545813534198373,
+      "rank": 3,
+      "shown_text": "Guida editoriale 31. bottiglia di rosso italiano sotto 25 euro. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "truncated": false
+    },
+    {
+      "chunk_id": "editorial/a013/e024.txt:editorial:0",
+      "vendor_id": null,
+      "url": "https://e024.editorial.invalid/",
+      "source": "editorial",
+      "text": "Guida editoriale 25. vino rosso italiano da 20 euro. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "word_start": 0,
+      "word_end": 30,
+      "sha256": "827f29e2ab540536d29994b7baa9b001e38c6924b0e69580e594839dba59770f",
+      "bm25_score": 6.782432836304698,
+      "rank": 4,
+      "shown_text": "Guida editoriale 25. vino rosso italiano da 20 euro. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "truncated": false
+    },
+    {
+      "chunk_id": "editorial/a013/e000.txt:editorial:0",
+      "vendor_id": null,
+      "url": "https://e000.editorial.invalid/",
+      "source": "editorial",
+      "text": "Guida editoriale 1. vino rosso italiano da 20 euro. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "word_start": 0,
+      "word_end": 30,
+      "sha256": "13c8b90385bcff34aa400a5b138ae566eab87cd24fc230f8f9b57d13724ce140",
+      "bm25_score": 3.477462700956382,
+      "rank": 5,
+      "shown_text": "Guida editoriale 1. vino rosso italiano da 20 euro. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "truncated": false
+    }
+  ],
+  "prompt": "FONTI:\nFonte 1\nURL: https://e018.editorial.invalid/\nGuida editoriale 19. bottiglia di rosso italiano sotto 25 euro. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.\n\nFonte 2\nURL: https://e006.editorial.invalid/\nGuida editoriale 7. bottiglia di rosso italiano sotto 25 euro. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.\n\nFonte 3\nURL: https://e030.editorial.invalid/\nGuida editoriale 31. bottiglia di rosso italiano sotto 25 euro. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.\n\nFonte 4\nURL: https://e024.editorial.invalid/\nGuida editoriale 25. vino rosso italiano da 20 euro. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.\n\nFonte 5\nURL: https://e000.editorial.invalid/\nGuida editoriale 1. vino rosso italiano da 20 euro. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.\n\nRICHIESTA:\nQuali enoteche online valuteresti per bottiglia di rosso italiano sotto 25 euro?"
+}

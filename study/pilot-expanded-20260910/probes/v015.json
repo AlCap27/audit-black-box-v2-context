@@ -1,0 +1,68 @@
+{
+  "vendor_id": "v015",
+  "name": "Enoteca Zelmira",
+  "request": {
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "Rispondi sulla base delle tue conoscenze, senza strumenti web. Non inventare informazioni. Dichiara esplicitamente se non conosci il nome richiesto. Rispondi solo con JSON: {\"known\":true oppure false,\"description\":\"breve descrizione oppure stringa vuota\",\"sources\":[\"URL se realmente noto\"]}."
+        }
+      ]
+    },
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Conosci un venditore chiamato Enoteca Zelmira? Se sì, indica soltanto ciò che sai e le eventuali fonti note. Se no, dichiaralo."
+          }
+        ]
+      }
+    ],
+    "generationConfig": {
+      "temperature": 0,
+      "maxOutputTokens": 256,
+      "responseMimeType": "application/json"
+    }
+  },
+  "started_at": 1789058588.1775608,
+  "status": "valid",
+  "raw_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"known\": false,\n  \"description\": \"Non sono a conoscenza di un venditore o attività commerciale denominata Enoteca Zelmira.\",\n  \"sources\": []\n}",
+              "thoughtSignature": "EnEKbwERTTIPrdExKIU0O5yM6qqFjXeKhJkkp0b9EpRqIAagJFhO/PzihL4o4CFJwc3/vfRz9bDCBT162PKgr558NAzKb2oC7XqhFse1/5/v1Ux8uRpvSq54mHcGthWT4PPGHyYInOd1Xdcb0mCt5eTrKQ=="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 98,
+      "candidatesTokenCount": 42,
+      "totalTokenCount": 140,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 98
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.1-flash-lite",
+    "responseId": "Ht6iasqhHrCE3boPk4DYiAc"
+  },
+  "text": "{\n  \"known\": false,\n  \"description\": \"Non sono a conoscenza di un venditore o attività commerciale denominata Enoteca Zelmira.\",\n  \"sources\": []\n}",
+  "parsed": {
+    "known": false,
+    "description": "Non sono a conoscenza di un venditore o attività commerciale denominata Enoteca Zelmira.",
+    "sources": []
+  },
+  "finished_at": 1789058593.1085823
+}

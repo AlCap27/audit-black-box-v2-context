@@ -1,0 +1,74 @@
+{
+  "status": "PILOT_INFORMED_NORMAL_SENSITIVITY_ONLY",
+  "complete_assignments": 8,
+  "observed_sd_complete_only": 0.03251858395335426,
+  "warnings": [
+    "Small exploratory pilot, fixed corpus and queries.",
+    "Complete-assignment selection may depend on missingness.",
+    "Normal contrast assumption and top-3 competition require validation before confirmation.",
+    "No recommendation to start confirmatory collection automatically."
+  ],
+  "scenarios": [
+    {
+      "SD_assumption": "observed_SD",
+      "SD": 0.03251858395335426,
+      "absolute_effect": 0.01,
+      "first_N_with_power_80": {
+        "assignments": 85,
+        "calls_at_24_queries_one_rep": 2040,
+        "normal_model_power": 0.8002872441795637
+      }
+    },
+    {
+      "SD_assumption": "observed_SD",
+      "SD": 0.03251858395335426,
+      "absolute_effect": 0.02,
+      "first_N_with_power_80": {
+        "assignments": 23,
+        "calls_at_24_queries_one_rep": 552,
+        "normal_model_power": 0.8047759855455396
+      }
+    },
+    {
+      "SD_assumption": "observed_SD",
+      "SD": 0.03251858395335426,
+      "absolute_effect": 0.03,
+      "first_N_with_power_80": {
+        "assignments": 12,
+        "calls_at_24_queries_one_rep": 288,
+        "normal_model_power": 0.8283362071208351
+      }
+    },
+    {
+      "SD_assumption": "normal_SD_upper_95",
+      "SD": 0.06618416635195375,
+      "absolute_effect": 0.01,
+      "first_N_with_power_80": {
+        "assignments": 346,
+        "calls_at_24_queries_one_rep": 8304,
+        "normal_model_power": 0.8003046683465941
+      }
+    },
+    {
+      "SD_assumption": "normal_SD_upper_95",
+      "SD": 0.06618416635195375,
+      "absolute_effect": 0.02,
+      "first_N_with_power_80": {
+        "assignments": 88,
+        "calls_at_24_queries_one_rep": 2112,
+        "normal_model_power": 0.8004929902757473
+      }
+    },
+    {
+      "SD_assumption": "normal_SD_upper_95",
+      "SD": 0.06618416635195375,
+      "absolute_effect": 0.03,
+      "first_N_with_power_80": {
+        "assignments": 41,
+        "calls_at_24_queries_one_rep": 984,
+        "normal_model_power": 0.8084311227376192
+      }
+    }
+  ],
+  "sd_upper_normal_95": 0.06618416635195375
+}

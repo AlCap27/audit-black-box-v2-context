@@ -1,0 +1,59 @@
+{
+  "request_id": "a005-q17-r000",
+  "assignment_id": "a005",
+  "query_id": "q17",
+  "repetition": 0,
+  "trace_sha256": "a9a3b0d0eec442e738e8cf3646a840a5ec24fd110c3f446c2cb75af4d9b86fea",
+  "started_at": 1789316435.997381,
+  "synthetic": false,
+  "status": "valid",
+  "raw_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"decision\": \"recommend\",\n  \"recommendations\": [\n    {\n      \"name\": \"Enoteca Talbula\",\n      \"source\": 1\n    },\n    {\n      \"name\": \"Enoteca Lumzuno\",\n      \"source\": 2\n    },\n    {\n      \"name\": \"Enoteca Nertaro\",\n      \"source\": 3\n    }\n  ],\n  \"explanation\": \"Queste tre enoteche offrono vino rosso italiano al prezzo di 20.00 EUR con consegna prevista in 3-5 giorni.\"\n}",
+              "thoughtSignature": "EnEKbwERTTIPcrs5aKqkO6Fi/gDrKoOKJmaN9k0evrCPUdoVJnUwB8jELQLuUgTVDraZu4qIheTihB5nMyMsx+Z2n1Thuq3kzdfI9UMe4tyjaFlByfAIPduYa23PCQyIe5BdtVnj/yvvY1uFcDw7GT46jw=="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 592,
+      "candidatesTokenCount": 136,
+      "totalTokenCount": 728,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 592
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.1-flash-lite",
+    "responseId": "VM2maoz0EfilxN8Phrnf8Ao"
+  },
+  "text": "{\n  \"decision\": \"recommend\",\n  \"recommendations\": [\n    {\n      \"name\": \"Enoteca Talbula\",\n      \"source\": 1\n    },\n    {\n      \"name\": \"Enoteca Lumzuno\",\n      \"source\": 2\n    },\n    {\n      \"name\": \"Enoteca Nertaro\",\n      \"source\": 3\n    }\n  ],\n  \"explanation\": \"Queste tre enoteche offrono vino rosso italiano al prezzo di 20.00 EUR con consegna prevista in 3-5 giorni.\"\n}",
+  "parsed": {
+    "decision": "recommend",
+    "recommended": [
+      "v004",
+      "v028",
+      "v020"
+    ],
+    "unknown_names": [],
+    "unsupported_recommendations": [],
+    "literal_mentions": [
+      "v004",
+      "v020",
+      "v028"
+    ],
+    "explanation": "Queste tre enoteche offrono vino rosso italiano al prezzo di 20.00 EUR con consegna prevista in 3-5 giorni."
+  },
+  "finished_at": 1789316437.0986586
+}

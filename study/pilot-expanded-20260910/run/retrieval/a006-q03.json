@@ -1,0 +1,143 @@
+{
+  "assignment_id": "a006",
+  "query": {
+    "query_id": "q03",
+    "intent": "transactional",
+    "text": "Dove posso comprare Rosso italiano disponibile online?"
+  },
+  "retrieved": [
+    {
+      "chunk_id": "editorial/a006/e026.txt:editorial:0",
+      "vendor_id": null,
+      "url": "https://e026.editorial.invalid/",
+      "source": "editorial",
+      "text": "Guida editoriale 27. Rosso italiano disponibile online. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "word_start": 0,
+      "word_end": 28,
+      "sha256": "dae874c9699f6d52982b2cb983d4bc7d1325a9cafd8a22650c227acaf934fef1",
+      "bm25_score": 1.1931626849362942,
+      "rank": 1
+    },
+    {
+      "chunk_id": "editorial/a006/e002.txt:editorial:0",
+      "vendor_id": null,
+      "url": "https://e002.editorial.invalid/",
+      "source": "editorial",
+      "text": "Guida editoriale 3. Rosso italiano disponibile online. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "word_start": 0,
+      "word_end": 28,
+      "sha256": "91f5bacf32d763879a6378794db80e37bec525c8da4810be64f0f05754f4fef2",
+      "bm25_score": 1.1931626849362942,
+      "rank": 2
+    },
+    {
+      "chunk_id": "editorial/a006/e014.txt:editorial:0",
+      "vendor_id": null,
+      "url": "https://e014.editorial.invalid/",
+      "source": "editorial",
+      "text": "Guida editoriale 15. Rosso italiano disponibile online. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "word_start": 0,
+      "word_end": 28,
+      "sha256": "1cfc21b80b4d56f323d6663c6349ee5b7d0bad5e706d0bafc13cb6263b2c92d0",
+      "bm25_score": 1.1931626849362942,
+      "rank": 3
+    },
+    {
+      "chunk_id": "sites/a006/v030/llms.txt:llms:0",
+      "vendor_id": "v030",
+      "url": "https://v030.audit.invalid/llms.txt",
+      "source": "llms",
+      "text": "# Enoteca Sovmira Da Enoteca Sovmira, enoteca indipendente online, puoi acquistare Rosso italiano: bottiglia da 750 ml, prezzo 20.00 EUR, disponibile. La consegna in Italia richiede 3-5 giorni; la spedizione costa 6.00 EUR.",
+      "word_start": 0,
+      "word_end": 33,
+      "sha256": "f33412641abd74c0cc507292aa5221b33e8e70ef86ee4b7681197144a12c2b08",
+      "bm25_score": 1.109228148287277,
+      "rank": 4
+    },
+    {
+      "chunk_id": "sites/a006/v002/index.html:html:0",
+      "vendor_id": "v002",
+      "url": "https://v002.audit.invalid/",
+      "source": "html",
+      "text": "Enoteca Ralpali Da Enoteca Ralpali, enoteca indipendente online, puoi acquistare Rosso italiano: bottiglia da 750 ml, prezzo 20.00 EUR, disponibile. La consegna in Italia richiede 3-5 giorni; la spedizione costa 6.00 EUR.",
+      "word_start": 0,
+      "word_end": 32,
+      "sha256": "d17395559dc034c94c863d075f9eb3ad0ec361887a18fb5da938ec29b923be78",
+      "bm25_score": 1.109228148287277,
+      "rank": 5
+    }
+  ],
+  "shown": [
+    {
+      "chunk_id": "editorial/a006/e026.txt:editorial:0",
+      "vendor_id": null,
+      "url": "https://e026.editorial.invalid/",
+      "source": "editorial",
+      "text": "Guida editoriale 27. Rosso italiano disponibile online. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "word_start": 0,
+      "word_end": 28,
+      "sha256": "dae874c9699f6d52982b2cb983d4bc7d1325a9cafd8a22650c227acaf934fef1",
+      "bm25_score": 1.1931626849362942,
+      "rank": 1,
+      "shown_text": "Guida editoriale 27. Rosso italiano disponibile online. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "truncated": false
+    },
+    {
+      "chunk_id": "editorial/a006/e002.txt:editorial:0",
+      "vendor_id": null,
+      "url": "https://e002.editorial.invalid/",
+      "source": "editorial",
+      "text": "Guida editoriale 3. Rosso italiano disponibile online. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "word_start": 0,
+      "word_end": 28,
+      "sha256": "91f5bacf32d763879a6378794db80e37bec525c8da4810be64f0f05754f4fef2",
+      "bm25_score": 1.1931626849362942,
+      "rank": 2,
+      "shown_text": "Guida editoriale 3. Rosso italiano disponibile online. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "truncated": false
+    },
+    {
+      "chunk_id": "editorial/a006/e014.txt:editorial:0",
+      "vendor_id": null,
+      "url": "https://e014.editorial.invalid/",
+      "source": "editorial",
+      "text": "Guida editoriale 15. Rosso italiano disponibile online. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "word_start": 0,
+      "word_end": 28,
+      "sha256": "1cfc21b80b4d56f323d6663c6349ee5b7d0bad5e706d0bafc13cb6263b2c92d0",
+      "bm25_score": 1.1931626849362942,
+      "rank": 3,
+      "shown_text": "Guida editoriale 15. Rosso italiano disponibile online. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "truncated": false
+    },
+    {
+      "chunk_id": "sites/a006/v030/llms.txt:llms:0",
+      "vendor_id": "v030",
+      "url": "https://v030.audit.invalid/llms.txt",
+      "source": "llms",
+      "text": "# Enoteca Sovmira Da Enoteca Sovmira, enoteca indipendente online, puoi acquistare Rosso italiano: bottiglia da 750 ml, prezzo 20.00 EUR, disponibile. La consegna in Italia richiede 3-5 giorni; la spedizione costa 6.00 EUR.",
+      "word_start": 0,
+      "word_end": 33,
+      "sha256": "f33412641abd74c0cc507292aa5221b33e8e70ef86ee4b7681197144a12c2b08",
+      "bm25_score": 1.109228148287277,
+      "rank": 4,
+      "shown_text": "# Enoteca Sovmira Da Enoteca Sovmira, enoteca indipendente online, puoi acquistare Rosso italiano: bottiglia da 750 ml, prezzo 20.00 EUR, disponibile. La consegna in Italia richiede 3-5 giorni; la spedizione costa 6.00 EUR.",
+      "truncated": false
+    },
+    {
+      "chunk_id": "sites/a006/v002/index.html:html:0",
+      "vendor_id": "v002",
+      "url": "https://v002.audit.invalid/",
+      "source": "html",
+      "text": "Enoteca Ralpali Da Enoteca Ralpali, enoteca indipendente online, puoi acquistare Rosso italiano: bottiglia da 750 ml, prezzo 20.00 EUR, disponibile. La consegna in Italia richiede 3-5 giorni; la spedizione costa 6.00 EUR.",
+      "word_start": 0,
+      "word_end": 32,
+      "sha256": "d17395559dc034c94c863d075f9eb3ad0ec361887a18fb5da938ec29b923be78",
+      "bm25_score": 1.109228148287277,
+      "rank": 5,
+      "shown_text": "Enoteca Ralpali Da Enoteca Ralpali, enoteca indipendente online, puoi acquistare Rosso italiano: bottiglia da 750 ml, prezzo 20.00 EUR, disponibile. La consegna in Italia richiede 3-5 giorni; la spedizione costa 6.00 EUR.",
+      "truncated": false
+    }
+  ],
+  "prompt": "FONTI:\nFonte 1\nURL: https://e026.editorial.invalid/\nGuida editoriale 27. Rosso italiano disponibile online. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.\n\nFonte 2\nURL: https://e002.editorial.invalid/\nGuida editoriale 3. Rosso italiano disponibile online. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.\n\nFonte 3\nURL: https://e014.editorial.invalid/\nGuida editoriale 15. Rosso italiano disponibile online. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.\n\nFonte 4\nURL: https://v030.audit.invalid/llms.txt\n# Enoteca Sovmira Da Enoteca Sovmira, enoteca indipendente online, puoi acquistare Rosso italiano: bottiglia da 750 ml, prezzo 20.00 EUR, disponibile. La consegna in Italia richiede 3-5 giorni; la spedizione costa 6.00 EUR.\n\nFonte 5\nURL: https://v002.audit.invalid/\nEnoteca Ralpali Da Enoteca Ralpali, enoteca indipendente online, puoi acquistare Rosso italiano: bottiglia da 750 ml, prezzo 20.00 EUR, disponibile. La consegna in Italia richiede 3-5 giorni; la spedizione costa 6.00 EUR.\n\nRICHIESTA:\nDove posso comprare Rosso italiano disponibile online?"
+}

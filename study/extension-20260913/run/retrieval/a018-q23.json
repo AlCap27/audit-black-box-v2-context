@@ -1,0 +1,143 @@
+{
+  "assignment_id": "a018",
+  "query": {
+    "query_id": "q23",
+    "intent": "evaluative",
+    "text": "Quali enoteche online valuteresti per vino italiano da 750 ml a 20 euro?"
+  },
+  "retrieved": [
+    {
+      "chunk_id": "editorial/a018/e022.txt:editorial:0",
+      "vendor_id": null,
+      "url": "https://e022.editorial.invalid/",
+      "source": "editorial",
+      "text": "Guida editoriale 23. vino italiano da 750 ml a 20 euro. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "word_start": 0,
+      "word_end": 32,
+      "sha256": "9514f2850a3428a051f356608ab9cff645d8f4668b08d04b957d9a19090843a6",
+      "bm25_score": 6.490662565700651,
+      "rank": 1
+    },
+    {
+      "chunk_id": "editorial/a018/e010.txt:editorial:0",
+      "vendor_id": null,
+      "url": "https://e010.editorial.invalid/",
+      "source": "editorial",
+      "text": "Guida editoriale 11. vino italiano da 750 ml a 20 euro. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "word_start": 0,
+      "word_end": 32,
+      "sha256": "9625782b9a0b5d29468744949ec9162ada3bbb95e219ff34004d363c289e42c5",
+      "bm25_score": 6.490662565700651,
+      "rank": 2
+    },
+    {
+      "chunk_id": "sites/a018/v013/index.html:html:0",
+      "vendor_id": "v013",
+      "url": "https://v013.audit.invalid/",
+      "source": "html",
+      "text": "Enoteca Vorvemi Enoteca Vorvemi è un'enoteca online indipendente. Vende Rosso italiano in bottiglia da 750 ml a 20.00 EUR. Il vino è disponibile. Spedizione in Italia: 6.00 EUR, consegna in 3-5 giorni.",
+      "word_start": 0,
+      "word_end": 32,
+      "sha256": "a0a32e44cf80a3f2ee27b3d4cf7dc7ea47608b35134f14668635194ebfae0bee",
+      "bm25_score": 4.170702781471212,
+      "rank": 3
+    },
+    {
+      "chunk_id": "sites/a018/v001/index.html:html:0",
+      "vendor_id": "v001",
+      "url": "https://v001.audit.invalid/",
+      "source": "html",
+      "text": "Enoteca Talceni Enoteca Talceni è un'enoteca online indipendente. Vende Rosso italiano in bottiglia da 750 ml a 20.00 EUR. Il vino è disponibile. Spedizione in Italia: 6.00 EUR, consegna in 3-5 giorni.",
+      "word_start": 0,
+      "word_end": 32,
+      "sha256": "126fafa5f53b4e6f412d7ecc7b6db3b166f45b16f0a8b9b5878c0fecc23639db",
+      "bm25_score": 4.170702781471212,
+      "rank": 4
+    },
+    {
+      "chunk_id": "sites/a018/v021/llms.txt:llms:0",
+      "vendor_id": "v021",
+      "url": "https://v021.audit.invalid/llms.txt",
+      "source": "llms",
+      "text": "# Enoteca Ralvemi Enoteca Ralvemi è un'enoteca online indipendente. Vende Rosso italiano in bottiglia da 750 ml a 20.00 EUR. Il vino è disponibile. Spedizione in Italia: 6.00 EUR, consegna in 3-5 giorni.",
+      "word_start": 0,
+      "word_end": 33,
+      "sha256": "f487a9cdc9ee0d179137c98c7e23768a9912507a679f6fdce0115fcad333eebb",
+      "bm25_score": 4.170702781471212,
+      "rank": 5
+    }
+  ],
+  "shown": [
+    {
+      "chunk_id": "editorial/a018/e022.txt:editorial:0",
+      "vendor_id": null,
+      "url": "https://e022.editorial.invalid/",
+      "source": "editorial",
+      "text": "Guida editoriale 23. vino italiano da 750 ml a 20 euro. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "word_start": 0,
+      "word_end": 32,
+      "sha256": "9514f2850a3428a051f356608ab9cff645d8f4668b08d04b957d9a19090843a6",
+      "bm25_score": 6.490662565700651,
+      "rank": 1,
+      "shown_text": "Guida editoriale 23. vino italiano da 750 ml a 20 euro. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "truncated": false
+    },
+    {
+      "chunk_id": "editorial/a018/e010.txt:editorial:0",
+      "vendor_id": null,
+      "url": "https://e010.editorial.invalid/",
+      "source": "editorial",
+      "text": "Guida editoriale 11. vino italiano da 750 ml a 20 euro. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "word_start": 0,
+      "word_end": 32,
+      "sha256": "9625782b9a0b5d29468744949ec9162ada3bbb95e219ff34004d363c289e42c5",
+      "bm25_score": 6.490662565700651,
+      "rank": 2,
+      "shown_text": "Guida editoriale 11. vino italiano da 750 ml a 20 euro. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "truncated": false
+    },
+    {
+      "chunk_id": "sites/a018/v013/index.html:html:0",
+      "vendor_id": "v013",
+      "url": "https://v013.audit.invalid/",
+      "source": "html",
+      "text": "Enoteca Vorvemi Enoteca Vorvemi è un'enoteca online indipendente. Vende Rosso italiano in bottiglia da 750 ml a 20.00 EUR. Il vino è disponibile. Spedizione in Italia: 6.00 EUR, consegna in 3-5 giorni.",
+      "word_start": 0,
+      "word_end": 32,
+      "sha256": "a0a32e44cf80a3f2ee27b3d4cf7dc7ea47608b35134f14668635194ebfae0bee",
+      "bm25_score": 4.170702781471212,
+      "rank": 3,
+      "shown_text": "Enoteca Vorvemi Enoteca Vorvemi è un'enoteca online indipendente. Vende Rosso italiano in bottiglia da 750 ml a 20.00 EUR. Il vino è disponibile. Spedizione in Italia: 6.00 EUR, consegna in 3-5 giorni.",
+      "truncated": false
+    },
+    {
+      "chunk_id": "sites/a018/v001/index.html:html:0",
+      "vendor_id": "v001",
+      "url": "https://v001.audit.invalid/",
+      "source": "html",
+      "text": "Enoteca Talceni Enoteca Talceni è un'enoteca online indipendente. Vende Rosso italiano in bottiglia da 750 ml a 20.00 EUR. Il vino è disponibile. Spedizione in Italia: 6.00 EUR, consegna in 3-5 giorni.",
+      "word_start": 0,
+      "word_end": 32,
+      "sha256": "126fafa5f53b4e6f412d7ecc7b6db3b166f45b16f0a8b9b5878c0fecc23639db",
+      "bm25_score": 4.170702781471212,
+      "rank": 4,
+      "shown_text": "Enoteca Talceni Enoteca Talceni è un'enoteca online indipendente. Vende Rosso italiano in bottiglia da 750 ml a 20.00 EUR. Il vino è disponibile. Spedizione in Italia: 6.00 EUR, consegna in 3-5 giorni.",
+      "truncated": false
+    },
+    {
+      "chunk_id": "sites/a018/v021/llms.txt:llms:0",
+      "vendor_id": "v021",
+      "url": "https://v021.audit.invalid/llms.txt",
+      "source": "llms",
+      "text": "# Enoteca Ralvemi Enoteca Ralvemi è un'enoteca online indipendente. Vende Rosso italiano in bottiglia da 750 ml a 20.00 EUR. Il vino è disponibile. Spedizione in Italia: 6.00 EUR, consegna in 3-5 giorni.",
+      "word_start": 0,
+      "word_end": 33,
+      "sha256": "f487a9cdc9ee0d179137c98c7e23768a9912507a679f6fdce0115fcad333eebb",
+      "bm25_score": 4.170702781471212,
+      "rank": 5,
+      "shown_text": "# Enoteca Ralvemi Enoteca Ralvemi è un'enoteca online indipendente. Vende Rosso italiano in bottiglia da 750 ml a 20.00 EUR. Il vino è disponibile. Spedizione in Italia: 6.00 EUR, consegna in 3-5 giorni.",
+      "truncated": false
+    }
+  ],
+  "prompt": "FONTI:\nFonte 1\nURL: https://e022.editorial.invalid/\nGuida editoriale 23. vino italiano da 750 ml a 20 euro. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.\n\nFonte 2\nURL: https://e010.editorial.invalid/\nGuida editoriale 11. vino italiano da 750 ml a 20 euro. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.\n\nFonte 3\nURL: https://v013.audit.invalid/\nEnoteca Vorvemi Enoteca Vorvemi è un'enoteca online indipendente. Vende Rosso italiano in bottiglia da 750 ml a 20.00 EUR. Il vino è disponibile. Spedizione in Italia: 6.00 EUR, consegna in 3-5 giorni.\n\nFonte 4\nURL: https://v001.audit.invalid/\nEnoteca Talceni Enoteca Talceni è un'enoteca online indipendente. Vende Rosso italiano in bottiglia da 750 ml a 20.00 EUR. Il vino è disponibile. Spedizione in Italia: 6.00 EUR, consegna in 3-5 giorni.\n\nFonte 5\nURL: https://v021.audit.invalid/llms.txt\n# Enoteca Ralvemi Enoteca Ralvemi è un'enoteca online indipendente. Vende Rosso italiano in bottiglia da 750 ml a 20.00 EUR. Il vino è disponibile. Spedizione in Italia: 6.00 EUR, consegna in 3-5 giorni.\n\nRICHIESTA:\nQuali enoteche online valuteresti per vino italiano da 750 ml a 20 euro?"
+}

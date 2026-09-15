@@ -1,0 +1,722 @@
+[
+  {
+    "chunk_id": "sites/a014/v001/index.html:html:0",
+    "vendor_id": "v001",
+    "url": "https://v001.audit.invalid/",
+    "source": "html",
+    "text": "Enoteca Talceni Enoteca Talceni è un'enoteca online indipendente. Vende Rosso italiano in bottiglia da 750 ml a 20.00 EUR. Il vino è disponibile. Spedizione in Italia: 6.00 EUR, consegna in 3-5 giorni.",
+    "word_start": 0,
+    "word_end": 32,
+    "sha256": "51060e1321f9f74406069cb775b9df7dde76085c9deba06bdd9cceb4b9170c8d"
+  },
+  {
+    "chunk_id": "sites/a014/v002/index.html:html:0",
+    "vendor_id": "v002",
+    "url": "https://v002.audit.invalid/",
+    "source": "html",
+    "text": "Enoteca Ralpali Da Enoteca Ralpali, enoteca indipendente online, puoi acquistare Rosso italiano: bottiglia da 750 ml, prezzo 20.00 EUR, disponibile. La consegna in Italia richiede 3-5 giorni; la spedizione costa 6.00 EUR.",
+    "word_start": 0,
+    "word_end": 32,
+    "sha256": "3e65a8fe191450e5c51164a5937d179228beb0ccc96b3a1ec0e8d2bab1b68373"
+  },
+  {
+    "chunk_id": "sites/a014/v003/index.html:html:0",
+    "vendor_id": "v003",
+    "url": "https://v003.audit.invalid/",
+    "source": "html",
+    "text": "Enoteca Sovceni Acquisto online da Enoteca Sovceni, enoteca indipendente: Rosso italiano disponibile a 20.00 EUR per bottiglia da 750 ml. Il costo di spedizione è 6.00 EUR e la consegna in Italia avviene in 3-5 giorni.",
+    "word_start": 0,
+    "word_end": 36,
+    "sha256": "4b07752fa8f16e5a9984d209a1954749225d15d2b683dfc1c8036c77e0944301"
+  },
+  {
+    "chunk_id": "sites/a014/v004/index.html:html+schema:0",
+    "vendor_id": "v004",
+    "url": "https://v004.audit.invalid/",
+    "source": "html+schema",
+    "text": "Enoteca Talbula Enoteca Talbula vende vino online come enoteca indipendente. Rosso italiano costa 20.00 EUR, è disponibile e viene offerto in bottiglie da 750 ml. Spedisce in Italia per 6.00 EUR con consegna in 3-5 giorni. {\"@context\": \"https://schema.org\", \"@type\": \"Product\", \"description\": \"Enoteca Talbula vende vino online come enoteca indipendente. Rosso italiano costa 20.00 EUR, è disponibile e viene offerto in bottiglie da 750 ml. Spedisce in Italia per 6.00 EUR con consegna in 3-5 giorni.\", \"name\": \"Rosso italiano\", \"offers\": {\"@type\": \"Offer\", \"availability\": \"https://schema.org/InStock\", \"price\": \"20.00\", \"priceCurrency\": \"EUR\", \"seller\": {\"@type\": \"Organization\", \"name\": \"Enoteca Talbula\"}}}",
+    "word_start": 0,
+    "word_end": 93,
+    "sha256": "a589a55a13912cdd7956e2a00a7fdd6bd02206fc6ce6f757d6319e45388898e2"
+  },
+  {
+    "chunk_id": "sites/a014/v004/llms.txt:llms:0",
+    "vendor_id": "v004",
+    "url": "https://v004.audit.invalid/llms.txt",
+    "source": "llms",
+    "text": "# Enoteca Talbula Enoteca Talbula vende vino online come enoteca indipendente. Rosso italiano costa 20.00 EUR, è disponibile e viene offerto in bottiglie da 750 ml. Spedisce in Italia per 6.00 EUR con consegna in 3-5 giorni.",
+    "word_start": 0,
+    "word_end": 37,
+    "sha256": "cc867743932498daa97a3c5c5f7b33050d7e7788be88c08f08b0991098e656e1"
+  },
+  {
+    "chunk_id": "sites/a014/v005/index.html:html+schema:0",
+    "vendor_id": "v005",
+    "url": "https://v005.audit.invalid/",
+    "source": "html+schema",
+    "text": "Enoteca Talzuno Enoteca Talzuno è un'enoteca online indipendente. Vende Rosso italiano in bottiglia da 750 ml a 20.00 EUR. Il vino è disponibile. Spedizione in Italia: 6.00 EUR, consegna in 3-5 giorni. {\"@context\": \"https://schema.org\", \"@type\": \"Product\", \"description\": \"Enoteca Talzuno è un'enoteca online indipendente. Vende Rosso italiano in bottiglia da 750 ml a 20.00 EUR. Il vino è disponibile. Spedizione in Italia: 6.00 EUR, consegna in 3-5 giorni.\", \"name\": \"Rosso italiano\", \"offers\": {\"@type\": \"Offer\", \"availability\": \"https://schema.org/InStock\", \"price\": \"20.00\", \"priceCurrency\": \"EUR\", \"seller\": {\"@type\": \"Organization\", \"name\": \"Enoteca Talzuno\"}}}",
+    "word_start": 0,
+    "word_end": 85,
+    "sha256": "446fa3abca7aa429b36bbd82fd0da5cfe7f34c3c9c346db46337052f664a46c5"
+  },
+  {
+    "chunk_id": "sites/a014/v005/llms.txt:llms:0",
+    "vendor_id": "v005",
+    "url": "https://v005.audit.invalid/llms.txt",
+    "source": "llms",
+    "text": "# Enoteca Talzuno Enoteca Talzuno è un'enoteca online indipendente. Vende Rosso italiano in bottiglia da 750 ml a 20.00 EUR. Il vino è disponibile. Spedizione in Italia: 6.00 EUR, consegna in 3-5 giorni.",
+    "word_start": 0,
+    "word_end": 33,
+    "sha256": "2e5c1dcb502223b72d038ae9813d5a7a32dedb00c65c86c918f8f829b82dfc35"
+  },
+  {
+    "chunk_id": "sites/a014/v006/index.html:html+schema:0",
+    "vendor_id": "v006",
+    "url": "https://v006.audit.invalid/",
+    "source": "html+schema",
+    "text": "Enoteca Ralmira Da Enoteca Ralmira, enoteca indipendente online, puoi acquistare Rosso italiano: bottiglia da 750 ml, prezzo 20.00 EUR, disponibile. La consegna in Italia richiede 3-5 giorni; la spedizione costa 6.00 EUR. {\"@context\": \"https://schema.org\", \"@type\": \"Product\", \"description\": \"Da Enoteca Ralmira, enoteca indipendente online, puoi acquistare Rosso italiano: bottiglia da 750 ml, prezzo 20.00 EUR, disponibile. La consegna in Italia richiede 3-5 giorni; la spedizione costa 6.00 EUR.\", \"name\": \"Rosso italiano\", \"offers\": {\"@type\": \"Offer\", \"availability\": \"https://schema.org/InStock\", \"price\": \"20.00\", \"priceCurrency\": \"EUR\", \"seller\": {\"@type\": \"Organization\", \"name\": \"Enoteca Ralmira\"}}}",
+    "word_start": 0,
+    "word_end": 85,
+    "sha256": "888fabfd38b1aa90dc2cc79d16b6e723e5bbb9ada4d1fafa4f3fe7d0fad7127e"
+  },
+  {
+    "chunk_id": "sites/a014/v006/llms.txt:llms:0",
+    "vendor_id": "v006",
+    "url": "https://v006.audit.invalid/llms.txt",
+    "source": "llms",
+    "text": "# Enoteca Ralmira Da Enoteca Ralmira, enoteca indipendente online, puoi acquistare Rosso italiano: bottiglia da 750 ml, prezzo 20.00 EUR, disponibile. La consegna in Italia richiede 3-5 giorni; la spedizione costa 6.00 EUR.",
+    "word_start": 0,
+    "word_end": 33,
+    "sha256": "4339c81a2b31d2bc89dd81d9ad7525a458115fc4834c99ada1139f33241ca57a"
+  },
+  {
+    "chunk_id": "sites/a014/v007/index.html:html+schema:0",
+    "vendor_id": "v007",
+    "url": "https://v007.audit.invalid/",
+    "source": "html+schema",
+    "text": "Enoteca Nerzuno Acquisto online da Enoteca Nerzuno, enoteca indipendente: Rosso italiano disponibile a 20.00 EUR per bottiglia da 750 ml. Il costo di spedizione è 6.00 EUR e la consegna in Italia avviene in 3-5 giorni. {\"@context\": \"https://schema.org\", \"@type\": \"Product\", \"description\": \"Acquisto online da Enoteca Nerzuno, enoteca indipendente: Rosso italiano disponibile a 20.00 EUR per bottiglia da 750 ml. Il costo di spedizione è 6.00 EUR e la consegna in Italia avviene in 3-5 giorni.\", \"name\": \"Rosso italiano\", \"offers\": {\"@type\": \"Offer\", \"availability\": \"https://schema.org/InStock\", \"price\": \"20.00\", \"priceCurrency\": \"EUR\", \"seller\": {\"@type\": \"Organization\", \"name\": \"Enoteca Nerzuno\"}}}",
+    "word_start": 0,
+    "word_end": 93,
+    "sha256": "6a365475be88142f645551899bdb17c3992121b4e29ba2b3c841e87c979e9096"
+  },
+  {
+    "chunk_id": "sites/a014/v007/llms.txt:llms:0",
+    "vendor_id": "v007",
+    "url": "https://v007.audit.invalid/llms.txt",
+    "source": "llms",
+    "text": "# Enoteca Nerzuno Acquisto online da Enoteca Nerzuno, enoteca indipendente: Rosso italiano disponibile a 20.00 EUR per bottiglia da 750 ml. Il costo di spedizione è 6.00 EUR e la consegna in Italia avviene in 3-5 giorni.",
+    "word_start": 0,
+    "word_end": 37,
+    "sha256": "1db1d9af5e304e7563b3602582dfa25e33724ab7b82cc3641e1b2de76c89a82f"
+  },
+  {
+    "chunk_id": "sites/a014/v008/index.html:html:0",
+    "vendor_id": "v008",
+    "url": "https://v008.audit.invalid/",
+    "source": "html",
+    "text": "Enoteca Vorzuno Enoteca Vorzuno vende vino online come enoteca indipendente. Rosso italiano costa 20.00 EUR, è disponibile e viene offerto in bottiglie da 750 ml. Spedisce in Italia per 6.00 EUR con consegna in 3-5 giorni.",
+    "word_start": 0,
+    "word_end": 36,
+    "sha256": "2ae8f601a39a431293ee70bf1e2bca520f1760e5f2804ebdfeef075cd70e61df"
+  },
+  {
+    "chunk_id": "sites/a014/v009/index.html:html+schema:0",
+    "vendor_id": "v009",
+    "url": "https://v009.audit.invalid/",
+    "source": "html+schema",
+    "text": "Enoteca Sovgoro Enoteca Sovgoro è un'enoteca online indipendente. Vende Rosso italiano in bottiglia da 750 ml a 20.00 EUR. Il vino è disponibile. Spedizione in Italia: 6.00 EUR, consegna in 3-5 giorni. {\"@context\": \"https://schema.org\", \"@type\": \"Product\", \"description\": \"Enoteca Sovgoro è un'enoteca online indipendente. Vende Rosso italiano in bottiglia da 750 ml a 20.00 EUR. Il vino è disponibile. Spedizione in Italia: 6.00 EUR, consegna in 3-5 giorni.\", \"name\": \"Rosso italiano\", \"offers\": {\"@type\": \"Offer\", \"availability\": \"https://schema.org/InStock\", \"price\": \"20.00\", \"priceCurrency\": \"EUR\", \"seller\": {\"@type\": \"Organization\", \"name\": \"Enoteca Sovgoro\"}}}",
+    "word_start": 0,
+    "word_end": 85,
+    "sha256": "649af884b1ec93aad22cb138b7f525102cd4db389c957b01be2399bb47e1aa7d"
+  },
+  {
+    "chunk_id": "sites/a014/v010/index.html:html:0",
+    "vendor_id": "v010",
+    "url": "https://v010.audit.invalid/",
+    "source": "html",
+    "text": "Enoteca Ralceni Da Enoteca Ralceni, enoteca indipendente online, puoi acquistare Rosso italiano: bottiglia da 750 ml, prezzo 20.00 EUR, disponibile. La consegna in Italia richiede 3-5 giorni; la spedizione costa 6.00 EUR.",
+    "word_start": 0,
+    "word_end": 32,
+    "sha256": "1c68877881b5f3f911e5266684c07cc1913b2482cf4379fd43a42011c8855c64"
+  },
+  {
+    "chunk_id": "sites/a014/v011/index.html:html+schema:0",
+    "vendor_id": "v011",
+    "url": "https://v011.audit.invalid/",
+    "source": "html+schema",
+    "text": "Enoteca Zelgoro Acquisto online da Enoteca Zelgoro, enoteca indipendente: Rosso italiano disponibile a 20.00 EUR per bottiglia da 750 ml. Il costo di spedizione è 6.00 EUR e la consegna in Italia avviene in 3-5 giorni. {\"@context\": \"https://schema.org\", \"@type\": \"Product\", \"description\": \"Acquisto online da Enoteca Zelgoro, enoteca indipendente: Rosso italiano disponibile a 20.00 EUR per bottiglia da 750 ml. Il costo di spedizione è 6.00 EUR e la consegna in Italia avviene in 3-5 giorni.\", \"name\": \"Rosso italiano\", \"offers\": {\"@type\": \"Offer\", \"availability\": \"https://schema.org/InStock\", \"price\": \"20.00\", \"priceCurrency\": \"EUR\", \"seller\": {\"@type\": \"Organization\", \"name\": \"Enoteca Zelgoro\"}}}",
+    "word_start": 0,
+    "word_end": 93,
+    "sha256": "b330f41a83ce65c97503c71b36ce9ffcd0e91bce5ca7cff5f4c04426e7c493d7"
+  },
+  {
+    "chunk_id": "sites/a014/v012/index.html:html+schema:0",
+    "vendor_id": "v012",
+    "url": "https://v012.audit.invalid/",
+    "source": "html+schema",
+    "text": "Enoteca Vorbula Enoteca Vorbula vende vino online come enoteca indipendente. Rosso italiano costa 20.00 EUR, è disponibile e viene offerto in bottiglie da 750 ml. Spedisce in Italia per 6.00 EUR con consegna in 3-5 giorni. {\"@context\": \"https://schema.org\", \"@type\": \"Product\", \"description\": \"Enoteca Vorbula vende vino online come enoteca indipendente. Rosso italiano costa 20.00 EUR, è disponibile e viene offerto in bottiglie da 750 ml. Spedisce in Italia per 6.00 EUR con consegna in 3-5 giorni.\", \"name\": \"Rosso italiano\", \"offers\": {\"@type\": \"Offer\", \"availability\": \"https://schema.org/InStock\", \"price\": \"20.00\", \"priceCurrency\": \"EUR\", \"seller\": {\"@type\": \"Organization\", \"name\": \"Enoteca Vorbula\"}}}",
+    "word_start": 0,
+    "word_end": 93,
+    "sha256": "941cefcd0b37079c892234a0e12582847a5a9d8975be4fd3369f120d12d3092f"
+  },
+  {
+    "chunk_id": "sites/a014/v012/llms.txt:llms:0",
+    "vendor_id": "v012",
+    "url": "https://v012.audit.invalid/llms.txt",
+    "source": "llms",
+    "text": "# Enoteca Vorbula Enoteca Vorbula vende vino online come enoteca indipendente. Rosso italiano costa 20.00 EUR, è disponibile e viene offerto in bottiglie da 750 ml. Spedisce in Italia per 6.00 EUR con consegna in 3-5 giorni.",
+    "word_start": 0,
+    "word_end": 37,
+    "sha256": "27d25fcad112756fc77ebe6a18731e49f9809bc8774517044e98ef955a868d18"
+  },
+  {
+    "chunk_id": "sites/a014/v013/index.html:html+schema:0",
+    "vendor_id": "v013",
+    "url": "https://v013.audit.invalid/",
+    "source": "html+schema",
+    "text": "Enoteca Vorvemi Enoteca Vorvemi è un'enoteca online indipendente. Vende Rosso italiano in bottiglia da 750 ml a 20.00 EUR. Il vino è disponibile. Spedizione in Italia: 6.00 EUR, consegna in 3-5 giorni. {\"@context\": \"https://schema.org\", \"@type\": \"Product\", \"description\": \"Enoteca Vorvemi è un'enoteca online indipendente. Vende Rosso italiano in bottiglia da 750 ml a 20.00 EUR. Il vino è disponibile. Spedizione in Italia: 6.00 EUR, consegna in 3-5 giorni.\", \"name\": \"Rosso italiano\", \"offers\": {\"@type\": \"Offer\", \"availability\": \"https://schema.org/InStock\", \"price\": \"20.00\", \"priceCurrency\": \"EUR\", \"seller\": {\"@type\": \"Organization\", \"name\": \"Enoteca Vorvemi\"}}}",
+    "word_start": 0,
+    "word_end": 85,
+    "sha256": "83919e9d62c3a9a063c9c02f10be8c68fa901926add8c049cc4a7293a61add01"
+  },
+  {
+    "chunk_id": "sites/a014/v014/index.html:html+schema:0",
+    "vendor_id": "v014",
+    "url": "https://v014.audit.invalid/",
+    "source": "html+schema",
+    "text": "Enoteca Nergoro Da Enoteca Nergoro, enoteca indipendente online, puoi acquistare Rosso italiano: bottiglia da 750 ml, prezzo 20.00 EUR, disponibile. La consegna in Italia richiede 3-5 giorni; la spedizione costa 6.00 EUR. {\"@context\": \"https://schema.org\", \"@type\": \"Product\", \"description\": \"Da Enoteca Nergoro, enoteca indipendente online, puoi acquistare Rosso italiano: bottiglia da 750 ml, prezzo 20.00 EUR, disponibile. La consegna in Italia richiede 3-5 giorni; la spedizione costa 6.00 EUR.\", \"name\": \"Rosso italiano\", \"offers\": {\"@type\": \"Offer\", \"availability\": \"https://schema.org/InStock\", \"price\": \"20.00\", \"priceCurrency\": \"EUR\", \"seller\": {\"@type\": \"Organization\", \"name\": \"Enoteca Nergoro\"}}}",
+    "word_start": 0,
+    "word_end": 85,
+    "sha256": "cdd7991d8322185a5b9531b0d064387de37d843c5ff11aa4623b42d05f2d2019"
+  },
+  {
+    "chunk_id": "sites/a014/v015/index.html:html:0",
+    "vendor_id": "v015",
+    "url": "https://v015.audit.invalid/",
+    "source": "html",
+    "text": "Enoteca Zelmira Acquisto online da Enoteca Zelmira, enoteca indipendente: Rosso italiano disponibile a 20.00 EUR per bottiglia da 750 ml. Il costo di spedizione è 6.00 EUR e la consegna in Italia avviene in 3-5 giorni.",
+    "word_start": 0,
+    "word_end": 36,
+    "sha256": "3e913e4f14a4584473d9742e90e9411017f2f235a8a6e96d4f8a4f906bb81588"
+  },
+  {
+    "chunk_id": "sites/a014/v016/index.html:html+schema:0",
+    "vendor_id": "v016",
+    "url": "https://v016.audit.invalid/",
+    "source": "html+schema",
+    "text": "Enoteca Ralsula Enoteca Ralsula vende vino online come enoteca indipendente. Rosso italiano costa 20.00 EUR, è disponibile e viene offerto in bottiglie da 750 ml. Spedisce in Italia per 6.00 EUR con consegna in 3-5 giorni. {\"@context\": \"https://schema.org\", \"@type\": \"Product\", \"description\": \"Enoteca Ralsula vende vino online come enoteca indipendente. Rosso italiano costa 20.00 EUR, è disponibile e viene offerto in bottiglie da 750 ml. Spedisce in Italia per 6.00 EUR con consegna in 3-5 giorni.\", \"name\": \"Rosso italiano\", \"offers\": {\"@type\": \"Offer\", \"availability\": \"https://schema.org/InStock\", \"price\": \"20.00\", \"priceCurrency\": \"EUR\", \"seller\": {\"@type\": \"Organization\", \"name\": \"Enoteca Ralsula\"}}}",
+    "word_start": 0,
+    "word_end": 93,
+    "sha256": "50e36cab315d7561a2129ea05a9a0da8cabf242fff653846df9bc57e5385ab14"
+  },
+  {
+    "chunk_id": "sites/a014/v017/index.html:html:0",
+    "vendor_id": "v017",
+    "url": "https://v017.audit.invalid/",
+    "source": "html",
+    "text": "Enoteca Taldavo Enoteca Taldavo è un'enoteca online indipendente. Vende Rosso italiano in bottiglia da 750 ml a 20.00 EUR. Il vino è disponibile. Spedizione in Italia: 6.00 EUR, consegna in 3-5 giorni.",
+    "word_start": 0,
+    "word_end": 32,
+    "sha256": "a2d84a6120a7f6637800d1b195473327afe93680320f95850773429fd8dc2c56"
+  },
+  {
+    "chunk_id": "sites/a014/v018/index.html:html:0",
+    "vendor_id": "v018",
+    "url": "https://v018.audit.invalid/",
+    "source": "html",
+    "text": "Enoteca Talsula Da Enoteca Talsula, enoteca indipendente online, puoi acquistare Rosso italiano: bottiglia da 750 ml, prezzo 20.00 EUR, disponibile. La consegna in Italia richiede 3-5 giorni; la spedizione costa 6.00 EUR.",
+    "word_start": 0,
+    "word_end": 32,
+    "sha256": "a1033eb401b514eaff2a7bf6e8bfa12b18041f13f58ab57c3ceef96539d68972"
+  },
+  {
+    "chunk_id": "sites/a014/v019/index.html:html:0",
+    "vendor_id": "v019",
+    "url": "https://v019.audit.invalid/",
+    "source": "html",
+    "text": "Enoteca Lumvemi Acquisto online da Enoteca Lumvemi, enoteca indipendente: Rosso italiano disponibile a 20.00 EUR per bottiglia da 750 ml. Il costo di spedizione è 6.00 EUR e la consegna in Italia avviene in 3-5 giorni.",
+    "word_start": 0,
+    "word_end": 36,
+    "sha256": "174e2d67295b394c9ef298921dc2c313921853c4169d006cfd87dc00c7c53142"
+  },
+  {
+    "chunk_id": "sites/a014/v020/index.html:html+schema:0",
+    "vendor_id": "v020",
+    "url": "https://v020.audit.invalid/",
+    "source": "html+schema",
+    "text": "Enoteca Nertaro Enoteca Nertaro vende vino online come enoteca indipendente. Rosso italiano costa 20.00 EUR, è disponibile e viene offerto in bottiglie da 750 ml. Spedisce in Italia per 6.00 EUR con consegna in 3-5 giorni. {\"@context\": \"https://schema.org\", \"@type\": \"Product\", \"description\": \"Enoteca Nertaro vende vino online come enoteca indipendente. Rosso italiano costa 20.00 EUR, è disponibile e viene offerto in bottiglie da 750 ml. Spedisce in Italia per 6.00 EUR con consegna in 3-5 giorni.\", \"name\": \"Rosso italiano\", \"offers\": {\"@type\": \"Offer\", \"availability\": \"https://schema.org/InStock\", \"price\": \"20.00\", \"priceCurrency\": \"EUR\", \"seller\": {\"@type\": \"Organization\", \"name\": \"Enoteca Nertaro\"}}}",
+    "word_start": 0,
+    "word_end": 93,
+    "sha256": "1fad3768f7091f3bc396f0590818f69e01e4fa0199805068d85eac916b92f646"
+  },
+  {
+    "chunk_id": "sites/a014/v020/llms.txt:llms:0",
+    "vendor_id": "v020",
+    "url": "https://v020.audit.invalid/llms.txt",
+    "source": "llms",
+    "text": "# Enoteca Nertaro Enoteca Nertaro vende vino online come enoteca indipendente. Rosso italiano costa 20.00 EUR, è disponibile e viene offerto in bottiglie da 750 ml. Spedisce in Italia per 6.00 EUR con consegna in 3-5 giorni.",
+    "word_start": 0,
+    "word_end": 37,
+    "sha256": "20beb41b0cdd6c1bbb106b4175d4118f1ec1446960f05ac2c21c045ed3b975b4"
+  },
+  {
+    "chunk_id": "sites/a014/v021/index.html:html+schema:0",
+    "vendor_id": "v021",
+    "url": "https://v021.audit.invalid/",
+    "source": "html+schema",
+    "text": "Enoteca Ralvemi Enoteca Ralvemi è un'enoteca online indipendente. Vende Rosso italiano in bottiglia da 750 ml a 20.00 EUR. Il vino è disponibile. Spedizione in Italia: 6.00 EUR, consegna in 3-5 giorni. {\"@context\": \"https://schema.org\", \"@type\": \"Product\", \"description\": \"Enoteca Ralvemi è un'enoteca online indipendente. Vende Rosso italiano in bottiglia da 750 ml a 20.00 EUR. Il vino è disponibile. Spedizione in Italia: 6.00 EUR, consegna in 3-5 giorni.\", \"name\": \"Rosso italiano\", \"offers\": {\"@type\": \"Offer\", \"availability\": \"https://schema.org/InStock\", \"price\": \"20.00\", \"priceCurrency\": \"EUR\", \"seller\": {\"@type\": \"Organization\", \"name\": \"Enoteca Ralvemi\"}}}",
+    "word_start": 0,
+    "word_end": 85,
+    "sha256": "6d35fe2e26ac727db7a129d52cd60a9778b2d3f5c4286b88504470886085d880"
+  },
+  {
+    "chunk_id": "sites/a014/v021/llms.txt:llms:0",
+    "vendor_id": "v021",
+    "url": "https://v021.audit.invalid/llms.txt",
+    "source": "llms",
+    "text": "# Enoteca Ralvemi Enoteca Ralvemi è un'enoteca online indipendente. Vende Rosso italiano in bottiglia da 750 ml a 20.00 EUR. Il vino è disponibile. Spedizione in Italia: 6.00 EUR, consegna in 3-5 giorni.",
+    "word_start": 0,
+    "word_end": 33,
+    "sha256": "d757b65ba1a3e2e91832f14c3a716486b7462a345f8cc98efb0b7ca1fdd499c3"
+  },
+  {
+    "chunk_id": "sites/a014/v022/index.html:html:0",
+    "vendor_id": "v022",
+    "url": "https://v022.audit.invalid/",
+    "source": "html",
+    "text": "Enoteca Talmira Da Enoteca Talmira, enoteca indipendente online, puoi acquistare Rosso italiano: bottiglia da 750 ml, prezzo 20.00 EUR, disponibile. La consegna in Italia richiede 3-5 giorni; la spedizione costa 6.00 EUR.",
+    "word_start": 0,
+    "word_end": 32,
+    "sha256": "b69a412faa26b11dbf383011cc1f6dc786250fcdc4bc77dc4a55a6ece939af1d"
+  },
+  {
+    "chunk_id": "sites/a014/v023/index.html:html+schema:0",
+    "vendor_id": "v023",
+    "url": "https://v023.audit.invalid/",
+    "source": "html+schema",
+    "text": "Enoteca Sovvemi Acquisto online da Enoteca Sovvemi, enoteca indipendente: Rosso italiano disponibile a 20.00 EUR per bottiglia da 750 ml. Il costo di spedizione è 6.00 EUR e la consegna in Italia avviene in 3-5 giorni. {\"@context\": \"https://schema.org\", \"@type\": \"Product\", \"description\": \"Acquisto online da Enoteca Sovvemi, enoteca indipendente: Rosso italiano disponibile a 20.00 EUR per bottiglia da 750 ml. Il costo di spedizione è 6.00 EUR e la consegna in Italia avviene in 3-5 giorni.\", \"name\": \"Rosso italiano\", \"offers\": {\"@type\": \"Offer\", \"availability\": \"https://schema.org/InStock\", \"price\": \"20.00\", \"priceCurrency\": \"EUR\", \"seller\": {\"@type\": \"Organization\", \"name\": \"Enoteca Sovvemi\"}}}",
+    "word_start": 0,
+    "word_end": 93,
+    "sha256": "2c965cf0863de30ada3158da077383e2cdcb0e7612d1902b51081f266ceb1e86"
+  },
+  {
+    "chunk_id": "sites/a014/v024/index.html:html:0",
+    "vendor_id": "v024",
+    "url": "https://v024.audit.invalid/",
+    "source": "html",
+    "text": "Enoteca Zelpali Enoteca Zelpali vende vino online come enoteca indipendente. Rosso italiano costa 20.00 EUR, è disponibile e viene offerto in bottiglie da 750 ml. Spedisce in Italia per 6.00 EUR con consegna in 3-5 giorni.",
+    "word_start": 0,
+    "word_end": 36,
+    "sha256": "68094ddb14b6182c88a1b1ef335ec1ff54235eafb94f7fc8e45b7e4f86c5305e"
+  },
+  {
+    "chunk_id": "sites/a014/v025/index.html:html+schema:0",
+    "vendor_id": "v025",
+    "url": "https://v025.audit.invalid/",
+    "source": "html+schema",
+    "text": "Enoteca Nerrivo Enoteca Nerrivo è un'enoteca online indipendente. Vende Rosso italiano in bottiglia da 750 ml a 20.00 EUR. Il vino è disponibile. Spedizione in Italia: 6.00 EUR, consegna in 3-5 giorni. {\"@context\": \"https://schema.org\", \"@type\": \"Product\", \"description\": \"Enoteca Nerrivo è un'enoteca online indipendente. Vende Rosso italiano in bottiglia da 750 ml a 20.00 EUR. Il vino è disponibile. Spedizione in Italia: 6.00 EUR, consegna in 3-5 giorni.\", \"name\": \"Rosso italiano\", \"offers\": {\"@type\": \"Offer\", \"availability\": \"https://schema.org/InStock\", \"price\": \"20.00\", \"priceCurrency\": \"EUR\", \"seller\": {\"@type\": \"Organization\", \"name\": \"Enoteca Nerrivo\"}}}",
+    "word_start": 0,
+    "word_end": 85,
+    "sha256": "f540d1cb3941f0d3d006db3ed5710ef2fe66a3abed06c3c704cfcda2c7660071"
+  },
+  {
+    "chunk_id": "sites/a014/v026/index.html:html:0",
+    "vendor_id": "v026",
+    "url": "https://v026.audit.invalid/",
+    "source": "html",
+    "text": "Enoteca Nerbula Da Enoteca Nerbula, enoteca indipendente online, puoi acquistare Rosso italiano: bottiglia da 750 ml, prezzo 20.00 EUR, disponibile. La consegna in Italia richiede 3-5 giorni; la spedizione costa 6.00 EUR.",
+    "word_start": 0,
+    "word_end": 32,
+    "sha256": "1686bb3e203ca5c4e4a9399f82db4484f283e2e447271e807ff549ef56875a12"
+  },
+  {
+    "chunk_id": "sites/a014/v027/index.html:html:0",
+    "vendor_id": "v027",
+    "url": "https://v027.audit.invalid/",
+    "source": "html",
+    "text": "Enoteca Fesnelo Acquisto online da Enoteca Fesnelo, enoteca indipendente: Rosso italiano disponibile a 20.00 EUR per bottiglia da 750 ml. Il costo di spedizione è 6.00 EUR e la consegna in Italia avviene in 3-5 giorni.",
+    "word_start": 0,
+    "word_end": 36,
+    "sha256": "3c7e8b90d764e78c24ec1d9c5532b5caad8eba481d7a3870acfa386d96f98661"
+  },
+  {
+    "chunk_id": "sites/a014/v028/index.html:html:0",
+    "vendor_id": "v028",
+    "url": "https://v028.audit.invalid/",
+    "source": "html",
+    "text": "Enoteca Lumzuno Enoteca Lumzuno vende vino online come enoteca indipendente. Rosso italiano costa 20.00 EUR, è disponibile e viene offerto in bottiglie da 750 ml. Spedisce in Italia per 6.00 EUR con consegna in 3-5 giorni.",
+    "word_start": 0,
+    "word_end": 36,
+    "sha256": "21594e55951332c06b1e12741aa0432838008422c0f524befccbd0c69b45f70f"
+  },
+  {
+    "chunk_id": "sites/a014/v029/index.html:html:0",
+    "vendor_id": "v029",
+    "url": "https://v029.audit.invalid/",
+    "source": "html",
+    "text": "Enoteca Vorceni Enoteca Vorceni è un'enoteca online indipendente. Vende Rosso italiano in bottiglia da 750 ml a 20.00 EUR. Il vino è disponibile. Spedizione in Italia: 6.00 EUR, consegna in 3-5 giorni.",
+    "word_start": 0,
+    "word_end": 32,
+    "sha256": "6313e0e3020474c7f4dacb5bf2e2e3dac9add3fb30332d1992dcc991a0335f87"
+  },
+  {
+    "chunk_id": "sites/a014/v030/index.html:html:0",
+    "vendor_id": "v030",
+    "url": "https://v030.audit.invalid/",
+    "source": "html",
+    "text": "Enoteca Sovmira Da Enoteca Sovmira, enoteca indipendente online, puoi acquistare Rosso italiano: bottiglia da 750 ml, prezzo 20.00 EUR, disponibile. La consegna in Italia richiede 3-5 giorni; la spedizione costa 6.00 EUR.",
+    "word_start": 0,
+    "word_end": 32,
+    "sha256": "9ad874d1fc767c5a8a4731aea0611c9eef1b92788ddbba2d0e74ad11082a27a9"
+  },
+  {
+    "chunk_id": "sites/a014/v031/index.html:html+schema:0",
+    "vendor_id": "v031",
+    "url": "https://v031.audit.invalid/",
+    "source": "html+schema",
+    "text": "Enoteca Talrivo Acquisto online da Enoteca Talrivo, enoteca indipendente: Rosso italiano disponibile a 20.00 EUR per bottiglia da 750 ml. Il costo di spedizione è 6.00 EUR e la consegna in Italia avviene in 3-5 giorni. {\"@context\": \"https://schema.org\", \"@type\": \"Product\", \"description\": \"Acquisto online da Enoteca Talrivo, enoteca indipendente: Rosso italiano disponibile a 20.00 EUR per bottiglia da 750 ml. Il costo di spedizione è 6.00 EUR e la consegna in Italia avviene in 3-5 giorni.\", \"name\": \"Rosso italiano\", \"offers\": {\"@type\": \"Offer\", \"availability\": \"https://schema.org/InStock\", \"price\": \"20.00\", \"priceCurrency\": \"EUR\", \"seller\": {\"@type\": \"Organization\", \"name\": \"Enoteca Talrivo\"}}}",
+    "word_start": 0,
+    "word_end": 93,
+    "sha256": "8b37657f420db8d82c6c49a5d06271522eb7e4b11d8f0906f54b9a2dfbb7762a"
+  },
+  {
+    "chunk_id": "sites/a014/v032/index.html:html+schema:0",
+    "vendor_id": "v032",
+    "url": "https://v032.audit.invalid/",
+    "source": "html+schema",
+    "text": "Enoteca Ralgoro Enoteca Ralgoro vende vino online come enoteca indipendente. Rosso italiano costa 20.00 EUR, è disponibile e viene offerto in bottiglie da 750 ml. Spedisce in Italia per 6.00 EUR con consegna in 3-5 giorni. {\"@context\": \"https://schema.org\", \"@type\": \"Product\", \"description\": \"Enoteca Ralgoro vende vino online come enoteca indipendente. Rosso italiano costa 20.00 EUR, è disponibile e viene offerto in bottiglie da 750 ml. Spedisce in Italia per 6.00 EUR con consegna in 3-5 giorni.\", \"name\": \"Rosso italiano\", \"offers\": {\"@type\": \"Offer\", \"availability\": \"https://schema.org/InStock\", \"price\": \"20.00\", \"priceCurrency\": \"EUR\", \"seller\": {\"@type\": \"Organization\", \"name\": \"Enoteca Ralgoro\"}}}",
+    "word_start": 0,
+    "word_end": 93,
+    "sha256": "e63b25ce4aca8ffe4495375787f3a4cdac403c308442d60e82ca12a346e680ee"
+  },
+  {
+    "chunk_id": "sites/a014/v032/llms.txt:llms:0",
+    "vendor_id": "v032",
+    "url": "https://v032.audit.invalid/llms.txt",
+    "source": "llms",
+    "text": "# Enoteca Ralgoro Enoteca Ralgoro vende vino online come enoteca indipendente. Rosso italiano costa 20.00 EUR, è disponibile e viene offerto in bottiglie da 750 ml. Spedisce in Italia per 6.00 EUR con consegna in 3-5 giorni.",
+    "word_start": 0,
+    "word_end": 37,
+    "sha256": "258e97a26f8980efea75e1c04649ad3338e6e320ee0e70ff0f011bc105da3040"
+  },
+  {
+    "chunk_id": "editorial/a014/e000.txt:editorial:0",
+    "vendor_id": null,
+    "url": "https://e000.editorial.invalid/",
+    "source": "editorial",
+    "text": "Guida editoriale 1. vino rosso italiano da 20 euro. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+    "word_start": 0,
+    "word_end": 30,
+    "sha256": "357e01ae03402b03591d5ce4e89406d55f3ada2ef3615269dd44bbe5f748d497"
+  },
+  {
+    "chunk_id": "editorial/a014/e001.txt:editorial:0",
+    "vendor_id": null,
+    "url": "https://e001.editorial.invalid/",
+    "source": "editorial",
+    "text": "Guida editoriale 2. bottiglia di vino rosso con spedizione in Italia. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+    "word_start": 0,
+    "word_end": 32,
+    "sha256": "ab1cb81bc6bdd5383166addbb2601bc879ba9e52ae6ea42e0cab140309850f4d"
+  },
+  {
+    "chunk_id": "editorial/a014/e002.txt:editorial:0",
+    "vendor_id": null,
+    "url": "https://e002.editorial.invalid/",
+    "source": "editorial",
+    "text": "Guida editoriale 3. Rosso italiano disponibile online. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+    "word_start": 0,
+    "word_end": 28,
+    "sha256": "755f32201f71361961bec59ce5efd9188ff29cc24f2a8be01391093329a39dcf"
+  },
+  {
+    "chunk_id": "editorial/a014/e003.txt:editorial:0",
+    "vendor_id": null,
+    "url": "https://e003.editorial.invalid/",
+    "source": "editorial",
+    "text": "Guida editoriale 4. vino italiano in bottiglia da 750 ml. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+    "word_start": 0,
+    "word_end": 31,
+    "sha256": "df84d0b6c56e7b49dfefdc7e211104c0d95e576049748d57cadddae338cd0a99"
+  },
+  {
+    "chunk_id": "editorial/a014/e004.txt:editorial:0",
+    "vendor_id": null,
+    "url": "https://e004.editorial.invalid/",
+    "source": "editorial",
+    "text": "Guida editoriale 5. rosso italiano con consegna in 3-5 giorni. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+    "word_start": 0,
+    "word_end": 31,
+    "sha256": "af8aefb6567b8e85580ab623302aea9dc9e579abcccbe762fe8250a4f1058262"
+  },
+  {
+    "chunk_id": "editorial/a014/e005.txt:editorial:0",
+    "vendor_id": null,
+    "url": "https://e005.editorial.invalid/",
+    "source": "editorial",
+    "text": "Guida editoriale 6. vino rosso con spedizione da 6 euro. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+    "word_start": 0,
+    "word_end": 31,
+    "sha256": "e86a05ae39bf39b286f36bf6b0f9a7b3b7a89db48e8906bd30a1569fa5b95ef6"
+  },
+  {
+    "chunk_id": "editorial/a014/e006.txt:editorial:0",
+    "vendor_id": null,
+    "url": "https://e006.editorial.invalid/",
+    "source": "editorial",
+    "text": "Guida editoriale 7. bottiglia di rosso italiano sotto 25 euro. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+    "word_start": 0,
+    "word_end": 31,
+    "sha256": "d8519b503da75e711bf2e3318346ab17e0d4ce6b5a49883e33987f935576aa5e"
+  },
+  {
+    "chunk_id": "editorial/a014/e007.txt:editorial:0",
+    "vendor_id": null,
+    "url": "https://e007.editorial.invalid/",
+    "source": "editorial",
+    "text": "Guida editoriale 8. vino da un'enoteca indipendente online. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+    "word_start": 0,
+    "word_end": 29,
+    "sha256": "f49ad7a105e6c96c31194d49b859735c2050db0be582c9940e0bba7795e5b5de"
+  },
+  {
+    "chunk_id": "editorial/a014/e008.txt:editorial:0",
+    "vendor_id": null,
+    "url": "https://e008.editorial.invalid/",
+    "source": "editorial",
+    "text": "Guida editoriale 9. vino rosso con prezzo e disponibilità dichiarati. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+    "word_start": 0,
+    "word_end": 31,
+    "sha256": "99f44ac26da6b0b398c015e630cb4af06db9198eeb9465959d0314b6a7617e97"
+  },
+  {
+    "chunk_id": "editorial/a014/e009.txt:editorial:0",
+    "vendor_id": null,
+    "url": "https://e009.editorial.invalid/",
+    "source": "editorial",
+    "text": "Guida editoriale 10. Rosso italiano con costi di spedizione chiari. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+    "word_start": 0,
+    "word_end": 31,
+    "sha256": "957e7eb9296c70e0efae10e70d40badd99e0f71e01378412d77f00ff822bdef5"
+  },
+  {
+    "chunk_id": "editorial/a014/e010.txt:editorial:0",
+    "vendor_id": null,
+    "url": "https://e010.editorial.invalid/",
+    "source": "editorial",
+    "text": "Guida editoriale 11. vino italiano da 750 ml a 20 euro. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+    "word_start": 0,
+    "word_end": 32,
+    "sha256": "7028a6f22c40679105557cd85aedf4cebc854d83e5cc3a1d684747048716ee63"
+  },
+  {
+    "chunk_id": "editorial/a014/e011.txt:editorial:0",
+    "vendor_id": null,
+    "url": "https://e011.editorial.invalid/",
+    "source": "editorial",
+    "text": "Guida editoriale 12. bottiglia di vino da un negozio specializzato. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+    "word_start": 0,
+    "word_end": 31,
+    "sha256": "f6d4bd25980a47914801cc41dfe36ac11161ed98b9dff8820ab28ae109c3cb7f"
+  },
+  {
+    "chunk_id": "editorial/a014/e012.txt:editorial:0",
+    "vendor_id": null,
+    "url": "https://e012.editorial.invalid/",
+    "source": "editorial",
+    "text": "Guida editoriale 13. vino rosso italiano da 20 euro. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+    "word_start": 0,
+    "word_end": 30,
+    "sha256": "0fa24198e082bfbbb8d9d9972527a8bbb124bd51696f16749aa80383cb3a3de0"
+  },
+  {
+    "chunk_id": "editorial/a014/e013.txt:editorial:0",
+    "vendor_id": null,
+    "url": "https://e013.editorial.invalid/",
+    "source": "editorial",
+    "text": "Guida editoriale 14. bottiglia di vino rosso con spedizione in Italia. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+    "word_start": 0,
+    "word_end": 32,
+    "sha256": "0979c786d37040158317bcd676f077db7680301e697ae3d9ba9989add16192af"
+  },
+  {
+    "chunk_id": "editorial/a014/e014.txt:editorial:0",
+    "vendor_id": null,
+    "url": "https://e014.editorial.invalid/",
+    "source": "editorial",
+    "text": "Guida editoriale 15. Rosso italiano disponibile online. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+    "word_start": 0,
+    "word_end": 28,
+    "sha256": "1d664409fa2ddd9300f39788c31bafe102383d194d24fcade14c1181051dc0a9"
+  },
+  {
+    "chunk_id": "editorial/a014/e015.txt:editorial:0",
+    "vendor_id": null,
+    "url": "https://e015.editorial.invalid/",
+    "source": "editorial",
+    "text": "Guida editoriale 16. vino italiano in bottiglia da 750 ml. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+    "word_start": 0,
+    "word_end": 31,
+    "sha256": "d463fd35afe614f5e7450de021f7d9cd8e56f28b8a52729317639c1adac05d53"
+  },
+  {
+    "chunk_id": "editorial/a014/e016.txt:editorial:0",
+    "vendor_id": null,
+    "url": "https://e016.editorial.invalid/",
+    "source": "editorial",
+    "text": "Guida editoriale 17. rosso italiano con consegna in 3-5 giorni. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+    "word_start": 0,
+    "word_end": 31,
+    "sha256": "cf2a62a65e7e34f50ca56a53f009e92203fa4dc422ccd40d6d91596af041eb80"
+  },
+  {
+    "chunk_id": "editorial/a014/e017.txt:editorial:0",
+    "vendor_id": null,
+    "url": "https://e017.editorial.invalid/",
+    "source": "editorial",
+    "text": "Guida editoriale 18. vino rosso con spedizione da 6 euro. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+    "word_start": 0,
+    "word_end": 31,
+    "sha256": "b8aae59beb671eb853b04d26dd426c14525cd6e75312b3ba462ce158f3bec794"
+  },
+  {
+    "chunk_id": "editorial/a014/e018.txt:editorial:0",
+    "vendor_id": null,
+    "url": "https://e018.editorial.invalid/",
+    "source": "editorial",
+    "text": "Guida editoriale 19. bottiglia di rosso italiano sotto 25 euro. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+    "word_start": 0,
+    "word_end": 31,
+    "sha256": "c9ac64e38f5368b730135d80c2fcaa11ac87f9161f56185c932c26840f444cea"
+  },
+  {
+    "chunk_id": "editorial/a014/e019.txt:editorial:0",
+    "vendor_id": null,
+    "url": "https://e019.editorial.invalid/",
+    "source": "editorial",
+    "text": "Guida editoriale 20. vino da un'enoteca indipendente online. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+    "word_start": 0,
+    "word_end": 29,
+    "sha256": "4f2ec9f90390193dc9caed937930361bf9788c4d5c8b1be4decd1a53f0289003"
+  },
+  {
+    "chunk_id": "editorial/a014/e020.txt:editorial:0",
+    "vendor_id": null,
+    "url": "https://e020.editorial.invalid/",
+    "source": "editorial",
+    "text": "Guida editoriale 21. vino rosso con prezzo e disponibilità dichiarati. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+    "word_start": 0,
+    "word_end": 31,
+    "sha256": "044d29a7dee1c68a9f570a11538ed9303611f5bb2658607a24ba0a78cc9d24c6"
+  },
+  {
+    "chunk_id": "editorial/a014/e021.txt:editorial:0",
+    "vendor_id": null,
+    "url": "https://e021.editorial.invalid/",
+    "source": "editorial",
+    "text": "Guida editoriale 22. Rosso italiano con costi di spedizione chiari. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+    "word_start": 0,
+    "word_end": 31,
+    "sha256": "66467abab521b43d78e956bd88b85f7dd48364e9cd89182c0e73195d0e348bac"
+  },
+  {
+    "chunk_id": "editorial/a014/e022.txt:editorial:0",
+    "vendor_id": null,
+    "url": "https://e022.editorial.invalid/",
+    "source": "editorial",
+    "text": "Guida editoriale 23. vino italiano da 750 ml a 20 euro. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+    "word_start": 0,
+    "word_end": 32,
+    "sha256": "f9b928bd9f81e10ad063ebd3b911249ae3bb2af037c5ba5c52a4a7970ef2ae9c"
+  },
+  {
+    "chunk_id": "editorial/a014/e023.txt:editorial:0",
+    "vendor_id": null,
+    "url": "https://e023.editorial.invalid/",
+    "source": "editorial",
+    "text": "Guida editoriale 24. bottiglia di vino da un negozio specializzato. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+    "word_start": 0,
+    "word_end": 31,
+    "sha256": "b03a2854fdacebecb95e3eba85fa8f3268b67d61e2e6548a3b77102a44f0ed60"
+  },
+  {
+    "chunk_id": "editorial/a014/e024.txt:editorial:0",
+    "vendor_id": null,
+    "url": "https://e024.editorial.invalid/",
+    "source": "editorial",
+    "text": "Guida editoriale 25. vino rosso italiano da 20 euro. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+    "word_start": 0,
+    "word_end": 30,
+    "sha256": "aefddb0b6633b33887e7ad580c7e3c422a227407985ea560e84672f07e635b88"
+  },
+  {
+    "chunk_id": "editorial/a014/e025.txt:editorial:0",
+    "vendor_id": null,
+    "url": "https://e025.editorial.invalid/",
+    "source": "editorial",
+    "text": "Guida editoriale 26. bottiglia di vino rosso con spedizione in Italia. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+    "word_start": 0,
+    "word_end": 32,
+    "sha256": "ed0e5d97e34204032daa710c49cbd13ded9c4a134638ae45ff8abf0da6d35439"
+  },
+  {
+    "chunk_id": "editorial/a014/e026.txt:editorial:0",
+    "vendor_id": null,
+    "url": "https://e026.editorial.invalid/",
+    "source": "editorial",
+    "text": "Guida editoriale 27. Rosso italiano disponibile online. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+    "word_start": 0,
+    "word_end": 28,
+    "sha256": "4e01078c9582e0a5dfe5d6af0291809d5bb9135ba6203cb38803504c660903bb"
+  },
+  {
+    "chunk_id": "editorial/a014/e027.txt:editorial:0",
+    "vendor_id": null,
+    "url": "https://e027.editorial.invalid/",
+    "source": "editorial",
+    "text": "Guida editoriale 28. vino italiano in bottiglia da 750 ml. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+    "word_start": 0,
+    "word_end": 31,
+    "sha256": "4ff72c5cd1b8d7a5c7a25943ee75817135d43ba91eb87bbe9e3ce7056fe4b7c9"
+  },
+  {
+    "chunk_id": "editorial/a014/e028.txt:editorial:0",
+    "vendor_id": null,
+    "url": "https://e028.editorial.invalid/",
+    "source": "editorial",
+    "text": "Guida editoriale 29. rosso italiano con consegna in 3-5 giorni. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+    "word_start": 0,
+    "word_end": 31,
+    "sha256": "3e954f9157f1d99e8721941972241e1631a3186b3e855d780602f55ebcd1e7c5"
+  },
+  {
+    "chunk_id": "editorial/a014/e029.txt:editorial:0",
+    "vendor_id": null,
+    "url": "https://e029.editorial.invalid/",
+    "source": "editorial",
+    "text": "Guida editoriale 30. vino rosso con spedizione da 6 euro. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+    "word_start": 0,
+    "word_end": 31,
+    "sha256": "ab1fa237151415228e30d6616a320d596be25895107102ef3a09028fb31b7d75"
+  },
+  {
+    "chunk_id": "editorial/a014/e030.txt:editorial:0",
+    "vendor_id": null,
+    "url": "https://e030.editorial.invalid/",
+    "source": "editorial",
+    "text": "Guida editoriale 31. bottiglia di rosso italiano sotto 25 euro. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+    "word_start": 0,
+    "word_end": 31,
+    "sha256": "37125e0b27895675ea44c4ec514e24af645d75c11fd773b9501966e4e96700b0"
+  },
+  {
+    "chunk_id": "editorial/a014/e031.txt:editorial:0",
+    "vendor_id": null,
+    "url": "https://e031.editorial.invalid/",
+    "source": "editorial",
+    "text": "Guida editoriale 32. vino da un'enoteca indipendente online. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+    "word_start": 0,
+    "word_end": 29,
+    "sha256": "ca21965e5e86d141738cab102617675754e8ef8beed7d0c7cc3c51899eae0cfe"
+  }
+]

@@ -1,0 +1,59 @@
+{
+  "request_id": "a002-q23-r000",
+  "assignment_id": "a002",
+  "query_id": "q23",
+  "repetition": 0,
+  "trace_sha256": "83d07840b94c980361275811835e7fdee41beb4f4f2ac211c681c1d55c26ad26",
+  "started_at": 1789316811.3238761,
+  "synthetic": false,
+  "status": "valid",
+  "raw_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"decision\": \"recommend\",\n  \"recommendations\": [\n    {\n      \"name\": \"Enoteca Vorceni\",\n      \"source\": 3\n    },\n    {\n      \"name\": \"Enoteca Nerrivo\",\n      \"source\": 4\n    },\n    {\n      \"name\": \"Enoteca Vorvemi\",\n      \"source\": 5\n    }\n  ],\n  \"explanation\": \"Queste tre enoteche online vendono vino rosso italiano in bottiglia da 750 ml al prezzo richiesto di 20 euro.\"\n}",
+              "thoughtSignature": "EnEKbwERTTIPtNdafjr5OqpoUs/pHvaLW0KtEICGi2+Af67LZQTnrf02HJqvmrvZ3DBUyQkzS+SZ7oSlEabQXqb5l5fyPPUd3/JDieFIuDwOUHpO7Hyf65ovlgAJO18jvJyzcS/dyTnYswz5DoTvnNHsGg=="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 579,
+      "candidatesTokenCount": 136,
+      "totalTokenCount": 715,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 579
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.1-flash-lite",
+    "responseId": "y86maoSKH7fl7M8PwpWN0Qc"
+  },
+  "text": "{\n  \"decision\": \"recommend\",\n  \"recommendations\": [\n    {\n      \"name\": \"Enoteca Vorceni\",\n      \"source\": 3\n    },\n    {\n      \"name\": \"Enoteca Nerrivo\",\n      \"source\": 4\n    },\n    {\n      \"name\": \"Enoteca Vorvemi\",\n      \"source\": 5\n    }\n  ],\n  \"explanation\": \"Queste tre enoteche online vendono vino rosso italiano in bottiglia da 750 ml al prezzo richiesto di 20 euro.\"\n}",
+  "parsed": {
+    "decision": "recommend",
+    "recommended": [
+      "v029",
+      "v025",
+      "v013"
+    ],
+    "unknown_names": [],
+    "unsupported_recommendations": [],
+    "literal_mentions": [
+      "v013",
+      "v025",
+      "v029"
+    ],
+    "explanation": "Queste tre enoteche online vendono vino rosso italiano in bottiglia da 750 ml al prezzo richiesto di 20 euro."
+  },
+  "finished_at": 1789316812.3567202
+}

@@ -1,0 +1,65 @@
+{
+  "estimand": "D-A recommendation probability over all planned slots",
+  "method": "Worst-case bounds: each missing response can recommend up to three A or three D vendors. No missing-as-zero imputation.",
+  "assignments": [
+    {
+      "assignment_id": "a000",
+      "planned_slots": 24,
+      "missing_slots": 0,
+      "lower": 0.005208333333333333,
+      "upper": 0.005208333333333333
+    },
+    {
+      "assignment_id": "a001",
+      "planned_slots": 24,
+      "missing_slots": 0,
+      "lower": 0.078125,
+      "upper": 0.078125
+    },
+    {
+      "assignment_id": "a002",
+      "planned_slots": 24,
+      "missing_slots": 0,
+      "lower": 0.0,
+      "upper": 0.0
+    },
+    {
+      "assignment_id": "a003",
+      "planned_slots": 24,
+      "missing_slots": 0,
+      "lower": -0.005208333333333333,
+      "upper": -0.005208333333333333
+    },
+    {
+      "assignment_id": "a004",
+      "planned_slots": 24,
+      "missing_slots": 0,
+      "lower": -0.010416666666666666,
+      "upper": -0.010416666666666666
+    },
+    {
+      "assignment_id": "a005",
+      "planned_slots": 24,
+      "missing_slots": 0,
+      "lower": -0.026041666666666668,
+      "upper": -0.026041666666666668
+    },
+    {
+      "assignment_id": "a006",
+      "planned_slots": 24,
+      "missing_slots": 0,
+      "lower": 0.010416666666666666,
+      "upper": 0.010416666666666666
+    },
+    {
+      "assignment_id": "a007",
+      "planned_slots": 24,
+      "missing_slots": 0,
+      "lower": 0.036458333333333336,
+      "upper": 0.036458333333333336
+    }
+  ],
+  "mean_lower": 0.011067708333333334,
+  "mean_upper": 0.011067708333333334,
+  "note": "Identification bounds only, not sampling confidence intervals. Run integrity must be verified first."
+}

@@ -1,0 +1,59 @@
+{
+  "request_id": "a000-q17-r000",
+  "assignment_id": "a000",
+  "query_id": "q17",
+  "repetition": 0,
+  "trace_sha256": "f495cadb63c51562897b1dddb0ea2c7941f3a522a70c7126b434be47f545dd41",
+  "started_at": 1789316309.229037,
+  "synthetic": false,
+  "status": "valid",
+  "raw_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"decision\": \"recommend\",\n  \"recommendations\": [\n    {\n      \"name\": \"Enoteca Vorbula\",\n      \"source\": 1\n    },\n    {\n      \"name\": \"Enoteca Zelpali\",\n      \"source\": 2\n    },\n    {\n      \"name\": \"Enoteca Lumzuno\",\n      \"source\": 3\n    }\n  ],\n  \"explanation\": \"Queste enoteche offrono vino rosso italiano disponibile con tempi di consegna di 3-5 giorni.\"\n}",
+              "thoughtSignature": "EnEKbwERTTIPtNJk5A3rRPugKb/L9oH15aF9yXsPrtNLcB+vz/YPv1x6EQPOkv/+gaqeNdb84sbIPaOLnsFHb+ADyVTYPIgsERVkJbqOASQLcnmTo6JGzC/X1okj1N5dXZ4yx0KPbU1GMcd/KuV6Bee3rg=="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 613,
+      "candidatesTokenCount": 127,
+      "totalTokenCount": 740,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 613
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.1-flash-lite",
+    "responseId": "1cymasmoJ5aEkdUPh-ja0QY"
+  },
+  "text": "{\n  \"decision\": \"recommend\",\n  \"recommendations\": [\n    {\n      \"name\": \"Enoteca Vorbula\",\n      \"source\": 1\n    },\n    {\n      \"name\": \"Enoteca Zelpali\",\n      \"source\": 2\n    },\n    {\n      \"name\": \"Enoteca Lumzuno\",\n      \"source\": 3\n    }\n  ],\n  \"explanation\": \"Queste enoteche offrono vino rosso italiano disponibile con tempi di consegna di 3-5 giorni.\"\n}",
+  "parsed": {
+    "decision": "recommend",
+    "recommended": [
+      "v012",
+      "v024",
+      "v028"
+    ],
+    "unknown_names": [],
+    "unsupported_recommendations": [],
+    "literal_mentions": [
+      "v012",
+      "v024",
+      "v028"
+    ],
+    "explanation": "Queste enoteche offrono vino rosso italiano disponibile con tempi di consegna di 3-5 giorni."
+  },
+  "finished_at": 1789316317.35425
+}

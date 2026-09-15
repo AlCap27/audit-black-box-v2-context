@@ -1,0 +1,143 @@
+{
+  "assignment_id": "a009",
+  "query": {
+    "query_id": "q17",
+    "intent": "evaluative",
+    "text": "Quali enoteche online valuteresti per rosso italiano con consegna in 3-5 giorni?"
+  },
+  "retrieved": [
+    {
+      "chunk_id": "sites/a009/v008/llms.txt:llms:0",
+      "vendor_id": "v008",
+      "url": "https://v008.audit.invalid/llms.txt",
+      "source": "llms",
+      "text": "# Enoteca Vorzuno Enoteca Vorzuno vende vino online come enoteca indipendente. Rosso italiano costa 20.00 EUR, è disponibile e viene offerto in bottiglie da 750 ml. Spedisce in Italia per 6.00 EUR con consegna in 3-5 giorni.",
+      "word_start": 0,
+      "word_end": 37,
+      "sha256": "98ab703b0c5bbfb916f47bc2e483127c76780bdddfd49bc2d38d2aaebbd25b5d",
+      "bm25_score": 4.856214267943685,
+      "rank": 1
+    },
+    {
+      "chunk_id": "sites/a009/v020/index.html:html:0",
+      "vendor_id": "v020",
+      "url": "https://v020.audit.invalid/",
+      "source": "html",
+      "text": "Enoteca Nertaro Enoteca Nertaro vende vino online come enoteca indipendente. Rosso italiano costa 20.00 EUR, è disponibile e viene offerto in bottiglie da 750 ml. Spedisce in Italia per 6.00 EUR con consegna in 3-5 giorni.",
+      "word_start": 0,
+      "word_end": 36,
+      "sha256": "7cc69d6214a25d5dfce1143b2f42d26ae500f924d3cf4ca7f63c8dff49774b5f",
+      "bm25_score": 4.856214267943685,
+      "rank": 2
+    },
+    {
+      "chunk_id": "sites/a009/v024/index.html:html:0",
+      "vendor_id": "v024",
+      "url": "https://v024.audit.invalid/",
+      "source": "html",
+      "text": "Enoteca Zelpali Enoteca Zelpali vende vino online come enoteca indipendente. Rosso italiano costa 20.00 EUR, è disponibile e viene offerto in bottiglie da 750 ml. Spedisce in Italia per 6.00 EUR con consegna in 3-5 giorni.",
+      "word_start": 0,
+      "word_end": 36,
+      "sha256": "0c20c184b6366fe5347bd998c439f0494b71a4156824101b7842ee0f93178a4a",
+      "bm25_score": 4.856214267943685,
+      "rank": 3
+    },
+    {
+      "chunk_id": "sites/a009/v012/llms.txt:llms:0",
+      "vendor_id": "v012",
+      "url": "https://v012.audit.invalid/llms.txt",
+      "source": "llms",
+      "text": "# Enoteca Vorbula Enoteca Vorbula vende vino online come enoteca indipendente. Rosso italiano costa 20.00 EUR, è disponibile e viene offerto in bottiglie da 750 ml. Spedisce in Italia per 6.00 EUR con consegna in 3-5 giorni.",
+      "word_start": 0,
+      "word_end": 37,
+      "sha256": "0aa3e47800c1a38044a3e454c192e555a4839cfda33edd874ad8a8829723e9ac",
+      "bm25_score": 4.856214267943685,
+      "rank": 4
+    },
+    {
+      "chunk_id": "sites/a009/v004/index.html:html:0",
+      "vendor_id": "v004",
+      "url": "https://v004.audit.invalid/",
+      "source": "html",
+      "text": "Enoteca Talbula Enoteca Talbula vende vino online come enoteca indipendente. Rosso italiano costa 20.00 EUR, è disponibile e viene offerto in bottiglie da 750 ml. Spedisce in Italia per 6.00 EUR con consegna in 3-5 giorni.",
+      "word_start": 0,
+      "word_end": 36,
+      "sha256": "c2ffa3f4c443d26186986208de9d7fadd16ce50f81f2154e31d959053ec11140",
+      "bm25_score": 4.856214267943685,
+      "rank": 5
+    }
+  ],
+  "shown": [
+    {
+      "chunk_id": "sites/a009/v008/llms.txt:llms:0",
+      "vendor_id": "v008",
+      "url": "https://v008.audit.invalid/llms.txt",
+      "source": "llms",
+      "text": "# Enoteca Vorzuno Enoteca Vorzuno vende vino online come enoteca indipendente. Rosso italiano costa 20.00 EUR, è disponibile e viene offerto in bottiglie da 750 ml. Spedisce in Italia per 6.00 EUR con consegna in 3-5 giorni.",
+      "word_start": 0,
+      "word_end": 37,
+      "sha256": "98ab703b0c5bbfb916f47bc2e483127c76780bdddfd49bc2d38d2aaebbd25b5d",
+      "bm25_score": 4.856214267943685,
+      "rank": 1,
+      "shown_text": "# Enoteca Vorzuno Enoteca Vorzuno vende vino online come enoteca indipendente. Rosso italiano costa 20.00 EUR, è disponibile e viene offerto in bottiglie da 750 ml. Spedisce in Italia per 6.00 EUR con consegna in 3-5 giorni.",
+      "truncated": false
+    },
+    {
+      "chunk_id": "sites/a009/v020/index.html:html:0",
+      "vendor_id": "v020",
+      "url": "https://v020.audit.invalid/",
+      "source": "html",
+      "text": "Enoteca Nertaro Enoteca Nertaro vende vino online come enoteca indipendente. Rosso italiano costa 20.00 EUR, è disponibile e viene offerto in bottiglie da 750 ml. Spedisce in Italia per 6.00 EUR con consegna in 3-5 giorni.",
+      "word_start": 0,
+      "word_end": 36,
+      "sha256": "7cc69d6214a25d5dfce1143b2f42d26ae500f924d3cf4ca7f63c8dff49774b5f",
+      "bm25_score": 4.856214267943685,
+      "rank": 2,
+      "shown_text": "Enoteca Nertaro Enoteca Nertaro vende vino online come enoteca indipendente. Rosso italiano costa 20.00 EUR, è disponibile e viene offerto in bottiglie da 750 ml. Spedisce in Italia per 6.00 EUR con consegna in 3-5 giorni.",
+      "truncated": false
+    },
+    {
+      "chunk_id": "sites/a009/v024/index.html:html:0",
+      "vendor_id": "v024",
+      "url": "https://v024.audit.invalid/",
+      "source": "html",
+      "text": "Enoteca Zelpali Enoteca Zelpali vende vino online come enoteca indipendente. Rosso italiano costa 20.00 EUR, è disponibile e viene offerto in bottiglie da 750 ml. Spedisce in Italia per 6.00 EUR con consegna in 3-5 giorni.",
+      "word_start": 0,
+      "word_end": 36,
+      "sha256": "0c20c184b6366fe5347bd998c439f0494b71a4156824101b7842ee0f93178a4a",
+      "bm25_score": 4.856214267943685,
+      "rank": 3,
+      "shown_text": "Enoteca Zelpali Enoteca Zelpali vende vino online come enoteca indipendente. Rosso italiano costa 20.00 EUR, è disponibile e viene offerto in bottiglie da 750 ml. Spedisce in Italia per 6.00 EUR con consegna in 3-5 giorni.",
+      "truncated": false
+    },
+    {
+      "chunk_id": "sites/a009/v012/llms.txt:llms:0",
+      "vendor_id": "v012",
+      "url": "https://v012.audit.invalid/llms.txt",
+      "source": "llms",
+      "text": "# Enoteca Vorbula Enoteca Vorbula vende vino online come enoteca indipendente. Rosso italiano costa 20.00 EUR, è disponibile e viene offerto in bottiglie da 750 ml. Spedisce in Italia per 6.00 EUR con consegna in 3-5 giorni.",
+      "word_start": 0,
+      "word_end": 37,
+      "sha256": "0aa3e47800c1a38044a3e454c192e555a4839cfda33edd874ad8a8829723e9ac",
+      "bm25_score": 4.856214267943685,
+      "rank": 4,
+      "shown_text": "# Enoteca Vorbula Enoteca Vorbula vende vino online come enoteca indipendente. Rosso italiano costa 20.00 EUR, è disponibile e viene offerto in bottiglie da 750 ml. Spedisce in Italia per 6.00 EUR con consegna in 3-5 giorni.",
+      "truncated": false
+    },
+    {
+      "chunk_id": "sites/a009/v004/index.html:html:0",
+      "vendor_id": "v004",
+      "url": "https://v004.audit.invalid/",
+      "source": "html",
+      "text": "Enoteca Talbula Enoteca Talbula vende vino online come enoteca indipendente. Rosso italiano costa 20.00 EUR, è disponibile e viene offerto in bottiglie da 750 ml. Spedisce in Italia per 6.00 EUR con consegna in 3-5 giorni.",
+      "word_start": 0,
+      "word_end": 36,
+      "sha256": "c2ffa3f4c443d26186986208de9d7fadd16ce50f81f2154e31d959053ec11140",
+      "bm25_score": 4.856214267943685,
+      "rank": 5,
+      "shown_text": "Enoteca Talbula Enoteca Talbula vende vino online come enoteca indipendente. Rosso italiano costa 20.00 EUR, è disponibile e viene offerto in bottiglie da 750 ml. Spedisce in Italia per 6.00 EUR con consegna in 3-5 giorni.",
+      "truncated": false
+    }
+  ],
+  "prompt": "FONTI:\nFonte 1\nURL: https://v008.audit.invalid/llms.txt\n# Enoteca Vorzuno Enoteca Vorzuno vende vino online come enoteca indipendente. Rosso italiano costa 20.00 EUR, è disponibile e viene offerto in bottiglie da 750 ml. Spedisce in Italia per 6.00 EUR con consegna in 3-5 giorni.\n\nFonte 2\nURL: https://v020.audit.invalid/\nEnoteca Nertaro Enoteca Nertaro vende vino online come enoteca indipendente. Rosso italiano costa 20.00 EUR, è disponibile e viene offerto in bottiglie da 750 ml. Spedisce in Italia per 6.00 EUR con consegna in 3-5 giorni.\n\nFonte 3\nURL: https://v024.audit.invalid/\nEnoteca Zelpali Enoteca Zelpali vende vino online come enoteca indipendente. Rosso italiano costa 20.00 EUR, è disponibile e viene offerto in bottiglie da 750 ml. Spedisce in Italia per 6.00 EUR con consegna in 3-5 giorni.\n\nFonte 4\nURL: https://v012.audit.invalid/llms.txt\n# Enoteca Vorbula Enoteca Vorbula vende vino online come enoteca indipendente. Rosso italiano costa 20.00 EUR, è disponibile e viene offerto in bottiglie da 750 ml. Spedisce in Italia per 6.00 EUR con consegna in 3-5 giorni.\n\nFonte 5\nURL: https://v004.audit.invalid/\nEnoteca Talbula Enoteca Talbula vende vino online come enoteca indipendente. Rosso italiano costa 20.00 EUR, è disponibile e viene offerto in bottiglie da 750 ml. Spedisce in Italia per 6.00 EUR con consegna in 3-5 giorni.\n\nRICHIESTA:\nQuali enoteche online valuteresti per rosso italiano con consegna in 3-5 giorni?"
+}

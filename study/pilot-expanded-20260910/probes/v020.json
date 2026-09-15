@@ -1,0 +1,68 @@
+{
+  "vendor_id": "v020",
+  "name": "Enoteca Nertaro",
+  "request": {
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "Rispondi sulla base delle tue conoscenze, senza strumenti web. Non inventare informazioni. Dichiara esplicitamente se non conosci il nome richiesto. Rispondi solo con JSON: {\"known\":true oppure false,\"description\":\"breve descrizione oppure stringa vuota\",\"sources\":[\"URL se realmente noto\"]}."
+        }
+      ]
+    },
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Conosci un venditore chiamato Enoteca Nertaro? Se sì, indica soltanto ciò che sai e le eventuali fonti note. Se no, dichiaralo."
+          }
+        ]
+      }
+    ],
+    "generationConfig": {
+      "temperature": 0,
+      "maxOutputTokens": 256,
+      "responseMimeType": "application/json"
+    }
+  },
+  "started_at": 1789315987.7520092,
+  "status": "valid",
+  "raw_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"known\": false,\n  \"description\": \"Non sono a conoscenza di un venditore o attività commerciale denominata Enoteca Nertaro.\",\n  \"sources\": []\n}",
+              "thoughtSignature": "EnEKbwERTTIP6oASUUR8vISFXCYIGJ2pt0NyWf2hwpSoJH5EtYxdID6w9wTMyzPKjARzfZofk4d9vCHqoXmVoxPkNLbSgAm3Apw91gx07PNUDJDX/T7ZGvBxIhQ6ZIhjMhFa2N5mbczx4iU89l+pBB0jKg=="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 98,
+      "candidatesTokenCount": 42,
+      "totalTokenCount": 140,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 98
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.1-flash-lite",
+    "responseId": "lMumauCUDfCW3boP9dixgQ8"
+  },
+  "text": "{\n  \"known\": false,\n  \"description\": \"Non sono a conoscenza di un venditore o attività commerciale denominata Enoteca Nertaro.\",\n  \"sources\": []\n}",
+  "parsed": {
+    "known": false,
+    "description": "Non sono a conoscenza di un venditore o attività commerciale denominata Enoteca Nertaro.",
+    "sources": []
+  },
+  "finished_at": 1789315989.458632
+}

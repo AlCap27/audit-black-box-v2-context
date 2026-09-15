@@ -1,0 +1,66 @@
+{
+  "synthetic_generation": false,
+  "response_statuses": {
+    "valid": 192,
+    "not_run": 0
+  },
+  "resolved_model_versions": [
+    "gemini-3.1-flash-lite"
+  ],
+  "bundles": {
+    "A": {
+      "retrieval_units": 1536,
+      "p_retrieved": 0.041015625,
+      "p_name_in_context": 0.041015625,
+      "valid_vendor_response_units": 1536,
+      "p_recommended_valid_responses_only": 0.034505208333333336,
+      "p_recommended_given_name_in_context_descriptive": 0.8412698412698413
+    },
+    "B": {
+      "retrieval_units": 1536,
+      "p_retrieved": 0.046875,
+      "p_name_in_context": 0.046875,
+      "valid_vendor_response_units": 1536,
+      "p_recommended_valid_responses_only": 0.03515625,
+      "p_recommended_given_name_in_context_descriptive": 0.75
+    },
+    "C": {
+      "retrieval_units": 1536,
+      "p_retrieved": 0.0006510416666666666,
+      "p_name_in_context": 0.0006510416666666666,
+      "valid_vendor_response_units": 1536,
+      "p_recommended_valid_responses_only": 0,
+      "p_recommended_given_name_in_context_descriptive": 0
+    },
+    "D": {
+      "retrieval_units": 1536,
+      "p_retrieved": 0.046875,
+      "p_name_in_context": 0.046875,
+      "valid_vendor_response_units": 1536,
+      "p_recommended_valid_responses_only": 0.045572916666666664,
+      "p_recommended_given_name_in_context_descriptive": 0.9722222222222222
+    }
+  },
+  "D_minus_A_complete_assignment_contrasts": [
+    0.005208333333333329,
+    0.078125,
+    0.0,
+    -0.005208333333333336,
+    -0.010416666666666664,
+    -0.026041666666666664,
+    0.010416666666666664,
+    0.03645833333333333
+  ],
+  "D_minus_A_interval": {
+    "estimate": 0.011067708333333332,
+    "lower": -0.016118508193443033,
+    "upper": 0.0382539248601097,
+    "method": "exploratory t interval over independent balanced assignments",
+    "scope": "fixed identities and fixed query set; no population or natural mediation claim"
+  },
+  "valid_response_abstentions": 117,
+  "responses_with_unsupported_recommendations": 0,
+  "responses_with_unknown_names": 0,
+  "leakage_recommendations": 0,
+  "inference_note": "Retrieval is counted once per assignment-query-vendor; API/parse failures are missing, not zero."
+}

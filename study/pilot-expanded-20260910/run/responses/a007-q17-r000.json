@@ -1,0 +1,59 @@
+{
+  "request_id": "a007-q17-r000",
+  "assignment_id": "a007",
+  "query_id": "q17",
+  "repetition": 0,
+  "trace_sha256": "bccc7c84b87454dd123ad513b972b43ee6ac9afdb098bde8b8253c602d6aafa4",
+  "started_at": 1789316328.8736181,
+  "synthetic": false,
+  "status": "valid",
+  "raw_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"decision\": \"recommend\",\n  \"recommendations\": [\n    {\n      \"name\": \"Enoteca Vorzuno\",\n      \"source\": 1\n    },\n    {\n      \"name\": \"Enoteca Vorbula\",\n      \"source\": 2\n    },\n    {\n      \"name\": \"Enoteca Zelpali\",\n      \"source\": 3\n    }\n  ],\n  \"explanation\": \"Questi tre venditori offrono vino rosso italiano, hanno disponibilità immediata e garantiscono la consegna in 3-5 giorni lavorativi.\"\n}",
+              "thoughtSignature": "EnEKbwERTTIPUf5nUVBS4F1tTkgTWi49mxmzkx3r/dhfeC8DJc5p/57nZWXTAIzH2sPHNW5uZiMxG7h1B3qlWgdH8/Qasm7fcuziDYT8Vdg+dmIgO6mXWb6NFt8iK4e10mqNlRhmkjZ1Jy/Duz8nrC1tPw=="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 618,
+      "candidatesTokenCount": 135,
+      "totalTokenCount": 753,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 618
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.1-flash-lite",
+    "responseId": "6cymaujzCNnbxs0PnK3_8AM"
+  },
+  "text": "{\n  \"decision\": \"recommend\",\n  \"recommendations\": [\n    {\n      \"name\": \"Enoteca Vorzuno\",\n      \"source\": 1\n    },\n    {\n      \"name\": \"Enoteca Vorbula\",\n      \"source\": 2\n    },\n    {\n      \"name\": \"Enoteca Zelpali\",\n      \"source\": 3\n    }\n  ],\n  \"explanation\": \"Questi tre venditori offrono vino rosso italiano, hanno disponibilità immediata e garantiscono la consegna in 3-5 giorni lavorativi.\"\n}",
+  "parsed": {
+    "decision": "recommend",
+    "recommended": [
+      "v008",
+      "v012",
+      "v024"
+    ],
+    "unknown_names": [],
+    "unsupported_recommendations": [],
+    "literal_mentions": [
+      "v008",
+      "v012",
+      "v024"
+    ],
+    "explanation": "Questi tre venditori offrono vino rosso italiano, hanno disponibilità immediata e garantiscono la consegna in 3-5 giorni lavorativi."
+  },
+  "finished_at": 1789316330.6652129
+}

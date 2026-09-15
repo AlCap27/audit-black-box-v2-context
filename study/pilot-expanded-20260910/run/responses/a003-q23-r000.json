@@ -1,0 +1,59 @@
+{
+  "request_id": "a003-q23-r000",
+  "assignment_id": "a003",
+  "query_id": "q23",
+  "repetition": 0,
+  "trace_sha256": "aa96ea2e655c8bf193a0db1ee326b8cd92cf1bce78ca1fe53e275275e68b8182",
+  "started_at": 1789317483.2133167,
+  "synthetic": false,
+  "status": "valid",
+  "raw_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"decision\": \"recommend\",\n  \"recommendations\": [\n    {\n      \"name\": \"Enoteca Fesnelo\",\n      \"source\": 3\n    },\n    {\n      \"name\": \"Enoteca Sovvemi\",\n      \"source\": 4\n    },\n    {\n      \"name\": \"Enoteca Talrivo\",\n      \"source\": 5\n    }\n  ],\n  \"explanation\": \"Questi tre venditori offrono vino rosso italiano da 750 ml al prezzo richiesto di 20 euro.\"\n}",
+              "thoughtSignature": "EnEKbwERTTIPVuF3Ycc1b926CTY2Lj8RaFhN9f2pQ+GMLmrlgOArlJSu4ljLoeuhGgUJNl15mbjoa3iTra+qH9vZi6oZ5eqeiYDhQyDIFV0KtDOAsAneccTAHelz3ddnb5tl+eUW0krMWFvfbuWSCwhL1w=="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 581,
+      "candidatesTokenCount": 132,
+      "totalTokenCount": 713,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 581
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.1-flash-lite",
+    "responseId": "a9GmaoHOGc6NxN8P2oGAiQw"
+  },
+  "text": "{\n  \"decision\": \"recommend\",\n  \"recommendations\": [\n    {\n      \"name\": \"Enoteca Fesnelo\",\n      \"source\": 3\n    },\n    {\n      \"name\": \"Enoteca Sovvemi\",\n      \"source\": 4\n    },\n    {\n      \"name\": \"Enoteca Talrivo\",\n      \"source\": 5\n    }\n  ],\n  \"explanation\": \"Questi tre venditori offrono vino rosso italiano da 750 ml al prezzo richiesto di 20 euro.\"\n}",
+  "parsed": {
+    "decision": "recommend",
+    "recommended": [
+      "v027",
+      "v023",
+      "v031"
+    ],
+    "unknown_names": [],
+    "unsupported_recommendations": [],
+    "literal_mentions": [
+      "v023",
+      "v027",
+      "v031"
+    ],
+    "explanation": "Questi tre venditori offrono vino rosso italiano da 750 ml al prezzo richiesto di 20 euro."
+  },
+  "finished_at": 1789317484.2102406
+}

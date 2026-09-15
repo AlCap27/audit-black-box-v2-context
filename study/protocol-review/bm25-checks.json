@@ -1,0 +1,239 @@
+{
+  "pilot-expanded-20260910": {
+    "seal_files_verified": 1479,
+    "variants": {
+      "full": {
+        "queries": 192,
+        "retrieval_counts": {
+          "A": 63,
+          "B": 72,
+          "C": 1,
+          "D": 72
+        },
+        "per_vendor_probability": {
+          "A": 0.041015625,
+          "B": 0.046875,
+          "C": 0.0006510416666666666,
+          "D": 0.046875
+        },
+        "retrieved_source_counts": {
+          "B:html": 72,
+          "D:llms": 72,
+          "A:html": 63,
+          "C:html+schema": 1
+        },
+        "queries_without_vendor": 117,
+        "mean_chunk_tokens": {
+          "A": 37.40625,
+          "B": 37.140625,
+          "C": 101.84375,
+          "D": 69.046875
+        }
+      },
+      "no_schema": {
+        "queries": 192,
+        "retrieval_counts": {
+          "A": 33,
+          "B": 33,
+          "C": 53,
+          "D": 69
+        },
+        "per_vendor_probability": {
+          "A": 0.021484375,
+          "B": 0.021484375,
+          "C": 0.034505208333333336,
+          "D": 0.044921875
+        },
+        "retrieved_source_counts": {
+          "B:html": 33,
+          "D:html": 61,
+          "A:html": 33,
+          "C:html": 53,
+          "D:llms": 8
+        },
+        "queries_without_vendor": 124,
+        "mean_chunk_tokens": {
+          "A": 37.40625,
+          "B": 37.140625,
+          "C": 37.421875,
+          "D": 37.03125
+        }
+      },
+      "no_llms": {
+        "queries": 192,
+        "retrieval_counts": {
+          "A": 118,
+          "B": 120,
+          "C": 9,
+          "D": 9
+        },
+        "per_vendor_probability": {
+          "A": 0.07682291666666667,
+          "B": 0.078125,
+          "C": 0.005859375,
+          "D": 0.005859375
+        },
+        "retrieved_source_counts": {
+          "B:html": 120,
+          "A:html": 118,
+          "D:html+schema": 9,
+          "C:html+schema": 9
+        },
+        "queries_without_vendor": 96,
+        "mean_chunk_tokens": {
+          "A": 37.40625,
+          "B": 37.140625,
+          "C": 101.84375,
+          "D": 101.0625
+        }
+      },
+      "plain_only": {
+        "queries": 192,
+        "retrieval_counts": {
+          "A": 47,
+          "B": 43,
+          "C": 76,
+          "D": 90
+        },
+        "per_vendor_probability": {
+          "A": 0.030598958333333332,
+          "B": 0.027994791666666668,
+          "C": 0.049479166666666664,
+          "D": 0.05859375
+        },
+        "retrieved_source_counts": {
+          "B:html": 43,
+          "D:html": 90,
+          "A:html": 47,
+          "C:html": 76
+        },
+        "queries_without_vendor": 96,
+        "mean_chunk_tokens": {
+          "A": 37.40625,
+          "B": 37.140625,
+          "C": 37.421875,
+          "D": 37.03125
+        }
+      }
+    }
+  },
+  "extension-20260913": {
+    "seal_files_verified": 2152,
+    "variants": {
+      "full": {
+        "queries": 288,
+        "retrieval_counts": {
+          "A": 100,
+          "B": 102,
+          "C": 1,
+          "D": 115
+        },
+        "per_vendor_probability": {
+          "A": 0.043402777777777776,
+          "B": 0.044270833333333336,
+          "C": 0.00043402777777777775,
+          "D": 0.04991319444444445
+        },
+        "retrieved_source_counts": {
+          "D:llms": 115,
+          "A:html": 100,
+          "B:html": 102,
+          "C:html+schema": 1
+        },
+        "queries_without_vendor": 174,
+        "mean_chunk_tokens": {
+          "A": 37.291666666666664,
+          "B": 36.979166666666664,
+          "C": 102.08333333333333,
+          "D": 69.28125
+        }
+      },
+      "no_schema": {
+        "queries": 288,
+        "retrieval_counts": {
+          "A": 51,
+          "B": 76,
+          "C": 74,
+          "D": 96
+        },
+        "per_vendor_probability": {
+          "A": 0.022135416666666668,
+          "B": 0.03298611111111111,
+          "C": 0.03211805555555555,
+          "D": 0.041666666666666664
+        },
+        "retrieved_source_counts": {
+          "D:llms": 52,
+          "A:html": 51,
+          "B:html": 76,
+          "C:html": 74,
+          "D:html": 44
+        },
+        "queries_without_vendor": 181,
+        "mean_chunk_tokens": {
+          "A": 37.291666666666664,
+          "B": 36.979166666666664,
+          "C": 37.541666666666664,
+          "D": 37.1875
+        }
+      },
+      "no_llms": {
+        "queries": 288,
+        "retrieval_counts": {
+          "A": 182,
+          "B": 182,
+          "C": 11,
+          "D": 9
+        },
+        "per_vendor_probability": {
+          "A": 0.07899305555555555,
+          "B": 0.07899305555555555,
+          "C": 0.004774305555555556,
+          "D": 0.00390625
+        },
+        "retrieved_source_counts": {
+          "A:html": 182,
+          "B:html": 182,
+          "D:html+schema": 9,
+          "C:html+schema": 11
+        },
+        "queries_without_vendor": 144,
+        "mean_chunk_tokens": {
+          "A": 37.291666666666664,
+          "B": 36.979166666666664,
+          "C": 102.08333333333333,
+          "D": 101.375
+        }
+      },
+      "plain_only": {
+        "queries": 288,
+        "retrieval_counts": {
+          "A": 80,
+          "B": 103,
+          "C": 107,
+          "D": 94
+        },
+        "per_vendor_probability": {
+          "A": 0.034722222222222224,
+          "B": 0.04470486111111111,
+          "C": 0.046440972222222224,
+          "D": 0.04079861111111111
+        },
+        "retrieved_source_counts": {
+          "A:html": 80,
+          "C:html": 107,
+          "B:html": 103,
+          "D:html": 94
+        },
+        "queries_without_vendor": 144,
+        "mean_chunk_tokens": {
+          "A": 37.291666666666664,
+          "B": 36.979166666666664,
+          "C": 37.541666666666664,
+          "D": 37.1875
+        }
+      }
+    }
+  },
+  "interpretation": "Global index sensitivity, including changed document frequencies and length normalization. Not natural mediation and not generator outcomes under changed retrieval."
+}

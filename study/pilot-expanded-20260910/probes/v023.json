@@ -1,0 +1,68 @@
+{
+  "vendor_id": "v023",
+  "name": "Enoteca Sovvemi",
+  "request": {
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "Rispondi sulla base delle tue conoscenze, senza strumenti web. Non inventare informazioni. Dichiara esplicitamente se non conosci il nome richiesto. Rispondi solo con JSON: {\"known\":true oppure false,\"description\":\"breve descrizione oppure stringa vuota\",\"sources\":[\"URL se realmente noto\"]}."
+        }
+      ]
+    },
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Conosci un venditore chiamato Enoteca Sovvemi? Se sì, indica soltanto ciò che sai e le eventuali fonti note. Se no, dichiaralo."
+          }
+        ]
+      }
+    ],
+    "generationConfig": {
+      "temperature": 0,
+      "maxOutputTokens": 256,
+      "responseMimeType": "application/json"
+    }
+  },
+  "started_at": 1789315998.8011038,
+  "status": "valid",
+  "raw_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"known\": false,\n  \"description\": \"Non sono a conoscenza di un venditore o di un'attività commerciale denominata Enoteca Sovvemi.\",\n  \"sources\": []\n}",
+              "thoughtSignature": "EnEKbwERTTIP/QpaXm8QTAVCNDsCsOyvMTbMisdt3iybj+UiVonH/7SB6M12gbaYue0IYbLO4bz/FCN9MwS4/rB9XBadG/DHqzql4O14YuFjKZInwdAaYc9k8qj/2z0DXcYcBCPq29k9V64B6TJoIJLHpg=="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 98,
+      "candidatesTokenCount": 45,
+      "totalTokenCount": 143,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 98
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.1-flash-lite",
+    "responseId": "o8umapCDAdnbxs0PzK3_8AM"
+  },
+  "text": "{\n  \"known\": false,\n  \"description\": \"Non sono a conoscenza di un venditore o di un'attività commerciale denominata Enoteca Sovvemi.\",\n  \"sources\": []\n}",
+  "parsed": {
+    "known": false,
+    "description": "Non sono a conoscenza di un venditore o di un'attività commerciale denominata Enoteca Sovvemi.",
+    "sources": []
+  },
+  "finished_at": 1789316003.9991543
+}

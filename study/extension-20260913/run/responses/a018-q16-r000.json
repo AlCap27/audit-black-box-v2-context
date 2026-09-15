@@ -1,0 +1,59 @@
+{
+  "request_id": "a018-q16-r000",
+  "assignment_id": "a018",
+  "query_id": "q16",
+  "repetition": 0,
+  "trace_sha256": "4ac46f874cea64335377811d045bc764594c1dab88cd526977f595c4e311e3e6",
+  "started_at": 1789335509.5235894,
+  "synthetic": false,
+  "status": "valid",
+  "raw_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"decision\": \"recommend\",\n  \"recommendations\": [\n    {\n      \"name\": \"Enoteca Vorzuno\",\n      \"source\": 1\n    },\n    {\n      \"name\": \"Enoteca Vorbula\",\n      \"source\": 2\n    },\n    {\n      \"name\": \"Enoteca Talbula\",\n      \"source\": 3\n    }\n  ],\n  \"explanation\": \"Queste enoteche offrono vino rosso italiano in bottiglie da 750 ml al prezzo di 20.00 EUR con spedizione in Italia.\"\n}",
+              "thoughtSignature": "EnEKbwERTTIPa5SoQ3iH1qoWPmpU213B4SNQlIqQPNE4aIiLnh1m3mhl2ODF62Xtjv5tH/u5TzMbFDUAlBscM6SGLxjeL43WP/hBqbK/VL9MOPQ0aWGQoEy5hJamETY3yABubV5VBfKkfcKOjRpXFwyc+Q=="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 619,
+      "candidatesTokenCount": 140,
+      "totalTokenCount": 759,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 619
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.1-flash-lite",
+    "responseId": "1RenauuLGtmZ28oP58rEiAI"
+  },
+  "text": "{\n  \"decision\": \"recommend\",\n  \"recommendations\": [\n    {\n      \"name\": \"Enoteca Vorzuno\",\n      \"source\": 1\n    },\n    {\n      \"name\": \"Enoteca Vorbula\",\n      \"source\": 2\n    },\n    {\n      \"name\": \"Enoteca Talbula\",\n      \"source\": 3\n    }\n  ],\n  \"explanation\": \"Queste enoteche offrono vino rosso italiano in bottiglie da 750 ml al prezzo di 20.00 EUR con spedizione in Italia.\"\n}",
+  "parsed": {
+    "decision": "recommend",
+    "recommended": [
+      "v008",
+      "v012",
+      "v004"
+    ],
+    "unknown_names": [],
+    "unsupported_recommendations": [],
+    "literal_mentions": [
+      "v004",
+      "v008",
+      "v012"
+    ],
+    "explanation": "Queste enoteche offrono vino rosso italiano in bottiglie da 750 ml al prezzo di 20.00 EUR con spedizione in Italia."
+  },
+  "finished_at": 1789335511.4147794
+}

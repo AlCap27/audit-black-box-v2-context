@@ -1,0 +1,143 @@
+{
+  "assignment_id": "a011",
+  "query": {
+    "query_id": "q12",
+    "intent": "transactional",
+    "text": "Dove posso comprare bottiglia di vino da un negozio specializzato?"
+  },
+  "retrieved": [
+    {
+      "chunk_id": "editorial/a011/e011.txt:editorial:0",
+      "vendor_id": null,
+      "url": "https://e011.editorial.invalid/",
+      "source": "editorial",
+      "text": "Guida editoriale 12. bottiglia di vino da un negozio specializzato. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "word_start": 0,
+      "word_end": 31,
+      "sha256": "5527a3f5c1b65b6c13e2be145f42108740a06ddd8e529fc017b4e92719b56d78",
+      "bm25_score": 11.416583852270499,
+      "rank": 1
+    },
+    {
+      "chunk_id": "editorial/a011/e023.txt:editorial:0",
+      "vendor_id": null,
+      "url": "https://e023.editorial.invalid/",
+      "source": "editorial",
+      "text": "Guida editoriale 24. bottiglia di vino da un negozio specializzato. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "word_start": 0,
+      "word_end": 31,
+      "sha256": "5517cf164ebe924887d5397af0780d6bf6481d4fde7a07ba31372aa762882686",
+      "bm25_score": 11.416583852270499,
+      "rank": 2
+    },
+    {
+      "chunk_id": "editorial/a011/e007.txt:editorial:0",
+      "vendor_id": null,
+      "url": "https://e007.editorial.invalid/",
+      "source": "editorial",
+      "text": "Guida editoriale 8. vino da un'enoteca indipendente online. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "word_start": 0,
+      "word_end": 29,
+      "sha256": "6382e29bdffa1f89cbe9b62bd5f4fb5efef152e9b0ed850d60312c454e7246b1",
+      "bm25_score": 3.2826473355913843,
+      "rank": 3
+    },
+    {
+      "chunk_id": "editorial/a011/e019.txt:editorial:0",
+      "vendor_id": null,
+      "url": "https://e019.editorial.invalid/",
+      "source": "editorial",
+      "text": "Guida editoriale 20. vino da un'enoteca indipendente online. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "word_start": 0,
+      "word_end": 29,
+      "sha256": "69c81033e06604057b7ce646e2a205e890d682ece0e08e8e07f6bd06b8e8889f",
+      "bm25_score": 3.2826473355913843,
+      "rank": 4
+    },
+    {
+      "chunk_id": "editorial/a011/e031.txt:editorial:0",
+      "vendor_id": null,
+      "url": "https://e031.editorial.invalid/",
+      "source": "editorial",
+      "text": "Guida editoriale 32. vino da un'enoteca indipendente online. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "word_start": 0,
+      "word_end": 29,
+      "sha256": "329924a09428d04efc14213c465eaaec3c049da65907a31d948e1febbc8f9a48",
+      "bm25_score": 3.2826473355913843,
+      "rank": 5
+    }
+  ],
+  "shown": [
+    {
+      "chunk_id": "editorial/a011/e011.txt:editorial:0",
+      "vendor_id": null,
+      "url": "https://e011.editorial.invalid/",
+      "source": "editorial",
+      "text": "Guida editoriale 12. bottiglia di vino da un negozio specializzato. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "word_start": 0,
+      "word_end": 31,
+      "sha256": "5527a3f5c1b65b6c13e2be145f42108740a06ddd8e529fc017b4e92719b56d78",
+      "bm25_score": 11.416583852270499,
+      "rank": 1,
+      "shown_text": "Guida editoriale 12. bottiglia di vino da un negozio specializzato. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "truncated": false
+    },
+    {
+      "chunk_id": "editorial/a011/e023.txt:editorial:0",
+      "vendor_id": null,
+      "url": "https://e023.editorial.invalid/",
+      "source": "editorial",
+      "text": "Guida editoriale 24. bottiglia di vino da un negozio specializzato. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "word_start": 0,
+      "word_end": 31,
+      "sha256": "5517cf164ebe924887d5397af0780d6bf6481d4fde7a07ba31372aa762882686",
+      "bm25_score": 11.416583852270499,
+      "rank": 2,
+      "shown_text": "Guida editoriale 24. bottiglia di vino da un negozio specializzato. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "truncated": false
+    },
+    {
+      "chunk_id": "editorial/a011/e007.txt:editorial:0",
+      "vendor_id": null,
+      "url": "https://e007.editorial.invalid/",
+      "source": "editorial",
+      "text": "Guida editoriale 8. vino da un'enoteca indipendente online. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "word_start": 0,
+      "word_end": 29,
+      "sha256": "6382e29bdffa1f89cbe9b62bd5f4fb5efef152e9b0ed850d60312c454e7246b1",
+      "bm25_score": 3.2826473355913843,
+      "rank": 3,
+      "shown_text": "Guida editoriale 8. vino da un'enoteca indipendente online. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "truncated": false
+    },
+    {
+      "chunk_id": "editorial/a011/e019.txt:editorial:0",
+      "vendor_id": null,
+      "url": "https://e019.editorial.invalid/",
+      "source": "editorial",
+      "text": "Guida editoriale 20. vino da un'enoteca indipendente online. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "word_start": 0,
+      "word_end": 29,
+      "sha256": "69c81033e06604057b7ce646e2a205e890d682ece0e08e8e07f6bd06b8e8889f",
+      "bm25_score": 3.2826473355913843,
+      "rank": 4,
+      "shown_text": "Guida editoriale 20. vino da un'enoteca indipendente online. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "truncated": false
+    },
+    {
+      "chunk_id": "editorial/a011/e031.txt:editorial:0",
+      "vendor_id": null,
+      "url": "https://e031.editorial.invalid/",
+      "source": "editorial",
+      "text": "Guida editoriale 32. vino da un'enoteca indipendente online. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "word_start": 0,
+      "word_end": 29,
+      "sha256": "329924a09428d04efc14213c465eaaec3c049da65907a31d948e1febbc8f9a48",
+      "bm25_score": 3.2826473355913843,
+      "rank": 5,
+      "shown_text": "Guida editoriale 32. vino da un'enoteca indipendente online. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "truncated": false
+    }
+  ],
+  "prompt": "FONTI:\nFonte 1\nURL: https://e011.editorial.invalid/\nGuida editoriale 12. bottiglia di vino da un negozio specializzato. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.\n\nFonte 2\nURL: https://e023.editorial.invalid/\nGuida editoriale 24. bottiglia di vino da un negozio specializzato. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.\n\nFonte 3\nURL: https://e007.editorial.invalid/\nGuida editoriale 8. vino da un'enoteca indipendente online. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.\n\nFonte 4\nURL: https://e019.editorial.invalid/\nGuida editoriale 20. vino da un'enoteca indipendente online. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.\n\nFonte 5\nURL: https://e031.editorial.invalid/\nGuida editoriale 32. vino da un'enoteca indipendente online. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.\n\nRICHIESTA:\nDove posso comprare bottiglia di vino da un negozio specializzato?"
+}

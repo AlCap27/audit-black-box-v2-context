@@ -1,0 +1,57 @@
+{
+  "request_id": "a000-q15-r000",
+  "assignment_id": "a000",
+  "query_id": "q15",
+  "repetition": 0,
+  "trace_sha256": "e5fbfa1cde265df94f10747b455ecaad00b733493f0607e35acde67b95406dd1",
+  "started_at": 1789317287.4574285,
+  "synthetic": false,
+  "status": "valid",
+  "raw_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"decision\": \"recommend\",\n  \"recommendations\": [\n    {\n      \"name\": \"Enoteca Vorbula\",\n      \"source\": 4\n    },\n    {\n      \"name\": \"Enoteca Talrivo\",\n      \"source\": 5\n    }\n  ],\n  \"explanation\": \"Le due enoteche indicate dispongono di Rosso italiano a 20.00 EUR con condizioni di spedizione e consegna identiche.\"\n}",
+              "thoughtSignature": "EnEKbwERTTIPQiPRiEPVg7mMQcbvyNkdJhpVUQdWUrrL/ze8jqnMpk1P7F+Rlxoiix3MJFnmOU44P1Uv2I/xqamHtbE7mjgJU1v9o2oMncefMC3GoUFJmOIJcAHKNaTyLPac7JMimAaUfmWv7sZZm2Xr6w=="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 522,
+      "candidatesTokenCount": 108,
+      "totalTokenCount": 630,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 522
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.1-flash-lite",
+    "responseId": "p9CmaoXyJoKR3boP4rm5yAo"
+  },
+  "text": "{\n  \"decision\": \"recommend\",\n  \"recommendations\": [\n    {\n      \"name\": \"Enoteca Vorbula\",\n      \"source\": 4\n    },\n    {\n      \"name\": \"Enoteca Talrivo\",\n      \"source\": 5\n    }\n  ],\n  \"explanation\": \"Le due enoteche indicate dispongono di Rosso italiano a 20.00 EUR con condizioni di spedizione e consegna identiche.\"\n}",
+  "parsed": {
+    "decision": "recommend",
+    "recommended": [
+      "v012",
+      "v031"
+    ],
+    "unknown_names": [],
+    "unsupported_recommendations": [],
+    "literal_mentions": [
+      "v012",
+      "v031"
+    ],
+    "explanation": "Le due enoteche indicate dispongono di Rosso italiano a 20.00 EUR con condizioni di spedizione e consegna identiche."
+  },
+  "finished_at": 1789317288.313678
+}

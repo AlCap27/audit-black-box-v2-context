@@ -1,0 +1,143 @@
+{
+  "assignment_id": "a015",
+  "query": {
+    "query_id": "q20",
+    "intent": "evaluative",
+    "text": "Quali enoteche online valuteresti per vino da un'enoteca indipendente online?"
+  },
+  "retrieved": [
+    {
+      "chunk_id": "editorial/a015/e007.txt:editorial:0",
+      "vendor_id": null,
+      "url": "https://e007.editorial.invalid/",
+      "source": "editorial",
+      "text": "Guida editoriale 8. vino da un'enoteca indipendente online. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "word_start": 0,
+      "word_end": 29,
+      "sha256": "f810faaee53bad298c5e37c4cac7aa0242e142804d777aa9a40defa8b6a10ed7",
+      "bm25_score": 4.606264431519655,
+      "rank": 1
+    },
+    {
+      "chunk_id": "editorial/a015/e019.txt:editorial:0",
+      "vendor_id": null,
+      "url": "https://e019.editorial.invalid/",
+      "source": "editorial",
+      "text": "Guida editoriale 20. vino da un'enoteca indipendente online. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "word_start": 0,
+      "word_end": 29,
+      "sha256": "bf98ac6cb6e4013de362b245ae7a879b5a41f8efc909f522815d3477040f7365",
+      "bm25_score": 4.606264431519655,
+      "rank": 2
+    },
+    {
+      "chunk_id": "editorial/a015/e031.txt:editorial:0",
+      "vendor_id": null,
+      "url": "https://e031.editorial.invalid/",
+      "source": "editorial",
+      "text": "Guida editoriale 32. vino da un'enoteca indipendente online. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "word_start": 0,
+      "word_end": 29,
+      "sha256": "eb09e1105de0d4885f169128e39ced59ce08bb59a085f7a523b7c36bb7c17c89",
+      "bm25_score": 4.606264431519655,
+      "rank": 3
+    },
+    {
+      "chunk_id": "sites/a015/v001/llms.txt:llms:0",
+      "vendor_id": "v001",
+      "url": "https://v001.audit.invalid/llms.txt",
+      "source": "llms",
+      "text": "# Enoteca Talceni Enoteca Talceni è un'enoteca online indipendente. Vende Rosso italiano in bottiglia da 750 ml a 20.00 EUR. Il vino è disponibile. Spedizione in Italia: 6.00 EUR, consegna in 3-5 giorni.",
+      "word_start": 0,
+      "word_end": 33,
+      "sha256": "0312941511c83119b84f899b233cd87a994fc09d23becc32ddccfb505c019805",
+      "bm25_score": 4.161602654791631,
+      "rank": 4
+    },
+    {
+      "chunk_id": "sites/a015/v005/llms.txt:llms:0",
+      "vendor_id": "v005",
+      "url": "https://v005.audit.invalid/llms.txt",
+      "source": "llms",
+      "text": "# Enoteca Talzuno Enoteca Talzuno è un'enoteca online indipendente. Vende Rosso italiano in bottiglia da 750 ml a 20.00 EUR. Il vino è disponibile. Spedizione in Italia: 6.00 EUR, consegna in 3-5 giorni.",
+      "word_start": 0,
+      "word_end": 33,
+      "sha256": "ebd1264245eb5d62a43b5a3c39093a15d8d0be8befdacbe32f0dfce79093bd22",
+      "bm25_score": 4.161602654791631,
+      "rank": 5
+    }
+  ],
+  "shown": [
+    {
+      "chunk_id": "editorial/a015/e007.txt:editorial:0",
+      "vendor_id": null,
+      "url": "https://e007.editorial.invalid/",
+      "source": "editorial",
+      "text": "Guida editoriale 8. vino da un'enoteca indipendente online. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "word_start": 0,
+      "word_end": 29,
+      "sha256": "f810faaee53bad298c5e37c4cac7aa0242e142804d777aa9a40defa8b6a10ed7",
+      "bm25_score": 4.606264431519655,
+      "rank": 1,
+      "shown_text": "Guida editoriale 8. vino da un'enoteca indipendente online. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "truncated": false
+    },
+    {
+      "chunk_id": "editorial/a015/e019.txt:editorial:0",
+      "vendor_id": null,
+      "url": "https://e019.editorial.invalid/",
+      "source": "editorial",
+      "text": "Guida editoriale 20. vino da un'enoteca indipendente online. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "word_start": 0,
+      "word_end": 29,
+      "sha256": "bf98ac6cb6e4013de362b245ae7a879b5a41f8efc909f522815d3477040f7365",
+      "bm25_score": 4.606264431519655,
+      "rank": 2,
+      "shown_text": "Guida editoriale 20. vino da un'enoteca indipendente online. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "truncated": false
+    },
+    {
+      "chunk_id": "editorial/a015/e031.txt:editorial:0",
+      "vendor_id": null,
+      "url": "https://e031.editorial.invalid/",
+      "source": "editorial",
+      "text": "Guida editoriale 32. vino da un'enoteca indipendente online. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "word_start": 0,
+      "word_end": 29,
+      "sha256": "eb09e1105de0d4885f169128e39ced59ce08bb59a085f7a523b7c36bb7c17c89",
+      "bm25_score": 4.606264431519655,
+      "rank": 3,
+      "shown_text": "Guida editoriale 32. vino da un'enoteca indipendente online. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "truncated": false
+    },
+    {
+      "chunk_id": "sites/a015/v001/llms.txt:llms:0",
+      "vendor_id": "v001",
+      "url": "https://v001.audit.invalid/llms.txt",
+      "source": "llms",
+      "text": "# Enoteca Talceni Enoteca Talceni è un'enoteca online indipendente. Vende Rosso italiano in bottiglia da 750 ml a 20.00 EUR. Il vino è disponibile. Spedizione in Italia: 6.00 EUR, consegna in 3-5 giorni.",
+      "word_start": 0,
+      "word_end": 33,
+      "sha256": "0312941511c83119b84f899b233cd87a994fc09d23becc32ddccfb505c019805",
+      "bm25_score": 4.161602654791631,
+      "rank": 4,
+      "shown_text": "# Enoteca Talceni Enoteca Talceni è un'enoteca online indipendente. Vende Rosso italiano in bottiglia da 750 ml a 20.00 EUR. Il vino è disponibile. Spedizione in Italia: 6.00 EUR, consegna in 3-5 giorni.",
+      "truncated": false
+    },
+    {
+      "chunk_id": "sites/a015/v005/llms.txt:llms:0",
+      "vendor_id": "v005",
+      "url": "https://v005.audit.invalid/llms.txt",
+      "source": "llms",
+      "text": "# Enoteca Talzuno Enoteca Talzuno è un'enoteca online indipendente. Vende Rosso italiano in bottiglia da 750 ml a 20.00 EUR. Il vino è disponibile. Spedizione in Italia: 6.00 EUR, consegna in 3-5 giorni.",
+      "word_start": 0,
+      "word_end": 33,
+      "sha256": "ebd1264245eb5d62a43b5a3c39093a15d8d0be8befdacbe32f0dfce79093bd22",
+      "bm25_score": 4.161602654791631,
+      "rank": 5,
+      "shown_text": "# Enoteca Talzuno Enoteca Talzuno è un'enoteca online indipendente. Vende Rosso italiano in bottiglia da 750 ml a 20.00 EUR. Il vino è disponibile. Spedizione in Italia: 6.00 EUR, consegna in 3-5 giorni.",
+      "truncated": false
+    }
+  ],
+  "prompt": "FONTI:\nFonte 1\nURL: https://e007.editorial.invalid/\nGuida editoriale 8. vino da un'enoteca indipendente online. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.\n\nFonte 2\nURL: https://e019.editorial.invalid/\nGuida editoriale 20. vino da un'enoteca indipendente online. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.\n\nFonte 3\nURL: https://e031.editorial.invalid/\nGuida editoriale 32. vino da un'enoteca indipendente online. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.\n\nFonte 4\nURL: https://v001.audit.invalid/llms.txt\n# Enoteca Talceni Enoteca Talceni è un'enoteca online indipendente. Vende Rosso italiano in bottiglia da 750 ml a 20.00 EUR. Il vino è disponibile. Spedizione in Italia: 6.00 EUR, consegna in 3-5 giorni.\n\nFonte 5\nURL: https://v005.audit.invalid/llms.txt\n# Enoteca Talzuno Enoteca Talzuno è un'enoteca online indipendente. Vende Rosso italiano in bottiglia da 750 ml a 20.00 EUR. Il vino è disponibile. Spedizione in Italia: 6.00 EUR, consegna in 3-5 giorni.\n\nRICHIESTA:\nQuali enoteche online valuteresti per vino da un'enoteca indipendente online?"
+}

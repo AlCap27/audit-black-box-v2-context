@@ -1,0 +1,68 @@
+{
+  "vendor_id": "v016",
+  "name": "Enoteca Ralsula",
+  "request": {
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "Rispondi sulla base delle tue conoscenze, senza strumenti web. Non inventare informazioni. Dichiara esplicitamente se non conosci il nome richiesto. Rispondi solo con JSON: {\"known\":true oppure false,\"description\":\"breve descrizione oppure stringa vuota\",\"sources\":[\"URL se realmente noto\"]}."
+        }
+      ]
+    },
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Conosci un venditore chiamato Enoteca Ralsula? Se sì, indica soltanto ciò che sai e le eventuali fonti note. Se no, dichiaralo."
+          }
+        ]
+      }
+    ],
+    "generationConfig": {
+      "temperature": 0,
+      "maxOutputTokens": 256,
+      "responseMimeType": "application/json"
+    }
+  },
+  "started_at": 1789058593.1417882,
+  "status": "valid",
+  "raw_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"known\": false,\n  \"description\": \"Non ho informazioni su un venditore o un'attività commerciale denominata Enoteca Ralsula.\",\n  \"sources\": []\n}",
+              "thoughtSignature": "EnEKbwERTTIPDF0e8C32rP48BOZrvj50ko3lpraZt3HSAMiAAaud/xu+B13cZ2Ui2nFdghqwqeAygIn3wQ6TRygXIXiMW4XJ1JgcFDA6swQeVGH4VffvX8VsDr/nKCJ2XLoyMK7KyPzquNAXIe9yftC2uQ=="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 98,
+      "candidatesTokenCount": 43,
+      "totalTokenCount": 141,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 98
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.1-flash-lite",
+    "responseId": "I96iauGqG6KMkdUPsp6i-Ac"
+  },
+  "text": "{\n  \"known\": false,\n  \"description\": \"Non ho informazioni su un venditore o un'attività commerciale denominata Enoteca Ralsula.\",\n  \"sources\": []\n}",
+  "parsed": {
+    "known": false,
+    "description": "Non ho informazioni su un venditore o un'attività commerciale denominata Enoteca Ralsula.",
+    "sources": []
+  },
+  "finished_at": 1789058597.4081137
+}

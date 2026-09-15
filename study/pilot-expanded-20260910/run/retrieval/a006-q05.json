@@ -1,0 +1,143 @@
+{
+  "assignment_id": "a006",
+  "query": {
+    "query_id": "q05",
+    "intent": "transactional",
+    "text": "Dove posso comprare rosso italiano con consegna in 3-5 giorni?"
+  },
+  "retrieved": [
+    {
+      "chunk_id": "editorial/a006/e004.txt:editorial:0",
+      "vendor_id": null,
+      "url": "https://e004.editorial.invalid/",
+      "source": "editorial",
+      "text": "Guida editoriale 5. rosso italiano con consegna in 3-5 giorni. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "word_start": 0,
+      "word_end": 31,
+      "sha256": "71101b9cb2c70e5ca4e3ad08122d5839251b4e099577152187d886deeeeb3b9e",
+      "bm25_score": 4.406219362630776,
+      "rank": 1
+    },
+    {
+      "chunk_id": "editorial/a006/e028.txt:editorial:0",
+      "vendor_id": null,
+      "url": "https://e028.editorial.invalid/",
+      "source": "editorial",
+      "text": "Guida editoriale 29. rosso italiano con consegna in 3-5 giorni. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "word_start": 0,
+      "word_end": 31,
+      "sha256": "4dc1e90a2dd879f470f6d11803e095796c500ef97a66bf248ffceea2dc82559d",
+      "bm25_score": 4.220503796745694,
+      "rank": 2
+    },
+    {
+      "chunk_id": "editorial/a006/e016.txt:editorial:0",
+      "vendor_id": null,
+      "url": "https://e016.editorial.invalid/",
+      "source": "editorial",
+      "text": "Guida editoriale 17. rosso italiano con consegna in 3-5 giorni. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "word_start": 0,
+      "word_end": 31,
+      "sha256": "9fbc76a8753c8f74300e4916e36899956cb4ba45836c2f7d667ded454e0bcc2b",
+      "bm25_score": 4.220503796745694,
+      "rank": 3
+    },
+    {
+      "chunk_id": "sites/a006/v012/index.html:html:0",
+      "vendor_id": "v012",
+      "url": "https://v012.audit.invalid/",
+      "source": "html",
+      "text": "Enoteca Vorbula Enoteca Vorbula vende vino online come enoteca indipendente. Rosso italiano costa 20.00 EUR, è disponibile e viene offerto in bottiglie da 750 ml. Spedisce in Italia per 6.00 EUR con consegna in 3-5 giorni.",
+      "word_start": 0,
+      "word_end": 36,
+      "sha256": "84095c60a40a1e8e9f3951fdd8cfe2e4e69249afcd2abef6aae051b29c4b08d0",
+      "bm25_score": 4.160079655236378,
+      "rank": 4
+    },
+    {
+      "chunk_id": "sites/a006/v004/index.html:html:0",
+      "vendor_id": "v004",
+      "url": "https://v004.audit.invalid/",
+      "source": "html",
+      "text": "Enoteca Talbula Enoteca Talbula vende vino online come enoteca indipendente. Rosso italiano costa 20.00 EUR, è disponibile e viene offerto in bottiglie da 750 ml. Spedisce in Italia per 6.00 EUR con consegna in 3-5 giorni.",
+      "word_start": 0,
+      "word_end": 36,
+      "sha256": "d1e4a5c65f9ffc52fa0d3ef7486e6ecd5a9b6a4d0b25ed17ff5a1001de322893",
+      "bm25_score": 4.160079655236378,
+      "rank": 5
+    }
+  ],
+  "shown": [
+    {
+      "chunk_id": "editorial/a006/e004.txt:editorial:0",
+      "vendor_id": null,
+      "url": "https://e004.editorial.invalid/",
+      "source": "editorial",
+      "text": "Guida editoriale 5. rosso italiano con consegna in 3-5 giorni. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "word_start": 0,
+      "word_end": 31,
+      "sha256": "71101b9cb2c70e5ca4e3ad08122d5839251b4e099577152187d886deeeeb3b9e",
+      "bm25_score": 4.406219362630776,
+      "rank": 1,
+      "shown_text": "Guida editoriale 5. rosso italiano con consegna in 3-5 giorni. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "truncated": false
+    },
+    {
+      "chunk_id": "editorial/a006/e028.txt:editorial:0",
+      "vendor_id": null,
+      "url": "https://e028.editorial.invalid/",
+      "source": "editorial",
+      "text": "Guida editoriale 29. rosso italiano con consegna in 3-5 giorni. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "word_start": 0,
+      "word_end": 31,
+      "sha256": "4dc1e90a2dd879f470f6d11803e095796c500ef97a66bf248ffceea2dc82559d",
+      "bm25_score": 4.220503796745694,
+      "rank": 2,
+      "shown_text": "Guida editoriale 29. rosso italiano con consegna in 3-5 giorni. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "truncated": false
+    },
+    {
+      "chunk_id": "editorial/a006/e016.txt:editorial:0",
+      "vendor_id": null,
+      "url": "https://e016.editorial.invalid/",
+      "source": "editorial",
+      "text": "Guida editoriale 17. rosso italiano con consegna in 3-5 giorni. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "word_start": 0,
+      "word_end": 31,
+      "sha256": "9fbc76a8753c8f74300e4916e36899956cb4ba45836c2f7d667ded454e0bcc2b",
+      "bm25_score": 4.220503796745694,
+      "rank": 3,
+      "shown_text": "Guida editoriale 17. rosso italiano con consegna in 3-5 giorni. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "truncated": false
+    },
+    {
+      "chunk_id": "sites/a006/v012/index.html:html:0",
+      "vendor_id": "v012",
+      "url": "https://v012.audit.invalid/",
+      "source": "html",
+      "text": "Enoteca Vorbula Enoteca Vorbula vende vino online come enoteca indipendente. Rosso italiano costa 20.00 EUR, è disponibile e viene offerto in bottiglie da 750 ml. Spedisce in Italia per 6.00 EUR con consegna in 3-5 giorni.",
+      "word_start": 0,
+      "word_end": 36,
+      "sha256": "84095c60a40a1e8e9f3951fdd8cfe2e4e69249afcd2abef6aae051b29c4b08d0",
+      "bm25_score": 4.160079655236378,
+      "rank": 4,
+      "shown_text": "Enoteca Vorbula Enoteca Vorbula vende vino online come enoteca indipendente. Rosso italiano costa 20.00 EUR, è disponibile e viene offerto in bottiglie da 750 ml. Spedisce in Italia per 6.00 EUR con consegna in 3-5 giorni.",
+      "truncated": false
+    },
+    {
+      "chunk_id": "sites/a006/v004/index.html:html:0",
+      "vendor_id": "v004",
+      "url": "https://v004.audit.invalid/",
+      "source": "html",
+      "text": "Enoteca Talbula Enoteca Talbula vende vino online come enoteca indipendente. Rosso italiano costa 20.00 EUR, è disponibile e viene offerto in bottiglie da 750 ml. Spedisce in Italia per 6.00 EUR con consegna in 3-5 giorni.",
+      "word_start": 0,
+      "word_end": 36,
+      "sha256": "d1e4a5c65f9ffc52fa0d3ef7486e6ecd5a9b6a4d0b25ed17ff5a1001de322893",
+      "bm25_score": 4.160079655236378,
+      "rank": 5,
+      "shown_text": "Enoteca Talbula Enoteca Talbula vende vino online come enoteca indipendente. Rosso italiano costa 20.00 EUR, è disponibile e viene offerto in bottiglie da 750 ml. Spedisce in Italia per 6.00 EUR con consegna in 3-5 giorni.",
+      "truncated": false
+    }
+  ],
+  "prompt": "FONTI:\nFonte 1\nURL: https://e004.editorial.invalid/\nGuida editoriale 5. rosso italiano con consegna in 3-5 giorni. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.\n\nFonte 2\nURL: https://e028.editorial.invalid/\nGuida editoriale 29. rosso italiano con consegna in 3-5 giorni. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.\n\nFonte 3\nURL: https://e016.editorial.invalid/\nGuida editoriale 17. rosso italiano con consegna in 3-5 giorni. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.\n\nFonte 4\nURL: https://v012.audit.invalid/\nEnoteca Vorbula Enoteca Vorbula vende vino online come enoteca indipendente. Rosso italiano costa 20.00 EUR, è disponibile e viene offerto in bottiglie da 750 ml. Spedisce in Italia per 6.00 EUR con consegna in 3-5 giorni.\n\nFonte 5\nURL: https://v004.audit.invalid/\nEnoteca Talbula Enoteca Talbula vende vino online come enoteca indipendente. Rosso italiano costa 20.00 EUR, è disponibile e viene offerto in bottiglie da 750 ml. Spedisce in Italia per 6.00 EUR con consegna in 3-5 giorni.\n\nRICHIESTA:\nDove posso comprare rosso italiano con consegna in 3-5 giorni?"
+}

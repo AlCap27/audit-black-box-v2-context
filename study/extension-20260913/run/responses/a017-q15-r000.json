@@ -1,0 +1,57 @@
+{
+  "request_id": "a017-q15-r000",
+  "assignment_id": "a017",
+  "query_id": "q15",
+  "repetition": 0,
+  "trace_sha256": "678d498b8a074490ab99f5a87f4f71332d2ce86eff220c9907c5d75ae63908ce",
+  "started_at": 1789335024.4461837,
+  "synthetic": false,
+  "status": "valid",
+  "raw_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"decision\": \"recommend\",\n  \"recommendations\": [\n    {\n      \"name\": \"Enoteca Nerzuno\",\n      \"source\": 4\n    },\n    {\n      \"name\": \"Enoteca Vorzuno\",\n      \"source\": 5\n    }\n  ],\n  \"explanation\": \"Le enoteche selezionate dispongono di vino Rosso italiano in bottiglie da 750 ml al prezzo di 20.00 EUR con spedizione in Italia.\"\n}",
+              "thoughtSignature": "EnEKbwERTTIPcnA4ZZJEBEI37or42QbLPP3jYQYV/bHHx7qJTirzzBU+oajWzOfTTldvyKGyItaXv6ZpXi1gVPwATbSyu4jhw8LDZV7N7Ij5SSdoYP1f8eGpbPSE6GEraoFISYx0j9wHffvuGK7eKFNj6A=="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 522,
+      "candidatesTokenCount": 116,
+      "totalTokenCount": 638,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 522
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.1-flash-lite",
+    "responseId": "8RWnaqzuB7fl7M8PwpWN0Qc"
+  },
+  "text": "{\n  \"decision\": \"recommend\",\n  \"recommendations\": [\n    {\n      \"name\": \"Enoteca Nerzuno\",\n      \"source\": 4\n    },\n    {\n      \"name\": \"Enoteca Vorzuno\",\n      \"source\": 5\n    }\n  ],\n  \"explanation\": \"Le enoteche selezionate dispongono di vino Rosso italiano in bottiglie da 750 ml al prezzo di 20.00 EUR con spedizione in Italia.\"\n}",
+  "parsed": {
+    "decision": "recommend",
+    "recommended": [
+      "v007",
+      "v008"
+    ],
+    "unknown_names": [],
+    "unsupported_recommendations": [],
+    "literal_mentions": [
+      "v007",
+      "v008"
+    ],
+    "explanation": "Le enoteche selezionate dispongono di vino Rosso italiano in bottiglie da 750 ml al prezzo di 20.00 EUR con spedizione in Italia."
+  },
+  "finished_at": 1789335026.1054394
+}

@@ -1,0 +1,57 @@
+{
+  "request_id": "a000-q03-r000",
+  "assignment_id": "a000",
+  "query_id": "q03",
+  "repetition": 0,
+  "trace_sha256": "6b62e9f821bbe5e29522a2bcc6885a3ff96736b99f75e5e94efcf7dca1eb6309",
+  "started_at": 1789317307.855708,
+  "synthetic": false,
+  "status": "valid",
+  "raw_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"decision\": \"recommend\",\n  \"recommendations\": [\n    {\n      \"name\": \"Enoteca Talsula\",\n      \"source\": 4\n    },\n    {\n      \"name\": \"Enoteca Sovmira\",\n      \"source\": 5\n    }\n  ],\n  \"explanation\": \"Entrambi i venditori offrono Rosso italiano disponibile per l'acquisto online con consegna in Italia.\"\n}",
+              "thoughtSignature": "EnEKbwERTTIPnps9rMSmGp9fsGi46INWOhYvrwdsw0rAOldSEu1fiGI+xl25oPC/sQoFFSCMNbOA+7//yNkt6SuF9BrETLnTIlTEYZ6Lj2boDQzrhzNKoiQz4kPTnd2GTTXBzi06ZnavvSoeKg22Ao+o5A=="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 518,
+      "candidatesTokenCount": 100,
+      "totalTokenCount": 618,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 518
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.1-flash-lite",
+    "responseId": "vNCmaqa4BdixnsEP_tHe4Ac"
+  },
+  "text": "{\n  \"decision\": \"recommend\",\n  \"recommendations\": [\n    {\n      \"name\": \"Enoteca Talsula\",\n      \"source\": 4\n    },\n    {\n      \"name\": \"Enoteca Sovmira\",\n      \"source\": 5\n    }\n  ],\n  \"explanation\": \"Entrambi i venditori offrono Rosso italiano disponibile per l'acquisto online con consegna in Italia.\"\n}",
+  "parsed": {
+    "decision": "recommend",
+    "recommended": [
+      "v018",
+      "v030"
+    ],
+    "unknown_names": [],
+    "unsupported_recommendations": [],
+    "literal_mentions": [
+      "v018",
+      "v030"
+    ],
+    "explanation": "Entrambi i venditori offrono Rosso italiano disponibile per l'acquisto online con consegna in Italia."
+  },
+  "finished_at": 1789317308.793712
+}

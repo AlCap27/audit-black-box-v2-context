@@ -1,0 +1,59 @@
+{
+  "request_id": "a004-q17-r000",
+  "assignment_id": "a004",
+  "query_id": "q17",
+  "repetition": 0,
+  "trace_sha256": "b5bb2d51b85910c57e374ed9ef322e5d6f53358c54c17166bd33d7e80b1169ac",
+  "started_at": 1789316551.8863478,
+  "synthetic": false,
+  "status": "valid",
+  "raw_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"decision\": \"recommend\",\n  \"recommendations\": [\n    {\n      \"name\": \"Enoteca Vorbula\",\n      \"source\": 1\n    },\n    {\n      \"name\": \"Enoteca Talbula\",\n      \"source\": 2\n    },\n    {\n      \"name\": \"Enoteca Ralsula\",\n      \"source\": 3\n    }\n  ],\n  \"explanation\": \"Questi tre venditori offrono il vino rosso italiano richiesto e garantiscono la consegna in 3-5 giorni lavorativi.\"\n}",
+              "thoughtSignature": "EnEKbwERTTIPpnHXEVJh2tdc5nK+8Rf3+d1aK3wDBtMJMVyv1oQNaaoCI0OKEKgKkFJzWI0dl8ZZ8KmIarA2f2VEBabGbl9k6SW31A8/OECqAcAUXvg0GKbBzbOW3NO2GPUGd3QswGbCTjg09glky6qzNA=="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 613,
+      "candidatesTokenCount": 132,
+      "totalTokenCount": 745,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 613
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.1-flash-lite",
+    "responseId": "yM2mapDsBvOnkdUP6JGdwAM"
+  },
+  "text": "{\n  \"decision\": \"recommend\",\n  \"recommendations\": [\n    {\n      \"name\": \"Enoteca Vorbula\",\n      \"source\": 1\n    },\n    {\n      \"name\": \"Enoteca Talbula\",\n      \"source\": 2\n    },\n    {\n      \"name\": \"Enoteca Ralsula\",\n      \"source\": 3\n    }\n  ],\n  \"explanation\": \"Questi tre venditori offrono il vino rosso italiano richiesto e garantiscono la consegna in 3-5 giorni lavorativi.\"\n}",
+  "parsed": {
+    "decision": "recommend",
+    "recommended": [
+      "v012",
+      "v004",
+      "v016"
+    ],
+    "unknown_names": [],
+    "unsupported_recommendations": [],
+    "literal_mentions": [
+      "v004",
+      "v012",
+      "v016"
+    ],
+    "explanation": "Questi tre venditori offrono il vino rosso italiano richiesto e garantiscono la consegna in 3-5 giorni lavorativi."
+  },
+  "finished_at": 1789316552.9039652
+}

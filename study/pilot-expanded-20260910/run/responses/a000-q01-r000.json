@@ -1,0 +1,51 @@
+{
+  "request_id": "a000-q01-r000",
+  "assignment_id": "a000",
+  "query_id": "q01",
+  "repetition": 0,
+  "trace_sha256": "b4995fe15f4562208c29b74c367ddc4fc8c526b420d17643ebe5b2926a57566d",
+  "started_at": 1789316427.5279596,
+  "synthetic": false,
+  "status": "valid",
+  "raw_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\"decision\":\"abstain\",\"recommendations\":[],\"explanation\":\"Le fonti fornite contengono esclusivamente guide editoriali che dichiarano esplicitamente di non identificare venditori o negozi.\"}",
+              "thoughtSignature": "EnEKbwERTTIPLYFLGPdANbVaccUUInLY55tX9EBn3FkSwYcEyqMFe7DvUFpVs9CFJKOweAKEm3Oh5ZGCNSrVcmbygiWor9wtjtSVoCHR9zcgoFOv+1JmQnrIC1QyEoAbOjTXAqwO4ViV/ns1ikZJo7pr9Q=="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 499,
+      "candidatesTokenCount": 38,
+      "totalTokenCount": 537,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 499
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.1-flash-lite",
+    "responseId": "S82masHQN9W7vdIPkL2JoQQ"
+  },
+  "text": "{\"decision\":\"abstain\",\"recommendations\":[],\"explanation\":\"Le fonti fornite contengono esclusivamente guide editoriali che dichiarano esplicitamente di non identificare venditori o negozi.\"}",
+  "parsed": {
+    "decision": "abstain",
+    "recommended": [],
+    "unknown_names": [],
+    "unsupported_recommendations": [],
+    "literal_mentions": [],
+    "explanation": "Le fonti fornite contengono esclusivamente guide editoriali che dichiarano esplicitamente di non identificare venditori o negozi."
+  },
+  "finished_at": 1789316428.736112
+}

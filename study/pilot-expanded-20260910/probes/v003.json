@@ -1,0 +1,68 @@
+{
+  "vendor_id": "v003",
+  "name": "Enoteca Sovceni",
+  "request": {
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "Rispondi sulla base delle tue conoscenze, senza strumenti web. Non inventare informazioni. Dichiara esplicitamente se non conosci il nome richiesto. Rispondi solo con JSON: {\"known\":true oppure false,\"description\":\"breve descrizione oppure stringa vuota\",\"sources\":[\"URL se realmente noto\"]}."
+        }
+      ]
+    },
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Conosci un venditore chiamato Enoteca Sovceni? Se sì, indica soltanto ciò che sai e le eventuali fonti note. Se no, dichiaralo."
+          }
+        ]
+      }
+    ],
+    "generationConfig": {
+      "temperature": 0,
+      "maxOutputTokens": 256,
+      "responseMimeType": "application/json"
+    }
+  },
+  "started_at": 1789058515.6066494,
+  "status": "valid",
+  "raw_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"known\": false,\n  \"description\": \"Non ho informazioni su un venditore o un'attività commerciale denominata Enoteca Sovceni.\",\n  \"sources\": []\n}",
+              "thoughtSignature": "EnEKbwERTTIPND7jB5OuAPWHrduoDKuo/2Om0kinklSIX67aEzvR8Z5w4t6EOlNZUAYZCEf1CTrtb3h4TdVLZmf4X/NpLAFvFzWjKGEF4TsTIF4GyqbHNP+kXx1c6w7MC41HesfR4lgZwVxBmI3VCBRt6A=="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 98,
+      "candidatesTokenCount": 43,
+      "totalTokenCount": 141,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 98
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.1-flash-lite",
+    "responseId": "092iatziDI2e3boPjqr22Ao"
+  },
+  "text": "{\n  \"known\": false,\n  \"description\": \"Non ho informazioni su un venditore o un'attività commerciale denominata Enoteca Sovceni.\",\n  \"sources\": []\n}",
+  "parsed": {
+    "known": false,
+    "description": "Non ho informazioni su un venditore o un'attività commerciale denominata Enoteca Sovceni.",
+    "sources": []
+  },
+  "finished_at": 1789058518.9722621
+}

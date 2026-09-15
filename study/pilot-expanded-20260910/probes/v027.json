@@ -1,0 +1,68 @@
+{
+  "vendor_id": "v027",
+  "name": "Enoteca Fesnelo",
+  "request": {
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "Rispondi sulla base delle tue conoscenze, senza strumenti web. Non inventare informazioni. Dichiara esplicitamente se non conosci il nome richiesto. Rispondi solo con JSON: {\"known\":true oppure false,\"description\":\"breve descrizione oppure stringa vuota\",\"sources\":[\"URL se realmente noto\"]}."
+        }
+      ]
+    },
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Conosci un venditore chiamato Enoteca Fesnelo? Se sì, indica soltanto ciò che sai e le eventuali fonti note. Se no, dichiaralo."
+          }
+        ]
+      }
+    ],
+    "generationConfig": {
+      "temperature": 0,
+      "maxOutputTokens": 256,
+      "responseMimeType": "application/json"
+    }
+  },
+  "started_at": 1789316019.2927098,
+  "status": "valid",
+  "raw_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"known\": false,\n  \"description\": \"Non sono a conoscenza di alcun venditore o attività commerciale denominata Enoteca Fesnelo.\",\n  \"sources\": []\n}",
+              "thoughtSignature": "EnEKbwERTTIPGRx/RQG17lR+dSPT2xHOKdQ0+l1HWrEoG5v2bhA9qrITjr5coF23dI405ZffmEtCIgeHkfSuQY3wwSzkW1O42nYgURZFhojhndbwFEv1QbhBVdSAIQMUYF4qN1qY2EGNhQvGqlZP7V/row=="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 99,
+      "candidatesTokenCount": 43,
+      "totalTokenCount": 142,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 99
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.1-flash-lite",
+    "responseId": "tsumauzqPJLtxs0PrpDj4Ao"
+  },
+  "text": "{\n  \"known\": false,\n  \"description\": \"Non sono a conoscenza di alcun venditore o attività commerciale denominata Enoteca Fesnelo.\",\n  \"sources\": []\n}",
+  "parsed": {
+    "known": false,
+    "description": "Non sono a conoscenza di alcun venditore o attività commerciale denominata Enoteca Fesnelo.",
+    "sources": []
+  },
+  "finished_at": 1789316024.6841185
+}

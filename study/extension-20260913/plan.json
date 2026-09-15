@@ -1,0 +1,9 @@
+{
+  "authorized_attempt_cap": 289,
+  "pilot_attempt_cap": 288,
+  "probe_attempt_cap": 1,
+  "spec_sha256": "26d2c35685d9e260592a75973f201a5ccc5ffacfa339afa15827bd8a4297f366",
+  "code_sha256": "a4e592a25ad06de723d3d30fa64075ec2d4dc24fcbf14f2be2a2e1c6c84806b1",
+  "analysis": "Exploratory extension; report new 12 and combined 20 assignments separately. Primary contrast D-A. Keep all assignments; missing outcome bounds. No significance-based stopping; no automatic retries. Model/config unchanged.",
+  "stop": "Stop on any new API or validation error. No infrastructure changes."
+}

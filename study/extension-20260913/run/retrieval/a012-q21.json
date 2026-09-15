@@ -1,0 +1,143 @@
+{
+  "assignment_id": "a012",
+  "query": {
+    "query_id": "q21",
+    "intent": "evaluative",
+    "text": "Quali enoteche online valuteresti per vino rosso con prezzo e disponibilitÃ  dichiarati?"
+  },
+  "retrieved": [
+    {
+      "chunk_id": "editorial/a012/e020.txt:editorial:0",
+      "vendor_id": null,
+      "url": "https://e020.editorial.invalid/",
+      "source": "editorial",
+      "text": "Guida editoriale 21. vino rosso con prezzo e disponibilità dichiarati. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "word_start": 0,
+      "word_end": 31,
+      "sha256": "b3be8c561506fd8350554288c9055a870b233fe9f8168cf651ccb22b320b4f9e",
+      "bm25_score": 7.621830764180444,
+      "rank": 1
+    },
+    {
+      "chunk_id": "editorial/a012/e008.txt:editorial:0",
+      "vendor_id": null,
+      "url": "https://e008.editorial.invalid/",
+      "source": "editorial",
+      "text": "Guida editoriale 9. vino rosso con prezzo e disponibilità dichiarati. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "word_start": 0,
+      "word_end": 31,
+      "sha256": "5deb3dead030274f6b7f0ea0e9f700a5628eb7a54fba999aafc22b6637fe75e0",
+      "bm25_score": 7.621830764180444,
+      "rank": 2
+    },
+    {
+      "chunk_id": "editorial/a012/e029.txt:editorial:0",
+      "vendor_id": null,
+      "url": "https://e029.editorial.invalid/",
+      "source": "editorial",
+      "text": "Guida editoriale 30. vino rosso con spedizione da 6 euro. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "word_start": 0,
+      "word_end": 31,
+      "sha256": "f5b8b46bc6c2102a2a0f80b124f3a9d9df1e51a7276d2171a35ff98a2432ae56",
+      "bm25_score": 3.3372805216251002,
+      "rank": 3
+    },
+    {
+      "chunk_id": "editorial/a012/e005.txt:editorial:0",
+      "vendor_id": null,
+      "url": "https://e005.editorial.invalid/",
+      "source": "editorial",
+      "text": "Guida editoriale 6. vino rosso con spedizione da 6 euro. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "word_start": 0,
+      "word_end": 31,
+      "sha256": "faac18436f2a65ee5288d7a096931c21caf9561f71ff7d069666f70fe8f06126",
+      "bm25_score": 3.3372805216251002,
+      "rank": 4
+    },
+    {
+      "chunk_id": "editorial/a012/e017.txt:editorial:0",
+      "vendor_id": null,
+      "url": "https://e017.editorial.invalid/",
+      "source": "editorial",
+      "text": "Guida editoriale 18. vino rosso con spedizione da 6 euro. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "word_start": 0,
+      "word_end": 31,
+      "sha256": "16e1d8b2400a817d7b9f88551b8bf3e50a9072dcb3507b3ef51be9fe7b187edd",
+      "bm25_score": 3.3372805216251002,
+      "rank": 5
+    }
+  ],
+  "shown": [
+    {
+      "chunk_id": "editorial/a012/e020.txt:editorial:0",
+      "vendor_id": null,
+      "url": "https://e020.editorial.invalid/",
+      "source": "editorial",
+      "text": "Guida editoriale 21. vino rosso con prezzo e disponibilità dichiarati. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "word_start": 0,
+      "word_end": 31,
+      "sha256": "b3be8c561506fd8350554288c9055a870b233fe9f8168cf651ccb22b320b4f9e",
+      "bm25_score": 7.621830764180444,
+      "rank": 1,
+      "shown_text": "Guida editoriale 21. vino rosso con prezzo e disponibilità dichiarati. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "truncated": false
+    },
+    {
+      "chunk_id": "editorial/a012/e008.txt:editorial:0",
+      "vendor_id": null,
+      "url": "https://e008.editorial.invalid/",
+      "source": "editorial",
+      "text": "Guida editoriale 9. vino rosso con prezzo e disponibilità dichiarati. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "word_start": 0,
+      "word_end": 31,
+      "sha256": "5deb3dead030274f6b7f0ea0e9f700a5628eb7a54fba999aafc22b6637fe75e0",
+      "bm25_score": 7.621830764180444,
+      "rank": 2,
+      "shown_text": "Guida editoriale 9. vino rosso con prezzo e disponibilità dichiarati. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "truncated": false
+    },
+    {
+      "chunk_id": "editorial/a012/e029.txt:editorial:0",
+      "vendor_id": null,
+      "url": "https://e029.editorial.invalid/",
+      "source": "editorial",
+      "text": "Guida editoriale 30. vino rosso con spedizione da 6 euro. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "word_start": 0,
+      "word_end": 31,
+      "sha256": "f5b8b46bc6c2102a2a0f80b124f3a9d9df1e51a7276d2171a35ff98a2432ae56",
+      "bm25_score": 3.3372805216251002,
+      "rank": 3,
+      "shown_text": "Guida editoriale 30. vino rosso con spedizione da 6 euro. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "truncated": false
+    },
+    {
+      "chunk_id": "editorial/a012/e005.txt:editorial:0",
+      "vendor_id": null,
+      "url": "https://e005.editorial.invalid/",
+      "source": "editorial",
+      "text": "Guida editoriale 6. vino rosso con spedizione da 6 euro. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "word_start": 0,
+      "word_end": 31,
+      "sha256": "faac18436f2a65ee5288d7a096931c21caf9561f71ff7d069666f70fe8f06126",
+      "bm25_score": 3.3372805216251002,
+      "rank": 4,
+      "shown_text": "Guida editoriale 6. vino rosso con spedizione da 6 euro. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "truncated": false
+    },
+    {
+      "chunk_id": "editorial/a012/e017.txt:editorial:0",
+      "vendor_id": null,
+      "url": "https://e017.editorial.invalid/",
+      "source": "editorial",
+      "text": "Guida editoriale 18. vino rosso con spedizione da 6 euro. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "word_start": 0,
+      "word_end": 31,
+      "sha256": "16e1d8b2400a817d7b9f88551b8bf3e50a9072dcb3507b3ef51be9fe7b187edd",
+      "bm25_score": 3.3372805216251002,
+      "rank": 5,
+      "shown_text": "Guida editoriale 18. vino rosso con spedizione da 6 euro. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "truncated": false
+    }
+  ],
+  "prompt": "FONTI:\nFonte 1\nURL: https://e020.editorial.invalid/\nGuida editoriale 21. vino rosso con prezzo e disponibilità dichiarati. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.\n\nFonte 2\nURL: https://e008.editorial.invalid/\nGuida editoriale 9. vino rosso con prezzo e disponibilità dichiarati. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.\n\nFonte 3\nURL: https://e029.editorial.invalid/\nGuida editoriale 30. vino rosso con spedizione da 6 euro. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.\n\nFonte 4\nURL: https://e005.editorial.invalid/\nGuida editoriale 6. vino rosso con spedizione da 6 euro. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.\n\nFonte 5\nURL: https://e017.editorial.invalid/\nGuida editoriale 18. vino rosso con spedizione da 6 euro. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.\n\nRICHIESTA:\nQuali enoteche online valuteresti per vino rosso con prezzo e disponibilitÃ  dichiarati?"
+}

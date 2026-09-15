@@ -1,0 +1,68 @@
+{
+  "vendor_id": "v008",
+  "name": "Enoteca Vorzuno",
+  "request": {
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "Rispondi sulla base delle tue conoscenze, senza strumenti web. Non inventare informazioni. Dichiara esplicitamente se non conosci il nome richiesto. Rispondi solo con JSON: {\"known\":true oppure false,\"description\":\"breve descrizione oppure stringa vuota\",\"sources\":[\"URL se realmente noto\"]}."
+        }
+      ]
+    },
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Conosci un venditore chiamato Enoteca Vorzuno? Se sì, indica soltanto ciò che sai e le eventuali fonti note. Se no, dichiaralo."
+          }
+        ]
+      }
+    ],
+    "generationConfig": {
+      "temperature": 0,
+      "maxOutputTokens": 256,
+      "responseMimeType": "application/json"
+    }
+  },
+  "started_at": 1789058547.1490443,
+  "status": "valid",
+  "raw_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"known\": false,\n  \"description\": \"Non sono a conoscenza di un venditore o attività commerciale denominata Enoteca Vorzuno.\",\n  \"sources\": []\n}",
+              "thoughtSignature": "EnEKbwERTTIP2oP7QtAeypPqv1v+b41FYdT+mxCamOEwa9eTzfuBVVFZzh/aPfY/KCFinCdRM4PtQLW2sia1nE3B02/xiG6yUfRJe51dRvyeyHwP2icjSa9tRHlrNR5tYUCjF9N9ydX5kQaaf5rQpTW6Eg=="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 98,
+      "candidatesTokenCount": 42,
+      "totalTokenCount": 140,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 98
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.1-flash-lite",
+    "responseId": "8t2iau2rK6SoxN8P26OPuQE"
+  },
+  "text": "{\n  \"known\": false,\n  \"description\": \"Non sono a conoscenza di un venditore o attività commerciale denominata Enoteca Vorzuno.\",\n  \"sources\": []\n}",
+  "parsed": {
+    "known": false,
+    "description": "Non sono a conoscenza di un venditore o attività commerciale denominata Enoteca Vorzuno.",
+    "sources": []
+  },
+  "finished_at": 1789058555.3498168
+}

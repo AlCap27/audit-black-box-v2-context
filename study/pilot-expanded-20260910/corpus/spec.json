@@ -1,0 +1,944 @@
+{
+  "version": "2.0.0-pilot",
+  "seed": 20260911,
+  "identities": [
+    {
+      "vendor_id": "v001",
+      "name": "Enoteca Talceni",
+      "template": 0,
+      "facts": {
+        "product": "Rosso italiano",
+        "price": "20.00",
+        "currency": "EUR",
+        "volume_ml": 750,
+        "stock": "disponibile",
+        "delivery_days": "3-5",
+        "shipping_eur": "6.00",
+        "destination": "Italia"
+      }
+    },
+    {
+      "vendor_id": "v002",
+      "name": "Enoteca Ralpali",
+      "template": 1,
+      "facts": {
+        "product": "Rosso italiano",
+        "price": "20.00",
+        "currency": "EUR",
+        "volume_ml": 750,
+        "stock": "disponibile",
+        "delivery_days": "3-5",
+        "shipping_eur": "6.00",
+        "destination": "Italia"
+      }
+    },
+    {
+      "vendor_id": "v003",
+      "name": "Enoteca Sovceni",
+      "template": 2,
+      "facts": {
+        "product": "Rosso italiano",
+        "price": "20.00",
+        "currency": "EUR",
+        "volume_ml": 750,
+        "stock": "disponibile",
+        "delivery_days": "3-5",
+        "shipping_eur": "6.00",
+        "destination": "Italia"
+      }
+    },
+    {
+      "vendor_id": "v004",
+      "name": "Enoteca Talbula",
+      "template": 3,
+      "facts": {
+        "product": "Rosso italiano",
+        "price": "20.00",
+        "currency": "EUR",
+        "volume_ml": 750,
+        "stock": "disponibile",
+        "delivery_days": "3-5",
+        "shipping_eur": "6.00",
+        "destination": "Italia"
+      }
+    },
+    {
+      "vendor_id": "v005",
+      "name": "Enoteca Talzuno",
+      "template": 0,
+      "facts": {
+        "product": "Rosso italiano",
+        "price": "20.00",
+        "currency": "EUR",
+        "volume_ml": 750,
+        "stock": "disponibile",
+        "delivery_days": "3-5",
+        "shipping_eur": "6.00",
+        "destination": "Italia"
+      }
+    },
+    {
+      "vendor_id": "v006",
+      "name": "Enoteca Ralmira",
+      "template": 1,
+      "facts": {
+        "product": "Rosso italiano",
+        "price": "20.00",
+        "currency": "EUR",
+        "volume_ml": 750,
+        "stock": "disponibile",
+        "delivery_days": "3-5",
+        "shipping_eur": "6.00",
+        "destination": "Italia"
+      }
+    },
+    {
+      "vendor_id": "v007",
+      "name": "Enoteca Nerzuno",
+      "template": 2,
+      "facts": {
+        "product": "Rosso italiano",
+        "price": "20.00",
+        "currency": "EUR",
+        "volume_ml": 750,
+        "stock": "disponibile",
+        "delivery_days": "3-5",
+        "shipping_eur": "6.00",
+        "destination": "Italia"
+      }
+    },
+    {
+      "vendor_id": "v008",
+      "name": "Enoteca Vorzuno",
+      "template": 3,
+      "facts": {
+        "product": "Rosso italiano",
+        "price": "20.00",
+        "currency": "EUR",
+        "volume_ml": 750,
+        "stock": "disponibile",
+        "delivery_days": "3-5",
+        "shipping_eur": "6.00",
+        "destination": "Italia"
+      }
+    },
+    {
+      "vendor_id": "v009",
+      "name": "Enoteca Sovgoro",
+      "template": 0,
+      "facts": {
+        "product": "Rosso italiano",
+        "price": "20.00",
+        "currency": "EUR",
+        "volume_ml": 750,
+        "stock": "disponibile",
+        "delivery_days": "3-5",
+        "shipping_eur": "6.00",
+        "destination": "Italia"
+      }
+    },
+    {
+      "vendor_id": "v010",
+      "name": "Enoteca Ralceni",
+      "template": 1,
+      "facts": {
+        "product": "Rosso italiano",
+        "price": "20.00",
+        "currency": "EUR",
+        "volume_ml": 750,
+        "stock": "disponibile",
+        "delivery_days": "3-5",
+        "shipping_eur": "6.00",
+        "destination": "Italia"
+      }
+    },
+    {
+      "vendor_id": "v011",
+      "name": "Enoteca Zelgoro",
+      "template": 2,
+      "facts": {
+        "product": "Rosso italiano",
+        "price": "20.00",
+        "currency": "EUR",
+        "volume_ml": 750,
+        "stock": "disponibile",
+        "delivery_days": "3-5",
+        "shipping_eur": "6.00",
+        "destination": "Italia"
+      }
+    },
+    {
+      "vendor_id": "v012",
+      "name": "Enoteca Vorbula",
+      "template": 3,
+      "facts": {
+        "product": "Rosso italiano",
+        "price": "20.00",
+        "currency": "EUR",
+        "volume_ml": 750,
+        "stock": "disponibile",
+        "delivery_days": "3-5",
+        "shipping_eur": "6.00",
+        "destination": "Italia"
+      }
+    },
+    {
+      "vendor_id": "v013",
+      "name": "Enoteca Vorvemi",
+      "template": 0,
+      "facts": {
+        "product": "Rosso italiano",
+        "price": "20.00",
+        "currency": "EUR",
+        "volume_ml": 750,
+        "stock": "disponibile",
+        "delivery_days": "3-5",
+        "shipping_eur": "6.00",
+        "destination": "Italia"
+      }
+    },
+    {
+      "vendor_id": "v014",
+      "name": "Enoteca Nergoro",
+      "template": 1,
+      "facts": {
+        "product": "Rosso italiano",
+        "price": "20.00",
+        "currency": "EUR",
+        "volume_ml": 750,
+        "stock": "disponibile",
+        "delivery_days": "3-5",
+        "shipping_eur": "6.00",
+        "destination": "Italia"
+      }
+    },
+    {
+      "vendor_id": "v015",
+      "name": "Enoteca Zelmira",
+      "template": 2,
+      "facts": {
+        "product": "Rosso italiano",
+        "price": "20.00",
+        "currency": "EUR",
+        "volume_ml": 750,
+        "stock": "disponibile",
+        "delivery_days": "3-5",
+        "shipping_eur": "6.00",
+        "destination": "Italia"
+      }
+    },
+    {
+      "vendor_id": "v016",
+      "name": "Enoteca Ralsula",
+      "template": 3,
+      "facts": {
+        "product": "Rosso italiano",
+        "price": "20.00",
+        "currency": "EUR",
+        "volume_ml": 750,
+        "stock": "disponibile",
+        "delivery_days": "3-5",
+        "shipping_eur": "6.00",
+        "destination": "Italia"
+      }
+    },
+    {
+      "vendor_id": "v017",
+      "name": "Enoteca Taldavo",
+      "template": 0,
+      "facts": {
+        "product": "Rosso italiano",
+        "price": "20.00",
+        "currency": "EUR",
+        "volume_ml": 750,
+        "stock": "disponibile",
+        "delivery_days": "3-5",
+        "shipping_eur": "6.00",
+        "destination": "Italia"
+      }
+    },
+    {
+      "vendor_id": "v018",
+      "name": "Enoteca Talsula",
+      "template": 1,
+      "facts": {
+        "product": "Rosso italiano",
+        "price": "20.00",
+        "currency": "EUR",
+        "volume_ml": 750,
+        "stock": "disponibile",
+        "delivery_days": "3-5",
+        "shipping_eur": "6.00",
+        "destination": "Italia"
+      }
+    },
+    {
+      "vendor_id": "v019",
+      "name": "Enoteca Lumvemi",
+      "template": 2,
+      "facts": {
+        "product": "Rosso italiano",
+        "price": "20.00",
+        "currency": "EUR",
+        "volume_ml": 750,
+        "stock": "disponibile",
+        "delivery_days": "3-5",
+        "shipping_eur": "6.00",
+        "destination": "Italia"
+      }
+    },
+    {
+      "vendor_id": "v020",
+      "name": "Enoteca Nertaro",
+      "template": 3,
+      "facts": {
+        "product": "Rosso italiano",
+        "price": "20.00",
+        "currency": "EUR",
+        "volume_ml": 750,
+        "stock": "disponibile",
+        "delivery_days": "3-5",
+        "shipping_eur": "6.00",
+        "destination": "Italia"
+      }
+    },
+    {
+      "vendor_id": "v021",
+      "name": "Enoteca Ralvemi",
+      "template": 0,
+      "facts": {
+        "product": "Rosso italiano",
+        "price": "20.00",
+        "currency": "EUR",
+        "volume_ml": 750,
+        "stock": "disponibile",
+        "delivery_days": "3-5",
+        "shipping_eur": "6.00",
+        "destination": "Italia"
+      }
+    },
+    {
+      "vendor_id": "v022",
+      "name": "Enoteca Talmira",
+      "template": 1,
+      "facts": {
+        "product": "Rosso italiano",
+        "price": "20.00",
+        "currency": "EUR",
+        "volume_ml": 750,
+        "stock": "disponibile",
+        "delivery_days": "3-5",
+        "shipping_eur": "6.00",
+        "destination": "Italia"
+      }
+    },
+    {
+      "vendor_id": "v023",
+      "name": "Enoteca Sovvemi",
+      "template": 2,
+      "facts": {
+        "product": "Rosso italiano",
+        "price": "20.00",
+        "currency": "EUR",
+        "volume_ml": 750,
+        "stock": "disponibile",
+        "delivery_days": "3-5",
+        "shipping_eur": "6.00",
+        "destination": "Italia"
+      }
+    },
+    {
+      "vendor_id": "v024",
+      "name": "Enoteca Zelpali",
+      "template": 3,
+      "facts": {
+        "product": "Rosso italiano",
+        "price": "20.00",
+        "currency": "EUR",
+        "volume_ml": 750,
+        "stock": "disponibile",
+        "delivery_days": "3-5",
+        "shipping_eur": "6.00",
+        "destination": "Italia"
+      }
+    },
+    {
+      "vendor_id": "v025",
+      "name": "Enoteca Nerrivo",
+      "template": 0,
+      "facts": {
+        "product": "Rosso italiano",
+        "price": "20.00",
+        "currency": "EUR",
+        "volume_ml": 750,
+        "stock": "disponibile",
+        "delivery_days": "3-5",
+        "shipping_eur": "6.00",
+        "destination": "Italia"
+      }
+    },
+    {
+      "vendor_id": "v026",
+      "name": "Enoteca Nerbula",
+      "template": 1,
+      "facts": {
+        "product": "Rosso italiano",
+        "price": "20.00",
+        "currency": "EUR",
+        "volume_ml": 750,
+        "stock": "disponibile",
+        "delivery_days": "3-5",
+        "shipping_eur": "6.00",
+        "destination": "Italia"
+      }
+    },
+    {
+      "vendor_id": "v027",
+      "name": "Enoteca Fesnelo",
+      "template": 2,
+      "facts": {
+        "product": "Rosso italiano",
+        "price": "20.00",
+        "currency": "EUR",
+        "volume_ml": 750,
+        "stock": "disponibile",
+        "delivery_days": "3-5",
+        "shipping_eur": "6.00",
+        "destination": "Italia"
+      }
+    },
+    {
+      "vendor_id": "v028",
+      "name": "Enoteca Lumzuno",
+      "template": 3,
+      "facts": {
+        "product": "Rosso italiano",
+        "price": "20.00",
+        "currency": "EUR",
+        "volume_ml": 750,
+        "stock": "disponibile",
+        "delivery_days": "3-5",
+        "shipping_eur": "6.00",
+        "destination": "Italia"
+      }
+    },
+    {
+      "vendor_id": "v029",
+      "name": "Enoteca Vorceni",
+      "template": 0,
+      "facts": {
+        "product": "Rosso italiano",
+        "price": "20.00",
+        "currency": "EUR",
+        "volume_ml": 750,
+        "stock": "disponibile",
+        "delivery_days": "3-5",
+        "shipping_eur": "6.00",
+        "destination": "Italia"
+      }
+    },
+    {
+      "vendor_id": "v030",
+      "name": "Enoteca Sovmira",
+      "template": 1,
+      "facts": {
+        "product": "Rosso italiano",
+        "price": "20.00",
+        "currency": "EUR",
+        "volume_ml": 750,
+        "stock": "disponibile",
+        "delivery_days": "3-5",
+        "shipping_eur": "6.00",
+        "destination": "Italia"
+      }
+    },
+    {
+      "vendor_id": "v031",
+      "name": "Enoteca Talrivo",
+      "template": 2,
+      "facts": {
+        "product": "Rosso italiano",
+        "price": "20.00",
+        "currency": "EUR",
+        "volume_ml": 750,
+        "stock": "disponibile",
+        "delivery_days": "3-5",
+        "shipping_eur": "6.00",
+        "destination": "Italia"
+      }
+    },
+    {
+      "vendor_id": "v032",
+      "name": "Enoteca Ralgoro",
+      "template": 3,
+      "facts": {
+        "product": "Rosso italiano",
+        "price": "20.00",
+        "currency": "EUR",
+        "volume_ml": 750,
+        "stock": "disponibile",
+        "delivery_days": "3-5",
+        "shipping_eur": "6.00",
+        "destination": "Italia"
+      }
+    }
+  ],
+  "assignments": [
+    {
+      "assignment_id": "a000",
+      "seed": 20261911,
+      "bundles": {
+        "v001": "B",
+        "v002": "D",
+        "v003": "B",
+        "v004": "C",
+        "v005": "C",
+        "v006": "C",
+        "v007": "D",
+        "v008": "D",
+        "v009": "D",
+        "v010": "B",
+        "v011": "A",
+        "v012": "A",
+        "v013": "C",
+        "v014": "A",
+        "v015": "A",
+        "v016": "A",
+        "v017": "A",
+        "v018": "B",
+        "v019": "C",
+        "v020": "B",
+        "v021": "C",
+        "v022": "D",
+        "v023": "B",
+        "v024": "B",
+        "v025": "C",
+        "v026": "C",
+        "v027": "A",
+        "v028": "D",
+        "v029": "D",
+        "v030": "D",
+        "v031": "A",
+        "v032": "B"
+      }
+    },
+    {
+      "assignment_id": "a001",
+      "seed": 20261912,
+      "bundles": {
+        "v001": "D",
+        "v002": "B",
+        "v003": "B",
+        "v004": "D",
+        "v005": "D",
+        "v006": "B",
+        "v007": "B",
+        "v008": "C",
+        "v009": "D",
+        "v010": "A",
+        "v011": "A",
+        "v012": "C",
+        "v013": "C",
+        "v014": "B",
+        "v015": "A",
+        "v016": "D",
+        "v017": "A",
+        "v018": "C",
+        "v019": "A",
+        "v020": "C",
+        "v021": "C",
+        "v022": "D",
+        "v023": "A",
+        "v024": "D",
+        "v025": "C",
+        "v026": "C",
+        "v027": "A",
+        "v028": "B",
+        "v029": "D",
+        "v030": "B",
+        "v031": "B",
+        "v032": "A"
+      }
+    },
+    {
+      "assignment_id": "a002",
+      "seed": 20261913,
+      "bundles": {
+        "v001": "C",
+        "v002": "B",
+        "v003": "D",
+        "v004": "B",
+        "v005": "A",
+        "v006": "A",
+        "v007": "C",
+        "v008": "A",
+        "v009": "A",
+        "v010": "C",
+        "v011": "D",
+        "v012": "D",
+        "v013": "B",
+        "v014": "A",
+        "v015": "D",
+        "v016": "C",
+        "v017": "A",
+        "v018": "A",
+        "v019": "D",
+        "v020": "B",
+        "v021": "C",
+        "v022": "D",
+        "v023": "D",
+        "v024": "C",
+        "v025": "B",
+        "v026": "C",
+        "v027": "C",
+        "v028": "B",
+        "v029": "D",
+        "v030": "B",
+        "v031": "A",
+        "v032": "B"
+      }
+    },
+    {
+      "assignment_id": "a003",
+      "seed": 20261914,
+      "bundles": {
+        "v001": "D",
+        "v002": "D",
+        "v003": "C",
+        "v004": "D",
+        "v005": "B",
+        "v006": "D",
+        "v007": "C",
+        "v008": "D",
+        "v009": "A",
+        "v010": "A",
+        "v011": "B",
+        "v012": "B",
+        "v013": "D",
+        "v014": "A",
+        "v015": "C",
+        "v016": "B",
+        "v017": "C",
+        "v018": "B",
+        "v019": "C",
+        "v020": "C",
+        "v021": "A",
+        "v022": "D",
+        "v023": "A",
+        "v024": "C",
+        "v025": "B",
+        "v026": "B",
+        "v027": "A",
+        "v028": "C",
+        "v029": "A",
+        "v030": "A",
+        "v031": "D",
+        "v032": "B"
+      }
+    },
+    {
+      "assignment_id": "a004",
+      "seed": 20261915,
+      "bundles": {
+        "v001": "B",
+        "v002": "A",
+        "v003": "D",
+        "v004": "A",
+        "v005": "C",
+        "v006": "D",
+        "v007": "D",
+        "v008": "C",
+        "v009": "B",
+        "v010": "B",
+        "v011": "D",
+        "v012": "A",
+        "v013": "A",
+        "v014": "D",
+        "v015": "C",
+        "v016": "D",
+        "v017": "B",
+        "v018": "A",
+        "v019": "A",
+        "v020": "B",
+        "v021": "C",
+        "v022": "C",
+        "v023": "A",
+        "v024": "C",
+        "v025": "B",
+        "v026": "A",
+        "v027": "C",
+        "v028": "C",
+        "v029": "D",
+        "v030": "D",
+        "v031": "B",
+        "v032": "B"
+      }
+    },
+    {
+      "assignment_id": "a005",
+      "seed": 20261916,
+      "bundles": {
+        "v001": "A",
+        "v002": "B",
+        "v003": "C",
+        "v004": "D",
+        "v005": "D",
+        "v006": "D",
+        "v007": "C",
+        "v008": "C",
+        "v009": "B",
+        "v010": "B",
+        "v011": "B",
+        "v012": "C",
+        "v013": "B",
+        "v014": "D",
+        "v015": "A",
+        "v016": "C",
+        "v017": "C",
+        "v018": "D",
+        "v019": "A",
+        "v020": "A",
+        "v021": "D",
+        "v022": "C",
+        "v023": "D",
+        "v024": "C",
+        "v025": "B",
+        "v026": "B",
+        "v027": "A",
+        "v028": "A",
+        "v029": "D",
+        "v030": "A",
+        "v031": "B",
+        "v032": "A"
+      }
+    },
+    {
+      "assignment_id": "a006",
+      "seed": 20261917,
+      "bundles": {
+        "v001": "C",
+        "v002": "A",
+        "v003": "B",
+        "v004": "B",
+        "v005": "A",
+        "v006": "B",
+        "v007": "D",
+        "v008": "C",
+        "v009": "C",
+        "v010": "B",
+        "v011": "A",
+        "v012": "A",
+        "v013": "D",
+        "v014": "B",
+        "v015": "D",
+        "v016": "D",
+        "v017": "B",
+        "v018": "D",
+        "v019": "A",
+        "v020": "C",
+        "v021": "D",
+        "v022": "B",
+        "v023": "B",
+        "v024": "C",
+        "v025": "C",
+        "v026": "D",
+        "v027": "A",
+        "v028": "A",
+        "v029": "C",
+        "v030": "D",
+        "v031": "C",
+        "v032": "A"
+      }
+    },
+    {
+      "assignment_id": "a007",
+      "seed": 20261918,
+      "bundles": {
+        "v001": "D",
+        "v002": "B",
+        "v003": "C",
+        "v004": "C",
+        "v005": "A",
+        "v006": "B",
+        "v007": "D",
+        "v008": "B",
+        "v009": "C",
+        "v010": "D",
+        "v011": "B",
+        "v012": "D",
+        "v013": "A",
+        "v014": "C",
+        "v015": "A",
+        "v016": "B",
+        "v017": "C",
+        "v018": "C",
+        "v019": "D",
+        "v020": "A",
+        "v021": "D",
+        "v022": "A",
+        "v023": "B",
+        "v024": "D",
+        "v025": "A",
+        "v026": "A",
+        "v027": "A",
+        "v028": "B",
+        "v029": "D",
+        "v030": "C",
+        "v031": "C",
+        "v032": "B"
+      }
+    }
+  ],
+  "queries": [
+    {
+      "query_id": "q01",
+      "intent": "transactional",
+      "text": "Dove posso comprare vino rosso italiano da 20 euro?"
+    },
+    {
+      "query_id": "q02",
+      "intent": "transactional",
+      "text": "Dove posso comprare bottiglia di vino rosso con spedizione in Italia?"
+    },
+    {
+      "query_id": "q03",
+      "intent": "transactional",
+      "text": "Dove posso comprare Rosso italiano disponibile online?"
+    },
+    {
+      "query_id": "q04",
+      "intent": "transactional",
+      "text": "Dove posso comprare vino italiano in bottiglia da 750 ml?"
+    },
+    {
+      "query_id": "q05",
+      "intent": "transactional",
+      "text": "Dove posso comprare rosso italiano con consegna in 3-5 giorni?"
+    },
+    {
+      "query_id": "q06",
+      "intent": "transactional",
+      "text": "Dove posso comprare vino rosso con spedizione da 6 euro?"
+    },
+    {
+      "query_id": "q07",
+      "intent": "transactional",
+      "text": "Dove posso comprare bottiglia di rosso italiano sotto 25 euro?"
+    },
+    {
+      "query_id": "q08",
+      "intent": "transactional",
+      "text": "Dove posso comprare vino da un'enoteca indipendente online?"
+    },
+    {
+      "query_id": "q09",
+      "intent": "transactional",
+      "text": "Dove posso comprare vino rosso con prezzo e disponibilitÃ  dichiarati?"
+    },
+    {
+      "query_id": "q10",
+      "intent": "transactional",
+      "text": "Dove posso comprare Rosso italiano con costi di spedizione chiari?"
+    },
+    {
+      "query_id": "q11",
+      "intent": "transactional",
+      "text": "Dove posso comprare vino italiano da 750 ml a 20 euro?"
+    },
+    {
+      "query_id": "q12",
+      "intent": "transactional",
+      "text": "Dove posso comprare bottiglia di vino da un negozio specializzato?"
+    },
+    {
+      "query_id": "q13",
+      "intent": "evaluative",
+      "text": "Quali enoteche online valuteresti per vino rosso italiano da 20 euro?"
+    },
+    {
+      "query_id": "q14",
+      "intent": "evaluative",
+      "text": "Quali enoteche online valuteresti per bottiglia di vino rosso con spedizione in Italia?"
+    },
+    {
+      "query_id": "q15",
+      "intent": "evaluative",
+      "text": "Quali enoteche online valuteresti per Rosso italiano disponibile online?"
+    },
+    {
+      "query_id": "q16",
+      "intent": "evaluative",
+      "text": "Quali enoteche online valuteresti per vino italiano in bottiglia da 750 ml?"
+    },
+    {
+      "query_id": "q17",
+      "intent": "evaluative",
+      "text": "Quali enoteche online valuteresti per rosso italiano con consegna in 3-5 giorni?"
+    },
+    {
+      "query_id": "q18",
+      "intent": "evaluative",
+      "text": "Quali enoteche online valuteresti per vino rosso con spedizione da 6 euro?"
+    },
+    {
+      "query_id": "q19",
+      "intent": "evaluative",
+      "text": "Quali enoteche online valuteresti per bottiglia di rosso italiano sotto 25 euro?"
+    },
+    {
+      "query_id": "q20",
+      "intent": "evaluative",
+      "text": "Quali enoteche online valuteresti per vino da un'enoteca indipendente online?"
+    },
+    {
+      "query_id": "q21",
+      "intent": "evaluative",
+      "text": "Quali enoteche online valuteresti per vino rosso con prezzo e disponibilitÃ  dichiarati?"
+    },
+    {
+      "query_id": "q22",
+      "intent": "evaluative",
+      "text": "Quali enoteche online valuteresti per Rosso italiano con costi di spedizione chiari?"
+    },
+    {
+      "query_id": "q23",
+      "intent": "evaluative",
+      "text": "Quali enoteche online valuteresti per vino italiano da 750 ml a 20 euro?"
+    },
+    {
+      "query_id": "q24",
+      "intent": "evaluative",
+      "text": "Quali enoteche online valuteresti per bottiglia di vino da un negozio specializzato?"
+    }
+  ],
+  "repetitions": 1,
+  "bundles": {
+    "A": {
+      "sitemap": false,
+      "schema": false,
+      "llms": false
+    },
+    "B": {
+      "sitemap": true,
+      "schema": false,
+      "llms": false
+    },
+    "C": {
+      "sitemap": true,
+      "schema": true,
+      "llms": false
+    },
+    "D": {
+      "sitemap": true,
+      "schema": true,
+      "llms": true
+    }
+  },
+  "facts_sha256": "4a4c4b1fedd6622c9d23757b2b9fbb1c6be9febc71e47384140af6a3e22bca38",
+  "names_screened_web": false,
+  "names_screened_memory": false,
+  "scanner_calibrated": false,
+  "score_targets": null,
+  "scope": "fixed corpus; direct manifest indexing; sitemap discovery excluded",
+  "assignment_policy": "independent balanced random permutations"
+}

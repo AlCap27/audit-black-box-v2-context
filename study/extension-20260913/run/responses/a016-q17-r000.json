@@ -1,0 +1,59 @@
+{
+  "request_id": "a016-q17-r000",
+  "assignment_id": "a016",
+  "query_id": "q17",
+  "repetition": 0,
+  "trace_sha256": "224fd1ef94f493918f40419e77620ee83ed2ff45a06947eceb7795c133a4e642",
+  "started_at": 1789335234.2032409,
+  "synthetic": false,
+  "status": "valid",
+  "raw_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"decision\": \"recommend\",\n  \"recommendations\": [\n    {\n      \"name\": \"Enoteca Vorzuno\",\n      \"source\": 1\n    },\n    {\n      \"name\": \"Enoteca Nertaro\",\n      \"source\": 2\n    },\n    {\n      \"name\": \"Enoteca Talbula\",\n      \"source\": 3\n    }\n  ],\n  \"explanation\": \"Queste enoteche offrono il rosso italiano richiesto con tempi di consegna conformi di 3-5 giorni.\"\n}",
+              "thoughtSignature": "EnEKbwERTTIPZ0EIzijGdyb8MhooZ+aub6naaGy8LsqDnbdLjD28oiYjih3xAy3bQnK03FbI8G6ztZk5HU0quwGujeOSC9GsweDnHxGXWWkCA+UDis7msCTc3ip+ioaHJNqER97Tc2roJQ7bGWeG7kAzNw=="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 623,
+      "candidatesTokenCount": 130,
+      "totalTokenCount": 753,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 623
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.1-flash-lite",
+    "responseId": "wxanat2TCLKPxN8PqYHy0AY"
+  },
+  "text": "{\n  \"decision\": \"recommend\",\n  \"recommendations\": [\n    {\n      \"name\": \"Enoteca Vorzuno\",\n      \"source\": 1\n    },\n    {\n      \"name\": \"Enoteca Nertaro\",\n      \"source\": 2\n    },\n    {\n      \"name\": \"Enoteca Talbula\",\n      \"source\": 3\n    }\n  ],\n  \"explanation\": \"Queste enoteche offrono il rosso italiano richiesto con tempi di consegna conformi di 3-5 giorni.\"\n}",
+  "parsed": {
+    "decision": "recommend",
+    "recommended": [
+      "v008",
+      "v020",
+      "v004"
+    ],
+    "unknown_names": [],
+    "unsupported_recommendations": [],
+    "literal_mentions": [
+      "v004",
+      "v008",
+      "v020"
+    ],
+    "explanation": "Queste enoteche offrono il rosso italiano richiesto con tempi di consegna conformi di 3-5 giorni."
+  },
+  "finished_at": 1789335236.2302487
+}

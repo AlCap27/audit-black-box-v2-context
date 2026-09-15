@@ -1,0 +1,143 @@
+{
+  "assignment_id": "a007",
+  "query": {
+    "query_id": "q05",
+    "intent": "transactional",
+    "text": "Dove posso comprare rosso italiano con consegna in 3-5 giorni?"
+  },
+  "retrieved": [
+    {
+      "chunk_id": "editorial/a007/e004.txt:editorial:0",
+      "vendor_id": null,
+      "url": "https://e004.editorial.invalid/",
+      "source": "editorial",
+      "text": "Guida editoriale 5. rosso italiano con consegna in 3-5 giorni. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "word_start": 0,
+      "word_end": 31,
+      "sha256": "e8415f8400383a8da3eac2f456c65fb82928054261a2f5e43a87209ceeb32422",
+      "bm25_score": 4.357140442758137,
+      "rank": 1
+    },
+    {
+      "chunk_id": "editorial/a007/e028.txt:editorial:0",
+      "vendor_id": null,
+      "url": "https://e028.editorial.invalid/",
+      "source": "editorial",
+      "text": "Guida editoriale 29. rosso italiano con consegna in 3-5 giorni. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "word_start": 0,
+      "word_end": 31,
+      "sha256": "abc91633af7af3674a754348ea2b86437a9a2de614747e44ab80d97e95bb6119",
+      "bm25_score": 4.171455852949161,
+      "rank": 2
+    },
+    {
+      "chunk_id": "editorial/a007/e016.txt:editorial:0",
+      "vendor_id": null,
+      "url": "https://e016.editorial.invalid/",
+      "source": "editorial",
+      "text": "Guida editoriale 17. rosso italiano con consegna in 3-5 giorni. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "word_start": 0,
+      "word_end": 31,
+      "sha256": "bd09a75f8e8ee5b2c0041f8d6b082dcdfc4f3a0d3d81f2f291f5bd65c8d107bf",
+      "bm25_score": 4.171455852949161,
+      "rank": 3
+    },
+    {
+      "chunk_id": "sites/a007/v008/index.html:html:0",
+      "vendor_id": "v008",
+      "url": "https://v008.audit.invalid/",
+      "source": "html",
+      "text": "Enoteca Vorzuno Enoteca Vorzuno vende vino online come enoteca indipendente. Rosso italiano costa 20.00 EUR, è disponibile e viene offerto in bottiglie da 750 ml. Spedisce in Italia per 6.00 EUR con consegna in 3-5 giorni.",
+      "word_start": 0,
+      "word_end": 36,
+      "sha256": "625141b70e539b5ae47073d5895883b0a24fdce940f3ce731b50dfe888de045e",
+      "bm25_score": 4.114332433555947,
+      "rank": 4
+    },
+    {
+      "chunk_id": "sites/a007/v012/llms.txt:llms:0",
+      "vendor_id": "v012",
+      "url": "https://v012.audit.invalid/llms.txt",
+      "source": "llms",
+      "text": "# Enoteca Vorbula Enoteca Vorbula vende vino online come enoteca indipendente. Rosso italiano costa 20.00 EUR, è disponibile e viene offerto in bottiglie da 750 ml. Spedisce in Italia per 6.00 EUR con consegna in 3-5 giorni.",
+      "word_start": 0,
+      "word_end": 37,
+      "sha256": "3731e943284282478163ea3e4f36acdcc8343361086cc23ed993bd6f673c8c37",
+      "bm25_score": 4.114332433555947,
+      "rank": 5
+    }
+  ],
+  "shown": [
+    {
+      "chunk_id": "editorial/a007/e004.txt:editorial:0",
+      "vendor_id": null,
+      "url": "https://e004.editorial.invalid/",
+      "source": "editorial",
+      "text": "Guida editoriale 5. rosso italiano con consegna in 3-5 giorni. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "word_start": 0,
+      "word_end": 31,
+      "sha256": "e8415f8400383a8da3eac2f456c65fb82928054261a2f5e43a87209ceeb32422",
+      "bm25_score": 4.357140442758137,
+      "rank": 1,
+      "shown_text": "Guida editoriale 5. rosso italiano con consegna in 3-5 giorni. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "truncated": false
+    },
+    {
+      "chunk_id": "editorial/a007/e028.txt:editorial:0",
+      "vendor_id": null,
+      "url": "https://e028.editorial.invalid/",
+      "source": "editorial",
+      "text": "Guida editoriale 29. rosso italiano con consegna in 3-5 giorni. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "word_start": 0,
+      "word_end": 31,
+      "sha256": "abc91633af7af3674a754348ea2b86437a9a2de614747e44ab80d97e95bb6119",
+      "bm25_score": 4.171455852949161,
+      "rank": 2,
+      "shown_text": "Guida editoriale 29. rosso italiano con consegna in 3-5 giorni. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "truncated": false
+    },
+    {
+      "chunk_id": "editorial/a007/e016.txt:editorial:0",
+      "vendor_id": null,
+      "url": "https://e016.editorial.invalid/",
+      "source": "editorial",
+      "text": "Guida editoriale 17. rosso italiano con consegna in 3-5 giorni. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "word_start": 0,
+      "word_end": 31,
+      "sha256": "bd09a75f8e8ee5b2c0041f8d6b082dcdfc4f3a0d3d81f2f291f5bd65c8d107bf",
+      "bm25_score": 4.171455852949161,
+      "rank": 3,
+      "shown_text": "Guida editoriale 17. rosso italiano con consegna in 3-5 giorni. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "truncated": false
+    },
+    {
+      "chunk_id": "sites/a007/v008/index.html:html:0",
+      "vendor_id": "v008",
+      "url": "https://v008.audit.invalid/",
+      "source": "html",
+      "text": "Enoteca Vorzuno Enoteca Vorzuno vende vino online come enoteca indipendente. Rosso italiano costa 20.00 EUR, è disponibile e viene offerto in bottiglie da 750 ml. Spedisce in Italia per 6.00 EUR con consegna in 3-5 giorni.",
+      "word_start": 0,
+      "word_end": 36,
+      "sha256": "625141b70e539b5ae47073d5895883b0a24fdce940f3ce731b50dfe888de045e",
+      "bm25_score": 4.114332433555947,
+      "rank": 4,
+      "shown_text": "Enoteca Vorzuno Enoteca Vorzuno vende vino online come enoteca indipendente. Rosso italiano costa 20.00 EUR, è disponibile e viene offerto in bottiglie da 750 ml. Spedisce in Italia per 6.00 EUR con consegna in 3-5 giorni.",
+      "truncated": false
+    },
+    {
+      "chunk_id": "sites/a007/v012/llms.txt:llms:0",
+      "vendor_id": "v012",
+      "url": "https://v012.audit.invalid/llms.txt",
+      "source": "llms",
+      "text": "# Enoteca Vorbula Enoteca Vorbula vende vino online come enoteca indipendente. Rosso italiano costa 20.00 EUR, è disponibile e viene offerto in bottiglie da 750 ml. Spedisce in Italia per 6.00 EUR con consegna in 3-5 giorni.",
+      "word_start": 0,
+      "word_end": 37,
+      "sha256": "3731e943284282478163ea3e4f36acdcc8343361086cc23ed993bd6f673c8c37",
+      "bm25_score": 4.114332433555947,
+      "rank": 5,
+      "shown_text": "# Enoteca Vorbula Enoteca Vorbula vende vino online come enoteca indipendente. Rosso italiano costa 20.00 EUR, è disponibile e viene offerto in bottiglie da 750 ml. Spedisce in Italia per 6.00 EUR con consegna in 3-5 giorni.",
+      "truncated": false
+    }
+  ],
+  "prompt": "FONTI:\nFonte 1\nURL: https://e004.editorial.invalid/\nGuida editoriale 5. rosso italiano con consegna in 3-5 giorni. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.\n\nFonte 2\nURL: https://e028.editorial.invalid/\nGuida editoriale 29. rosso italiano con consegna in 3-5 giorni. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.\n\nFonte 3\nURL: https://e016.editorial.invalid/\nGuida editoriale 17. rosso italiano con consegna in 3-5 giorni. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.\n\nFonte 4\nURL: https://v008.audit.invalid/\nEnoteca Vorzuno Enoteca Vorzuno vende vino online come enoteca indipendente. Rosso italiano costa 20.00 EUR, è disponibile e viene offerto in bottiglie da 750 ml. Spedisce in Italia per 6.00 EUR con consegna in 3-5 giorni.\n\nFonte 5\nURL: https://v012.audit.invalid/llms.txt\n# Enoteca Vorbula Enoteca Vorbula vende vino online come enoteca indipendente. Rosso italiano costa 20.00 EUR, è disponibile e viene offerto in bottiglie da 750 ml. Spedisce in Italia per 6.00 EUR con consegna in 3-5 giorni.\n\nRICHIESTA:\nDove posso comprare rosso italiano con consegna in 3-5 giorni?"
+}

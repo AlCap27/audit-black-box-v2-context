@@ -1,0 +1,143 @@
+{
+  "assignment_id": "a000",
+  "query": {
+    "query_id": "q23",
+    "intent": "evaluative",
+    "text": "Quali enoteche online valuteresti per vino italiano da 750 ml a 20 euro?"
+  },
+  "retrieved": [
+    {
+      "chunk_id": "editorial/a000/e010.txt:editorial:0",
+      "vendor_id": null,
+      "url": "https://e010.editorial.invalid/",
+      "source": "editorial",
+      "text": "Guida editoriale 11. vino italiano da 750 ml a 20 euro. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "word_start": 0,
+      "word_end": 32,
+      "sha256": "c2fc9ff7d7603ea1ef7f6cbb4c646c0a0994dc8f5eeeec8d8938181b0b661921",
+      "bm25_score": 6.402153269526956,
+      "rank": 1
+    },
+    {
+      "chunk_id": "editorial/a000/e022.txt:editorial:0",
+      "vendor_id": null,
+      "url": "https://e022.editorial.invalid/",
+      "source": "editorial",
+      "text": "Guida editoriale 23. vino italiano da 750 ml a 20 euro. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "word_start": 0,
+      "word_end": 32,
+      "sha256": "6769351f62303ff3e0c455c63e09c7a28f7914fc818ac176c9d78fb37981fb13",
+      "bm25_score": 6.402153269526956,
+      "rank": 2
+    },
+    {
+      "chunk_id": "sites/a000/v031/index.html:html:0",
+      "vendor_id": "v031",
+      "url": "https://v031.audit.invalid/",
+      "source": "html",
+      "text": "Enoteca Talrivo Acquisto online da Enoteca Talrivo, enoteca indipendente: Rosso italiano disponibile a 20.00 EUR per bottiglia da 750 ml. Il costo di spedizione è 6.00 EUR e la consegna in Italia avviene in 3-5 giorni.",
+      "word_start": 0,
+      "word_end": 36,
+      "sha256": "601eabc42d55a0fb71cc3e7f9a23f37c5f27fa682e709db3976b8b96a779a1ae",
+      "bm25_score": 4.095699816219523,
+      "rank": 3
+    },
+    {
+      "chunk_id": "sites/a000/v003/index.html:html:0",
+      "vendor_id": "v003",
+      "url": "https://v003.audit.invalid/",
+      "source": "html",
+      "text": "Enoteca Sovceni Acquisto online da Enoteca Sovceni, enoteca indipendente: Rosso italiano disponibile a 20.00 EUR per bottiglia da 750 ml. Il costo di spedizione è 6.00 EUR e la consegna in Italia avviene in 3-5 giorni.",
+      "word_start": 0,
+      "word_end": 36,
+      "sha256": "27f54bdbb38daedd04c18c99fdd6cab4e7915b283f73528b2ae4bfa23c647089",
+      "bm25_score": 4.095699816219523,
+      "rank": 4
+    },
+    {
+      "chunk_id": "sites/a000/v027/index.html:html:0",
+      "vendor_id": "v027",
+      "url": "https://v027.audit.invalid/",
+      "source": "html",
+      "text": "Enoteca Fesnelo Acquisto online da Enoteca Fesnelo, enoteca indipendente: Rosso italiano disponibile a 20.00 EUR per bottiglia da 750 ml. Il costo di spedizione è 6.00 EUR e la consegna in Italia avviene in 3-5 giorni.",
+      "word_start": 0,
+      "word_end": 36,
+      "sha256": "446bd446449b2508e8b468136fea022e92c69048b80b565f81058a05ca4c6e95",
+      "bm25_score": 4.095699816219523,
+      "rank": 5
+    }
+  ],
+  "shown": [
+    {
+      "chunk_id": "editorial/a000/e010.txt:editorial:0",
+      "vendor_id": null,
+      "url": "https://e010.editorial.invalid/",
+      "source": "editorial",
+      "text": "Guida editoriale 11. vino italiano da 750 ml a 20 euro. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "word_start": 0,
+      "word_end": 32,
+      "sha256": "c2fc9ff7d7603ea1ef7f6cbb4c646c0a0994dc8f5eeeec8d8938181b0b661921",
+      "bm25_score": 6.402153269526956,
+      "rank": 1,
+      "shown_text": "Guida editoriale 11. vino italiano da 750 ml a 20 euro. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "truncated": false
+    },
+    {
+      "chunk_id": "editorial/a000/e022.txt:editorial:0",
+      "vendor_id": null,
+      "url": "https://e022.editorial.invalid/",
+      "source": "editorial",
+      "text": "Guida editoriale 23. vino italiano da 750 ml a 20 euro. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "word_start": 0,
+      "word_end": 32,
+      "sha256": "6769351f62303ff3e0c455c63e09c7a28f7914fc818ac176c9d78fb37981fb13",
+      "bm25_score": 6.402153269526956,
+      "rank": 2,
+      "shown_text": "Guida editoriale 23. vino italiano da 750 ml a 20 euro. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "truncated": false
+    },
+    {
+      "chunk_id": "sites/a000/v031/index.html:html:0",
+      "vendor_id": "v031",
+      "url": "https://v031.audit.invalid/",
+      "source": "html",
+      "text": "Enoteca Talrivo Acquisto online da Enoteca Talrivo, enoteca indipendente: Rosso italiano disponibile a 20.00 EUR per bottiglia da 750 ml. Il costo di spedizione è 6.00 EUR e la consegna in Italia avviene in 3-5 giorni.",
+      "word_start": 0,
+      "word_end": 36,
+      "sha256": "601eabc42d55a0fb71cc3e7f9a23f37c5f27fa682e709db3976b8b96a779a1ae",
+      "bm25_score": 4.095699816219523,
+      "rank": 3,
+      "shown_text": "Enoteca Talrivo Acquisto online da Enoteca Talrivo, enoteca indipendente: Rosso italiano disponibile a 20.00 EUR per bottiglia da 750 ml. Il costo di spedizione è 6.00 EUR e la consegna in Italia avviene in 3-5 giorni.",
+      "truncated": false
+    },
+    {
+      "chunk_id": "sites/a000/v003/index.html:html:0",
+      "vendor_id": "v003",
+      "url": "https://v003.audit.invalid/",
+      "source": "html",
+      "text": "Enoteca Sovceni Acquisto online da Enoteca Sovceni, enoteca indipendente: Rosso italiano disponibile a 20.00 EUR per bottiglia da 750 ml. Il costo di spedizione è 6.00 EUR e la consegna in Italia avviene in 3-5 giorni.",
+      "word_start": 0,
+      "word_end": 36,
+      "sha256": "27f54bdbb38daedd04c18c99fdd6cab4e7915b283f73528b2ae4bfa23c647089",
+      "bm25_score": 4.095699816219523,
+      "rank": 4,
+      "shown_text": "Enoteca Sovceni Acquisto online da Enoteca Sovceni, enoteca indipendente: Rosso italiano disponibile a 20.00 EUR per bottiglia da 750 ml. Il costo di spedizione è 6.00 EUR e la consegna in Italia avviene in 3-5 giorni.",
+      "truncated": false
+    },
+    {
+      "chunk_id": "sites/a000/v027/index.html:html:0",
+      "vendor_id": "v027",
+      "url": "https://v027.audit.invalid/",
+      "source": "html",
+      "text": "Enoteca Fesnelo Acquisto online da Enoteca Fesnelo, enoteca indipendente: Rosso italiano disponibile a 20.00 EUR per bottiglia da 750 ml. Il costo di spedizione è 6.00 EUR e la consegna in Italia avviene in 3-5 giorni.",
+      "word_start": 0,
+      "word_end": 36,
+      "sha256": "446bd446449b2508e8b468136fea022e92c69048b80b565f81058a05ca4c6e95",
+      "bm25_score": 4.095699816219523,
+      "rank": 5,
+      "shown_text": "Enoteca Fesnelo Acquisto online da Enoteca Fesnelo, enoteca indipendente: Rosso italiano disponibile a 20.00 EUR per bottiglia da 750 ml. Il costo di spedizione è 6.00 EUR e la consegna in Italia avviene in 3-5 giorni.",
+      "truncated": false
+    }
+  ],
+  "prompt": "FONTI:\nFonte 1\nURL: https://e010.editorial.invalid/\nGuida editoriale 11. vino italiano da 750 ml a 20 euro. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.\n\nFonte 2\nURL: https://e022.editorial.invalid/\nGuida editoriale 23. vino italiano da 750 ml a 20 euro. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.\n\nFonte 3\nURL: https://v031.audit.invalid/\nEnoteca Talrivo Acquisto online da Enoteca Talrivo, enoteca indipendente: Rosso italiano disponibile a 20.00 EUR per bottiglia da 750 ml. Il costo di spedizione è 6.00 EUR e la consegna in Italia avviene in 3-5 giorni.\n\nFonte 4\nURL: https://v003.audit.invalid/\nEnoteca Sovceni Acquisto online da Enoteca Sovceni, enoteca indipendente: Rosso italiano disponibile a 20.00 EUR per bottiglia da 750 ml. Il costo di spedizione è 6.00 EUR e la consegna in Italia avviene in 3-5 giorni.\n\nFonte 5\nURL: https://v027.audit.invalid/\nEnoteca Fesnelo Acquisto online da Enoteca Fesnelo, enoteca indipendente: Rosso italiano disponibile a 20.00 EUR per bottiglia da 750 ml. Il costo di spedizione è 6.00 EUR e la consegna in Italia avviene in 3-5 giorni.\n\nRICHIESTA:\nQuali enoteche online valuteresti per vino italiano da 750 ml a 20 euro?"
+}

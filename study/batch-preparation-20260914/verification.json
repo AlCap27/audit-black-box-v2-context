@@ -1,0 +1,15 @@
+{
+  "assignments": 367,
+  "controls": 24,
+  "manifest_files": 919,
+  "network_calls": 0,
+  "python": "3.14.3",
+  "requests": 8832,
+  "retrievals_recomputed": 8808,
+  "sealed": {
+    "confirmatory-design-20260914": 9,
+    "extension-20260913": 2152,
+    "pilot-expanded-20260910": 1479
+  },
+  "status": "PASS"
+}

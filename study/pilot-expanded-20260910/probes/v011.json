@@ -1,0 +1,68 @@
+{
+  "vendor_id": "v011",
+  "name": "Enoteca Zelgoro",
+  "request": {
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "Rispondi sulla base delle tue conoscenze, senza strumenti web. Non inventare informazioni. Dichiara esplicitamente se non conosci il nome richiesto. Rispondi solo con JSON: {\"known\":true oppure false,\"description\":\"breve descrizione oppure stringa vuota\",\"sources\":[\"URL se realmente noto\"]}."
+        }
+      ]
+    },
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Conosci un venditore chiamato Enoteca Zelgoro? Se sì, indica soltanto ciò che sai e le eventuali fonti note. Se no, dichiaralo."
+          }
+        ]
+      }
+    ],
+    "generationConfig": {
+      "temperature": 0,
+      "maxOutputTokens": 256,
+      "responseMimeType": "application/json"
+    }
+  },
+  "started_at": 1789058567.8171294,
+  "status": "valid",
+  "raw_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"known\": false,\n  \"description\": \"Non ho informazioni su un venditore chiamato Enoteca Zelgoro.\",\n  \"sources\": []\n}",
+              "thoughtSignature": "EnEKbwERTTIP69nzoAOXJXOyVWY99UqG47IutJnidwARed76aa8AYdhw6HwDuHq3SUaRtR3TWaAl1XCVr/J5Zf/8HM2BqhCWV4Dg9Gvb/SrLryPxUZ2diwlsXYx98kQN7InLkvixVFVLK3724DSf25bVhw=="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 98,
+      "candidatesTokenCount": 37,
+      "totalTokenCount": 135,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 98
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.1-flash-lite",
+    "responseId": "B96iao-pF5eQxN8P8aeBqAE"
+  },
+  "text": "{\n  \"known\": false,\n  \"description\": \"Non ho informazioni su un venditore chiamato Enoteca Zelgoro.\",\n  \"sources\": []\n}",
+  "parsed": {
+    "known": false,
+    "description": "Non ho informazioni su un venditore chiamato Enoteca Zelgoro.",
+    "sources": []
+  },
+  "finished_at": 1789058569.5557284
+}

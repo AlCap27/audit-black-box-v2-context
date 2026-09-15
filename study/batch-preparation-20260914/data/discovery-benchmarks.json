@@ -1,0 +1,316 @@
+[
+  {
+    "discovered": true,
+    "edges": {
+      "/": [
+        "/product"
+      ]
+    },
+    "reverse": false,
+    "seeds": [
+      "/"
+    ],
+    "sitemap": false,
+    "topology": "direct",
+    "visited": [
+      "/",
+      "/product"
+    ]
+  },
+  {
+    "discovered": true,
+    "edges": {
+      "/": [
+        "/product"
+      ]
+    },
+    "reverse": true,
+    "seeds": [
+      "/"
+    ],
+    "sitemap": false,
+    "topology": "direct",
+    "visited": [
+      "/",
+      "/product"
+    ]
+  },
+  {
+    "discovered": true,
+    "edges": {
+      "/": [
+        "/product"
+      ]
+    },
+    "reverse": false,
+    "seeds": [
+      "/"
+    ],
+    "sitemap": true,
+    "topology": "direct",
+    "visited": [
+      "/",
+      "/product"
+    ]
+  },
+  {
+    "discovered": true,
+    "edges": {
+      "/": [
+        "/product"
+      ]
+    },
+    "reverse": true,
+    "seeds": [
+      "/"
+    ],
+    "sitemap": true,
+    "topology": "direct",
+    "visited": [
+      "/",
+      "/product"
+    ]
+  },
+  {
+    "discovered": true,
+    "edges": {
+      "/": [
+        "/category"
+      ],
+      "/category": [
+        "/product"
+      ]
+    },
+    "reverse": false,
+    "seeds": [
+      "/"
+    ],
+    "sitemap": false,
+    "topology": "chain",
+    "visited": [
+      "/",
+      "/category",
+      "/product"
+    ]
+  },
+  {
+    "discovered": true,
+    "edges": {
+      "/": [
+        "/category"
+      ],
+      "/category": [
+        "/product"
+      ]
+    },
+    "reverse": true,
+    "seeds": [
+      "/"
+    ],
+    "sitemap": false,
+    "topology": "chain",
+    "visited": [
+      "/",
+      "/category",
+      "/product"
+    ]
+  },
+  {
+    "discovered": true,
+    "edges": {
+      "/": [
+        "/category"
+      ],
+      "/category": [
+        "/product"
+      ]
+    },
+    "reverse": false,
+    "seeds": [
+      "/"
+    ],
+    "sitemap": true,
+    "topology": "chain",
+    "visited": [
+      "/",
+      "/product",
+      "/category"
+    ]
+  },
+  {
+    "discovered": true,
+    "edges": {
+      "/": [
+        "/category"
+      ],
+      "/category": [
+        "/product"
+      ]
+    },
+    "reverse": true,
+    "seeds": [
+      "/"
+    ],
+    "sitemap": true,
+    "topology": "chain",
+    "visited": [
+      "/",
+      "/product",
+      "/category"
+    ]
+  },
+  {
+    "discovered": false,
+    "edges": {
+      "/": []
+    },
+    "reverse": false,
+    "seeds": [
+      "/"
+    ],
+    "sitemap": false,
+    "topology": "orphan",
+    "visited": [
+      "/"
+    ]
+  },
+  {
+    "discovered": false,
+    "edges": {
+      "/": []
+    },
+    "reverse": true,
+    "seeds": [
+      "/"
+    ],
+    "sitemap": false,
+    "topology": "orphan",
+    "visited": [
+      "/"
+    ]
+  },
+  {
+    "discovered": true,
+    "edges": {
+      "/": []
+    },
+    "reverse": false,
+    "seeds": [
+      "/"
+    ],
+    "sitemap": true,
+    "topology": "orphan",
+    "visited": [
+      "/",
+      "/product"
+    ]
+  },
+  {
+    "discovered": true,
+    "edges": {
+      "/": []
+    },
+    "reverse": true,
+    "seeds": [
+      "/"
+    ],
+    "sitemap": true,
+    "topology": "orphan",
+    "visited": [
+      "/",
+      "/product"
+    ]
+  },
+  {
+    "discovered": true,
+    "edges": {
+      "/": [
+        "/category"
+      ],
+      "/category": [
+        "/",
+        "/product"
+      ]
+    },
+    "reverse": false,
+    "seeds": [
+      "/"
+    ],
+    "sitemap": false,
+    "topology": "cycle",
+    "visited": [
+      "/",
+      "/category",
+      "/product"
+    ]
+  },
+  {
+    "discovered": true,
+    "edges": {
+      "/": [
+        "/category"
+      ],
+      "/category": [
+        "/",
+        "/product"
+      ]
+    },
+    "reverse": true,
+    "seeds": [
+      "/"
+    ],
+    "sitemap": false,
+    "topology": "cycle",
+    "visited": [
+      "/",
+      "/category",
+      "/product"
+    ]
+  },
+  {
+    "discovered": true,
+    "edges": {
+      "/": [
+        "/category"
+      ],
+      "/category": [
+        "/",
+        "/product"
+      ]
+    },
+    "reverse": false,
+    "seeds": [
+      "/"
+    ],
+    "sitemap": true,
+    "topology": "cycle",
+    "visited": [
+      "/",
+      "/product",
+      "/category"
+    ]
+  },
+  {
+    "discovered": true,
+    "edges": {
+      "/": [
+        "/category"
+      ],
+      "/category": [
+        "/",
+        "/product"
+      ]
+    },
+    "reverse": true,
+    "seeds": [
+      "/"
+    ],
+    "sitemap": true,
+    "topology": "cycle",
+    "visited": [
+      "/",
+      "/product",
+      "/category"
+    ]
+  }
+]

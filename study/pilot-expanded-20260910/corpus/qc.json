@@ -1,0 +1,11 @@
+{
+  "balanced_assignments": true,
+  "fact_sheets_identical": true,
+  "prose_stable_within_vendor": true,
+  "names_unique": true,
+  "score_calibration": "not_run",
+  "name_collision_checks": "not_run",
+  "files": 1024,
+  "spec_sha256": "3eb1817925548c06208a37c7853fefad91db95c6969fb4760e8e9ff382db4ed3",
+  "files_sha256": "96450172b9b44b99408b26ca4354262e5a5cb86f99433ba23e75651d44ae6628"
+}

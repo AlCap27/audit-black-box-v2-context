@@ -1,0 +1,68 @@
+{
+  "vendor_id": "v029",
+  "name": "Enoteca Vorceni",
+  "request": {
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "Rispondi sulla base delle tue conoscenze, senza strumenti web. Non inventare informazioni. Dichiara esplicitamente se non conosci il nome richiesto. Rispondi solo con JSON: {\"known\":true oppure false,\"description\":\"breve descrizione oppure stringa vuota\",\"sources\":[\"URL se realmente noto\"]}."
+        }
+      ]
+    },
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Conosci un venditore chiamato Enoteca Vorceni? Se sì, indica soltanto ciò che sai e le eventuali fonti note. Se no, dichiaralo."
+          }
+        ]
+      }
+    ],
+    "generationConfig": {
+      "temperature": 0,
+      "maxOutputTokens": 256,
+      "responseMimeType": "application/json"
+    }
+  },
+  "started_at": 1789316030.2193651,
+  "status": "valid",
+  "raw_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"known\": false,\n  \"description\": \"Non sono a conoscenza di un venditore o di un'attività commerciale denominata Enoteca Vorceni.\",\n  \"sources\": []\n}",
+              "thoughtSignature": "EnEKbwERTTIP76BYLXxoLV20ssa1k1FTQxyheMqVVG+gdW3Em4uh/bC3PVeO5SEB5XYOpRITTC0t+Y+cGaCnN8EMfepwEHSCHPLoTASdWjYR/6MUBZzWmLD7q0Gx74XhLH/uX4i2MjaSRH45+bRj7Hmmgw=="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 98,
+      "candidatesTokenCount": 45,
+      "totalTokenCount": 143,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 98
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.1-flash-lite",
+    "responseId": "wMumauHmOaOwxN8P-NGaoAE"
+  },
+  "text": "{\n  \"known\": false,\n  \"description\": \"Non sono a conoscenza di un venditore o di un'attività commerciale denominata Enoteca Vorceni.\",\n  \"sources\": []\n}",
+  "parsed": {
+    "known": false,
+    "description": "Non sono a conoscenza di un venditore o di un'attività commerciale denominata Enoteca Vorceni.",
+    "sources": []
+  },
+  "finished_at": 1789316033.4978247
+}

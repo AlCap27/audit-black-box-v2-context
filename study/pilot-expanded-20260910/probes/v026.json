@@ -1,0 +1,68 @@
+{
+  "vendor_id": "v026",
+  "name": "Enoteca Nerbula",
+  "request": {
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "Rispondi sulla base delle tue conoscenze, senza strumenti web. Non inventare informazioni. Dichiara esplicitamente se non conosci il nome richiesto. Rispondi solo con JSON: {\"known\":true oppure false,\"description\":\"breve descrizione oppure stringa vuota\",\"sources\":[\"URL se realmente noto\"]}."
+        }
+      ]
+    },
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Conosci un venditore chiamato Enoteca Nerbula? Se sì, indica soltanto ciò che sai e le eventuali fonti note. Se no, dichiaralo."
+          }
+        ]
+      }
+    ],
+    "generationConfig": {
+      "temperature": 0,
+      "maxOutputTokens": 256,
+      "responseMimeType": "application/json"
+    }
+  },
+  "started_at": 1789316014.297021,
+  "status": "valid",
+  "raw_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"known\": false,\n  \"description\": \"Non sono a conoscenza di un venditore o attività commerciale denominata Enoteca Nerbula.\",\n  \"sources\": []\n}",
+              "thoughtSignature": "EnEKbwERTTIPy7yfuFqV8qvui4CAyierM2dv9DLls56EIprXvN94bL2QPhUne+pPG6JrTC+a9vOATqdPQQhdyv+Hyzyf6jfp5Ua1t4aoENRb8ja/Kf1fn1Ni4cdemVGm2cLC0OcBc0kkyrFyauA95kwKPA=="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 98,
+      "candidatesTokenCount": 42,
+      "totalTokenCount": 140,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 98
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.1-flash-lite",
+    "responseId": "ssumaqE5qe2R1Q_Ln_HwCg"
+  },
+  "text": "{\n  \"known\": false,\n  \"description\": \"Non sono a conoscenza di un venditore o attività commerciale denominata Enoteca Nerbula.\",\n  \"sources\": []\n}",
+  "parsed": {
+    "known": false,
+    "description": "Non sono a conoscenza di un venditore o attività commerciale denominata Enoteca Nerbula.",
+    "sources": []
+  },
+  "finished_at": 1789316019.248271
+}

@@ -1,0 +1,143 @@
+{
+  "assignment_id": "a010",
+  "query": {
+    "query_id": "q16",
+    "intent": "evaluative",
+    "text": "Quali enoteche online valuteresti per vino italiano in bottiglia da 750 ml?"
+  },
+  "retrieved": [
+    {
+      "chunk_id": "sites/a010/v016/index.html:html:0",
+      "vendor_id": "v016",
+      "url": "https://v016.audit.invalid/",
+      "source": "html",
+      "text": "Enoteca Ralsula Enoteca Ralsula vende vino online come enoteca indipendente. Rosso italiano costa 20.00 EUR, è disponibile e viene offerto in bottiglie da 750 ml. Spedisce in Italia per 6.00 EUR con consegna in 3-5 giorni.",
+      "word_start": 0,
+      "word_end": 36,
+      "sha256": "b45732c0174b7487fe417b4b98837a92179bacf598b0e4babc86e55132c38fb8",
+      "bm25_score": 3.201516713389468,
+      "rank": 1
+    },
+    {
+      "chunk_id": "sites/a010/v008/llms.txt:llms:0",
+      "vendor_id": "v008",
+      "url": "https://v008.audit.invalid/llms.txt",
+      "source": "llms",
+      "text": "# Enoteca Vorzuno Enoteca Vorzuno vende vino online come enoteca indipendente. Rosso italiano costa 20.00 EUR, è disponibile e viene offerto in bottiglie da 750 ml. Spedisce in Italia per 6.00 EUR con consegna in 3-5 giorni.",
+      "word_start": 0,
+      "word_end": 37,
+      "sha256": "ce92d17ae702aebe120e3d0e9d455f30c0bdb3931b0d0d1e020268ba60778a80",
+      "bm25_score": 3.201516713389468,
+      "rank": 2
+    },
+    {
+      "chunk_id": "sites/a010/v012/index.html:html:0",
+      "vendor_id": "v012",
+      "url": "https://v012.audit.invalid/",
+      "source": "html",
+      "text": "Enoteca Vorbula Enoteca Vorbula vende vino online come enoteca indipendente. Rosso italiano costa 20.00 EUR, è disponibile e viene offerto in bottiglie da 750 ml. Spedisce in Italia per 6.00 EUR con consegna in 3-5 giorni.",
+      "word_start": 0,
+      "word_end": 36,
+      "sha256": "e0fe55a3dd1a18d7ae486e72cc6a9edbff6734bca9afa57c910349663d4bd8ef",
+      "bm25_score": 3.201516713389468,
+      "rank": 3
+    },
+    {
+      "chunk_id": "sites/a010/v032/index.html:html:0",
+      "vendor_id": "v032",
+      "url": "https://v032.audit.invalid/",
+      "source": "html",
+      "text": "Enoteca Ralgoro Enoteca Ralgoro vende vino online come enoteca indipendente. Rosso italiano costa 20.00 EUR, è disponibile e viene offerto in bottiglie da 750 ml. Spedisce in Italia per 6.00 EUR con consegna in 3-5 giorni.",
+      "word_start": 0,
+      "word_end": 36,
+      "sha256": "e6866529834c0c8fbea6d17b37df6ee21dc74454362cbc49dad2de471264013e",
+      "bm25_score": 3.201516713389468,
+      "rank": 4
+    },
+    {
+      "chunk_id": "sites/a010/v004/index.html:html:0",
+      "vendor_id": "v004",
+      "url": "https://v004.audit.invalid/",
+      "source": "html",
+      "text": "Enoteca Talbula Enoteca Talbula vende vino online come enoteca indipendente. Rosso italiano costa 20.00 EUR, è disponibile e viene offerto in bottiglie da 750 ml. Spedisce in Italia per 6.00 EUR con consegna in 3-5 giorni.",
+      "word_start": 0,
+      "word_end": 36,
+      "sha256": "475c9b54beafd9cfa32bbeff77672d66499c3dc520f797ad3f66a347ec14b8cc",
+      "bm25_score": 3.201516713389468,
+      "rank": 5
+    }
+  ],
+  "shown": [
+    {
+      "chunk_id": "sites/a010/v016/index.html:html:0",
+      "vendor_id": "v016",
+      "url": "https://v016.audit.invalid/",
+      "source": "html",
+      "text": "Enoteca Ralsula Enoteca Ralsula vende vino online come enoteca indipendente. Rosso italiano costa 20.00 EUR, è disponibile e viene offerto in bottiglie da 750 ml. Spedisce in Italia per 6.00 EUR con consegna in 3-5 giorni.",
+      "word_start": 0,
+      "word_end": 36,
+      "sha256": "b45732c0174b7487fe417b4b98837a92179bacf598b0e4babc86e55132c38fb8",
+      "bm25_score": 3.201516713389468,
+      "rank": 1,
+      "shown_text": "Enoteca Ralsula Enoteca Ralsula vende vino online come enoteca indipendente. Rosso italiano costa 20.00 EUR, è disponibile e viene offerto in bottiglie da 750 ml. Spedisce in Italia per 6.00 EUR con consegna in 3-5 giorni.",
+      "truncated": false
+    },
+    {
+      "chunk_id": "sites/a010/v008/llms.txt:llms:0",
+      "vendor_id": "v008",
+      "url": "https://v008.audit.invalid/llms.txt",
+      "source": "llms",
+      "text": "# Enoteca Vorzuno Enoteca Vorzuno vende vino online come enoteca indipendente. Rosso italiano costa 20.00 EUR, è disponibile e viene offerto in bottiglie da 750 ml. Spedisce in Italia per 6.00 EUR con consegna in 3-5 giorni.",
+      "word_start": 0,
+      "word_end": 37,
+      "sha256": "ce92d17ae702aebe120e3d0e9d455f30c0bdb3931b0d0d1e020268ba60778a80",
+      "bm25_score": 3.201516713389468,
+      "rank": 2,
+      "shown_text": "# Enoteca Vorzuno Enoteca Vorzuno vende vino online come enoteca indipendente. Rosso italiano costa 20.00 EUR, è disponibile e viene offerto in bottiglie da 750 ml. Spedisce in Italia per 6.00 EUR con consegna in 3-5 giorni.",
+      "truncated": false
+    },
+    {
+      "chunk_id": "sites/a010/v012/index.html:html:0",
+      "vendor_id": "v012",
+      "url": "https://v012.audit.invalid/",
+      "source": "html",
+      "text": "Enoteca Vorbula Enoteca Vorbula vende vino online come enoteca indipendente. Rosso italiano costa 20.00 EUR, è disponibile e viene offerto in bottiglie da 750 ml. Spedisce in Italia per 6.00 EUR con consegna in 3-5 giorni.",
+      "word_start": 0,
+      "word_end": 36,
+      "sha256": "e0fe55a3dd1a18d7ae486e72cc6a9edbff6734bca9afa57c910349663d4bd8ef",
+      "bm25_score": 3.201516713389468,
+      "rank": 3,
+      "shown_text": "Enoteca Vorbula Enoteca Vorbula vende vino online come enoteca indipendente. Rosso italiano costa 20.00 EUR, è disponibile e viene offerto in bottiglie da 750 ml. Spedisce in Italia per 6.00 EUR con consegna in 3-5 giorni.",
+      "truncated": false
+    },
+    {
+      "chunk_id": "sites/a010/v032/index.html:html:0",
+      "vendor_id": "v032",
+      "url": "https://v032.audit.invalid/",
+      "source": "html",
+      "text": "Enoteca Ralgoro Enoteca Ralgoro vende vino online come enoteca indipendente. Rosso italiano costa 20.00 EUR, è disponibile e viene offerto in bottiglie da 750 ml. Spedisce in Italia per 6.00 EUR con consegna in 3-5 giorni.",
+      "word_start": 0,
+      "word_end": 36,
+      "sha256": "e6866529834c0c8fbea6d17b37df6ee21dc74454362cbc49dad2de471264013e",
+      "bm25_score": 3.201516713389468,
+      "rank": 4,
+      "shown_text": "Enoteca Ralgoro Enoteca Ralgoro vende vino online come enoteca indipendente. Rosso italiano costa 20.00 EUR, è disponibile e viene offerto in bottiglie da 750 ml. Spedisce in Italia per 6.00 EUR con consegna in 3-5 giorni.",
+      "truncated": false
+    },
+    {
+      "chunk_id": "sites/a010/v004/index.html:html:0",
+      "vendor_id": "v004",
+      "url": "https://v004.audit.invalid/",
+      "source": "html",
+      "text": "Enoteca Talbula Enoteca Talbula vende vino online come enoteca indipendente. Rosso italiano costa 20.00 EUR, è disponibile e viene offerto in bottiglie da 750 ml. Spedisce in Italia per 6.00 EUR con consegna in 3-5 giorni.",
+      "word_start": 0,
+      "word_end": 36,
+      "sha256": "475c9b54beafd9cfa32bbeff77672d66499c3dc520f797ad3f66a347ec14b8cc",
+      "bm25_score": 3.201516713389468,
+      "rank": 5,
+      "shown_text": "Enoteca Talbula Enoteca Talbula vende vino online come enoteca indipendente. Rosso italiano costa 20.00 EUR, è disponibile e viene offerto in bottiglie da 750 ml. Spedisce in Italia per 6.00 EUR con consegna in 3-5 giorni.",
+      "truncated": false
+    }
+  ],
+  "prompt": "FONTI:\nFonte 1\nURL: https://v016.audit.invalid/\nEnoteca Ralsula Enoteca Ralsula vende vino online come enoteca indipendente. Rosso italiano costa 20.00 EUR, è disponibile e viene offerto in bottiglie da 750 ml. Spedisce in Italia per 6.00 EUR con consegna in 3-5 giorni.\n\nFonte 2\nURL: https://v008.audit.invalid/llms.txt\n# Enoteca Vorzuno Enoteca Vorzuno vende vino online come enoteca indipendente. Rosso italiano costa 20.00 EUR, è disponibile e viene offerto in bottiglie da 750 ml. Spedisce in Italia per 6.00 EUR con consegna in 3-5 giorni.\n\nFonte 3\nURL: https://v012.audit.invalid/\nEnoteca Vorbula Enoteca Vorbula vende vino online come enoteca indipendente. Rosso italiano costa 20.00 EUR, è disponibile e viene offerto in bottiglie da 750 ml. Spedisce in Italia per 6.00 EUR con consegna in 3-5 giorni.\n\nFonte 4\nURL: https://v032.audit.invalid/\nEnoteca Ralgoro Enoteca Ralgoro vende vino online come enoteca indipendente. Rosso italiano costa 20.00 EUR, è disponibile e viene offerto in bottiglie da 750 ml. Spedisce in Italia per 6.00 EUR con consegna in 3-5 giorni.\n\nFonte 5\nURL: https://v004.audit.invalid/\nEnoteca Talbula Enoteca Talbula vende vino online come enoteca indipendente. Rosso italiano costa 20.00 EUR, è disponibile e viene offerto in bottiglie da 750 ml. Spedisce in Italia per 6.00 EUR con consegna in 3-5 giorni.\n\nRICHIESTA:\nQuali enoteche online valuteresti per vino italiano in bottiglia da 750 ml?"
+}

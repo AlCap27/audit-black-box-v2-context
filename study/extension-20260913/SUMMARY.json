@@ -1,0 +1,199 @@
+{
+  "attempts": 289,
+  "cap": 289,
+  "extension": {
+    "synthetic_generation": false,
+    "response_statuses": {
+      "valid": 288,
+      "not_run": 0
+    },
+    "resolved_model_versions": [
+      "gemini-3.1-flash-lite"
+    ],
+    "bundles": {
+      "A": {
+        "retrieval_units": 2304,
+        "p_retrieved": 0.043402777777777776,
+        "p_name_in_context": 0.043402777777777776,
+        "valid_vendor_response_units": 2304,
+        "p_recommended_valid_responses_only": 0.033854166666666664,
+        "p_recommended_given_name_in_context_descriptive": 0.78
+      },
+      "B": {
+        "retrieval_units": 2304,
+        "p_retrieved": 0.044270833333333336,
+        "p_name_in_context": 0.044270833333333336,
+        "valid_vendor_response_units": 2304,
+        "p_recommended_valid_responses_only": 0.04123263888888889,
+        "p_recommended_given_name_in_context_descriptive": 0.9313725490196079
+      },
+      "C": {
+        "retrieval_units": 2304,
+        "p_retrieved": 0.00043402777777777775,
+        "p_name_in_context": 0.00043402777777777775,
+        "valid_vendor_response_units": 2304,
+        "p_recommended_valid_responses_only": 0,
+        "p_recommended_given_name_in_context_descriptive": 0
+      },
+      "D": {
+        "retrieval_units": 2304,
+        "p_retrieved": 0.04991319444444445,
+        "p_name_in_context": 0.04991319444444445,
+        "valid_vendor_response_units": 2304,
+        "p_recommended_valid_responses_only": 0.04210069444444445,
+        "p_recommended_given_name_in_context_descriptive": 0.8434782608695652
+      }
+    },
+    "D_minus_A_complete_assignment_contrasts": [
+      0.015624999999999997,
+      0.05208333333333333,
+      0.005208333333333329,
+      0.026041666666666664,
+      -0.026041666666666664,
+      0.005208333333333336,
+      0.026041666666666668,
+      0.03645833333333333,
+      0.015625,
+      -0.026041666666666668,
+      0.005208333333333332,
+      -0.036458333333333336
+    ],
+    "D_minus_A_interval": {
+      "estimate": 0.008246527777777776,
+      "lower": -0.008713057104494444,
+      "upper": 0.025206112660049997,
+      "method": "exploratory t interval over independent balanced assignments",
+      "scope": "fixed identities and fixed query set; no population or natural mediation claim"
+    },
+    "valid_response_abstentions": 174,
+    "responses_with_unsupported_recommendations": 0,
+    "responses_with_unknown_names": 0,
+    "leakage_recommendations": 0,
+    "inference_note": "Retrieval is counted once per assignment-query-vendor; API/parse failures are missing, not zero."
+  },
+  "missing_bounds": {
+    "estimand": "D-A recommendation probability over all planned slots",
+    "method": "Worst-case bounds: each missing response can recommend up to three A or three D vendors. No missing-as-zero imputation.",
+    "assignments": [
+      {
+        "assignment_id": "a008",
+        "planned_slots": 24,
+        "missing_slots": 0,
+        "lower": 0.015625,
+        "upper": 0.015625
+      },
+      {
+        "assignment_id": "a009",
+        "planned_slots": 24,
+        "missing_slots": 0,
+        "lower": 0.052083333333333336,
+        "upper": 0.052083333333333336
+      },
+      {
+        "assignment_id": "a010",
+        "planned_slots": 24,
+        "missing_slots": 0,
+        "lower": 0.005208333333333333,
+        "upper": 0.005208333333333333
+      },
+      {
+        "assignment_id": "a011",
+        "planned_slots": 24,
+        "missing_slots": 0,
+        "lower": 0.026041666666666668,
+        "upper": 0.026041666666666668
+      },
+      {
+        "assignment_id": "a012",
+        "planned_slots": 24,
+        "missing_slots": 0,
+        "lower": -0.026041666666666668,
+        "upper": -0.026041666666666668
+      },
+      {
+        "assignment_id": "a013",
+        "planned_slots": 24,
+        "missing_slots": 0,
+        "lower": 0.005208333333333333,
+        "upper": 0.005208333333333333
+      },
+      {
+        "assignment_id": "a014",
+        "planned_slots": 24,
+        "missing_slots": 0,
+        "lower": 0.026041666666666668,
+        "upper": 0.026041666666666668
+      },
+      {
+        "assignment_id": "a015",
+        "planned_slots": 24,
+        "missing_slots": 0,
+        "lower": 0.036458333333333336,
+        "upper": 0.036458333333333336
+      },
+      {
+        "assignment_id": "a016",
+        "planned_slots": 24,
+        "missing_slots": 0,
+        "lower": 0.015625,
+        "upper": 0.015625
+      },
+      {
+        "assignment_id": "a017",
+        "planned_slots": 24,
+        "missing_slots": 0,
+        "lower": -0.026041666666666668,
+        "upper": -0.026041666666666668
+      },
+      {
+        "assignment_id": "a018",
+        "planned_slots": 24,
+        "missing_slots": 0,
+        "lower": 0.005208333333333333,
+        "upper": 0.005208333333333333
+      },
+      {
+        "assignment_id": "a019",
+        "planned_slots": 24,
+        "missing_slots": 0,
+        "lower": -0.036458333333333336,
+        "upper": -0.036458333333333336
+      }
+    ],
+    "mean_lower": 0.008246527777777778,
+    "mean_upper": 0.008246527777777778,
+    "note": "Identification bounds only, not sampling confidence intervals. Run integrity must be verified first."
+  },
+  "combined_complete_assignments": 20,
+  "combined_exploratory_interval": {
+    "estimate": 0.009374999999999998,
+    "lower": -0.003896270940160212,
+    "upper": 0.02264627094016021,
+    "method": "Exploratory t interval, not confirmatory; fixed corpus/query set; stationarity assumed"
+  },
+  "probe_status": "valid",
+  "probe_known": false,
+  "integrity": "Original seal verified; new traces match fresh reconstruction; ledger and source hashes verified",
+  "combined_contrasts": [
+    0.005208333333333329,
+    0.078125,
+    0.0,
+    -0.005208333333333336,
+    -0.010416666666666664,
+    -0.026041666666666664,
+    0.010416666666666664,
+    0.03645833333333333,
+    0.015624999999999997,
+    0.05208333333333333,
+    0.005208333333333329,
+    0.026041666666666664,
+    -0.026041666666666664,
+    0.005208333333333336,
+    0.026041666666666668,
+    0.03645833333333333,
+    0.015625,
+    -0.026041666666666668,
+    0.005208333333333332,
+    -0.036458333333333336
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "assignment_id": "a018",
+  "query": {
+    "query_id": "q02",
+    "intent": "transactional",
+    "text": "Dove posso comprare bottiglia di vino rosso con spedizione in Italia?"
+  },
+  "retrieved": [
+    {
+      "chunk_id": "editorial/a018/e025.txt:editorial:0",
+      "vendor_id": null,
+      "url": "https://e025.editorial.invalid/",
+      "source": "editorial",
+      "text": "Guida editoriale 26. bottiglia di vino rosso con spedizione in Italia. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "word_start": 0,
+      "word_end": 32,
+      "sha256": "f5dd0c3fb94713971ee382cc9c6640909fc65730e231ea3f937431b671e8f988",
+      "bm25_score": 4.749902022788824,
+      "rank": 1
+    },
+    {
+      "chunk_id": "editorial/a018/e013.txt:editorial:0",
+      "vendor_id": null,
+      "url": "https://e013.editorial.invalid/",
+      "source": "editorial",
+      "text": "Guida editoriale 14. bottiglia di vino rosso con spedizione in Italia. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "word_start": 0,
+      "word_end": 32,
+      "sha256": "fb8455c44797d7c32bf08f16fb55f9893f4769df5d4a816beab96d67429f6b24",
+      "bm25_score": 4.749902022788824,
+      "rank": 2
+    },
+    {
+      "chunk_id": "editorial/a018/e001.txt:editorial:0",
+      "vendor_id": null,
+      "url": "https://e001.editorial.invalid/",
+      "source": "editorial",
+      "text": "Guida editoriale 2. bottiglia di vino rosso con spedizione in Italia. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "word_start": 0,
+      "word_end": 32,
+      "sha256": "66d368b13e6e729df5f8adab215fcb8218968dcafdb02a78a98aa1efc7ed22b0",
+      "bm25_score": 4.749902022788824,
+      "rank": 3
+    },
+    {
+      "chunk_id": "editorial/a018/e021.txt:editorial:0",
+      "vendor_id": null,
+      "url": "https://e021.editorial.invalid/",
+      "source": "editorial",
+      "text": "Guida editoriale 22. Rosso italiano con costi di spedizione chiari. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "word_start": 0,
+      "word_end": 31,
+      "sha256": "9f6304a88bd5eb573b08d100e0ec11191b0a4e22fb3ccdde943b9bca90d33da5",
+      "bm25_score": 3.5477341599213443,
+      "rank": 4
+    },
+    {
+      "chunk_id": "editorial/a018/e009.txt:editorial:0",
+      "vendor_id": null,
+      "url": "https://e009.editorial.invalid/",
+      "source": "editorial",
+      "text": "Guida editoriale 10. Rosso italiano con costi di spedizione chiari. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "word_start": 0,
+      "word_end": 31,
+      "sha256": "d0bcd5b8a30827f6f43e4425ac62b83317df9d3820cd7e22e8dc573939f2b89f",
+      "bm25_score": 3.5477341599213443,
+      "rank": 5
+    }
+  ],
+  "shown": [
+    {
+      "chunk_id": "editorial/a018/e025.txt:editorial:0",
+      "vendor_id": null,
+      "url": "https://e025.editorial.invalid/",
+      "source": "editorial",
+      "text": "Guida editoriale 26. bottiglia di vino rosso con spedizione in Italia. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "word_start": 0,
+      "word_end": 32,
+      "sha256": "f5dd0c3fb94713971ee382cc9c6640909fc65730e231ea3f937431b671e8f988",
+      "bm25_score": 4.749902022788824,
+      "rank": 1,
+      "shown_text": "Guida editoriale 26. bottiglia di vino rosso con spedizione in Italia. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "truncated": false
+    },
+    {
+      "chunk_id": "editorial/a018/e013.txt:editorial:0",
+      "vendor_id": null,
+      "url": "https://e013.editorial.invalid/",
+      "source": "editorial",
+      "text": "Guida editoriale 14. bottiglia di vino rosso con spedizione in Italia. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "word_start": 0,
+      "word_end": 32,
+      "sha256": "fb8455c44797d7c32bf08f16fb55f9893f4769df5d4a816beab96d67429f6b24",
+      "bm25_score": 4.749902022788824,
+      "rank": 2,
+      "shown_text": "Guida editoriale 14. bottiglia di vino rosso con spedizione in Italia. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "truncated": false
+    },
+    {
+      "chunk_id": "editorial/a018/e001.txt:editorial:0",
+      "vendor_id": null,
+      "url": "https://e001.editorial.invalid/",
+      "source": "editorial",
+      "text": "Guida editoriale 2. bottiglia di vino rosso con spedizione in Italia. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "word_start": 0,
+      "word_end": 32,
+      "sha256": "66d368b13e6e729df5f8adab215fcb8218968dcafdb02a78a98aa1efc7ed22b0",
+      "bm25_score": 4.749902022788824,
+      "rank": 3,
+      "shown_text": "Guida editoriale 2. bottiglia di vino rosso con spedizione in Italia. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "truncated": false
+    },
+    {
+      "chunk_id": "editorial/a018/e021.txt:editorial:0",
+      "vendor_id": null,
+      "url": "https://e021.editorial.invalid/",
+      "source": "editorial",
+      "text": "Guida editoriale 22. Rosso italiano con costi di spedizione chiari. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "word_start": 0,
+      "word_end": 31,
+      "sha256": "9f6304a88bd5eb573b08d100e0ec11191b0a4e22fb3ccdde943b9bca90d33da5",
+      "bm25_score": 3.5477341599213443,
+      "rank": 4,
+      "shown_text": "Guida editoriale 22. Rosso italiano con costi di spedizione chiari. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "truncated": false
+    },
+    {
+      "chunk_id": "editorial/a018/e009.txt:editorial:0",
+      "vendor_id": null,
+      "url": "https://e009.editorial.invalid/",
+      "source": "editorial",
+      "text": "Guida editoriale 10. Rosso italiano con costi di spedizione chiari. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "word_start": 0,
+      "word_end": 31,
+      "sha256": "d0bcd5b8a30827f6f43e4425ac62b83317df9d3820cd7e22e8dc573939f2b89f",
+      "bm25_score": 3.5477341599213443,
+      "rank": 5,
+      "shown_text": "Guida editoriale 10. Rosso italiano con costi di spedizione chiari. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.",
+      "truncated": false
+    }
+  ],
+  "prompt": "FONTI:\nFonte 1\nURL: https://e025.editorial.invalid/\nGuida editoriale 26. bottiglia di vino rosso con spedizione in Italia. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.\n\nFonte 2\nURL: https://e013.editorial.invalid/\nGuida editoriale 14. bottiglia di vino rosso con spedizione in Italia. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.\n\nFonte 3\nURL: https://e001.editorial.invalid/\nGuida editoriale 2. bottiglia di vino rosso con spedizione in Italia. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.\n\nFonte 4\nURL: https://e021.editorial.invalid/\nGuida editoriale 22. Rosso italiano con costi di spedizione chiari. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.\n\nFonte 5\nURL: https://e009.editorial.invalid/\nGuida editoriale 10. Rosso italiano con costi di spedizione chiari. Una bottiglia di vino rosso italiano si può valutare per stile, prezzo e abbinamenti. Questa guida non identifica venditori o negozi.\n\nRICHIESTA:\nDove posso comprare bottiglia di vino rosso con spedizione in Italia?"
+}

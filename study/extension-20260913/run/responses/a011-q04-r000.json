@@ -1,0 +1,57 @@
+{
+  "request_id": "a011-q04-r000",
+  "assignment_id": "a011",
+  "query_id": "q04",
+  "repetition": 0,
+  "trace_sha256": "31ed7da7862953d5f839bfba807e53cfea382a25678aa9999b570a619c522e5d",
+  "started_at": 1789335901.0891702,
+  "synthetic": false,
+  "status": "valid",
+  "raw_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"decision\": \"recommend\",\n  \"recommendations\": [\n    {\n      \"name\": \"Enoteca Talceni\",\n      \"source\": 4\n    },\n    {\n      \"name\": \"Enoteca Talzuno\",\n      \"source\": 5\n    }\n  ],\n  \"explanation\": \"Le fonti 4 e 5 identificano due enoteche online indipendenti che vendono vino rosso italiano in bottiglia da 750 ml.\"\n}",
+              "thoughtSignature": "EnEKbwERTTIPFEvcR1q6RxXPm7DPCCtBO0lTQT84ukgm5zoVJLl9E1szXymVL+A3dme/kinx+ZPcGcw1XBGa5Dsbz0DRRjpmbUJ87tSejyJX2j/wE7m4ZgoLieKiRZteegJM6jkbZbLUCs7g1GUmXlMrMg=="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 553,
+      "candidatesTokenCount": 111,
+      "totalTokenCount": 664,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 553
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.1-flash-lite",
+    "responseId": "XRmnao2EFurwvdIPjbWJwAY"
+  },
+  "text": "{\n  \"decision\": \"recommend\",\n  \"recommendations\": [\n    {\n      \"name\": \"Enoteca Talceni\",\n      \"source\": 4\n    },\n    {\n      \"name\": \"Enoteca Talzuno\",\n      \"source\": 5\n    }\n  ],\n  \"explanation\": \"Le fonti 4 e 5 identificano due enoteche online indipendenti che vendono vino rosso italiano in bottiglia da 750 ml.\"\n}",
+  "parsed": {
+    "decision": "recommend",
+    "recommended": [
+      "v001",
+      "v005"
+    ],
+    "unknown_names": [],
+    "unsupported_recommendations": [],
+    "literal_mentions": [
+      "v001",
+      "v005"
+    ],
+    "explanation": "Le fonti 4 e 5 identificano due enoteche online indipendenti che vendono vino rosso italiano in bottiglia da 750 ml."
+  },
+  "finished_at": 1789335902.3241758
+}

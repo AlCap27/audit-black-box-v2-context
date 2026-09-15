@@ -1,0 +1,9 @@
+{
+  "planned_calls": 192,
+  "attempts": 192,
+  "complete": true,
+  "statuses": {
+    "valid": 192
+  },
+  "synthetic_generation": false
+}

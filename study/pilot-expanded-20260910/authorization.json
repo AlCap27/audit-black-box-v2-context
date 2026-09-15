@@ -1,0 +1,10 @@
+{
+  "authorized_by_user": "allora procedi",
+  "date": "2026-09-10",
+  "maximum_attempts": 224,
+  "probe_cap": 32,
+  "pilot_cap": 192,
+  "minimum_start_interval_seconds": 5,
+  "model": "gemini-3.1-flash-lite",
+  "infrastructure_changes": false
+}

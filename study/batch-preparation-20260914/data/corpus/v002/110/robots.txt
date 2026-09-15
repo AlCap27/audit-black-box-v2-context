@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://v002.audit.invalid/sitemap.xml

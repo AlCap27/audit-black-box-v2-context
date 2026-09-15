@@ -1,0 +1,20 @@
+{
+  "batch_input_per_million": 0.125,
+  "batch_output_per_million": 0.75,
+  "billing_enabled_by_this_package": false,
+  "budget_total": 30,
+  "confirmatory_requests": 8808,
+  "controls": 24,
+  "currency": "USD",
+  "estimate_at_150_output_tokens": 1.850435,
+  "input_tokens_provisional_reservation": 22813086,
+  "input_tokens_proxy": 6854683,
+  "model": "gemini-3.1-flash-lite",
+  "output_tokens_cap": 10598400,
+  "pricing_checked": "2026-09-14",
+  "project_quota_verified": false,
+  "provisional_max_cost": 10.800436,
+  "requests": 8832,
+  "spent_by_this_preparation": 0,
+  "tokens_counted_by_google": false
+}

@@ -1,0 +1,59 @@
+{
+  "request_id": "a001-q11-r000",
+  "assignment_id": "a001",
+  "query_id": "q11",
+  "repetition": 0,
+  "trace_sha256": "576625fdada28ad145cfacf7bc89580d069d44738d09d49fbfb90062df85a175",
+  "started_at": 1789317246.6997218,
+  "synthetic": false,
+  "status": "valid",
+  "raw_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"decision\": \"recommend\",\n  \"recommendations\": [\n    {\n      \"name\": \"Enoteca Vorceni\",\n      \"source\": 3\n    },\n    {\n      \"name\": \"Enoteca Talceni\",\n      \"source\": 4\n    },\n    {\n      \"name\": \"Enoteca Talzuno\",\n      \"source\": 5\n    }\n  ],\n  \"explanation\": \"Questi tre venditori offrono vino rosso italiano in bottiglie da 750 ml al prezzo richiesto di 20 euro.\"\n}",
+              "thoughtSignature": "EnEKbwERTTIPCAgnyGqtndiVWhEPS58B9aDkTn1xbQ84ze/PfmrjOii4OIcj4HweSZd1YWCvt86VVXWJEyZdDBXxOSrA4DhQr/NfrVVr5qS0Oe8TqZNYO1u9SA3IyHRdWMr6+6kLjrkty0vn8cIjcP+kmQ=="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 583,
+      "candidatesTokenCount": 134,
+      "totalTokenCount": 717,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 583
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.1-flash-lite",
+    "responseId": "ftCmauCYOPyX3boP-6PbwQU"
+  },
+  "text": "{\n  \"decision\": \"recommend\",\n  \"recommendations\": [\n    {\n      \"name\": \"Enoteca Vorceni\",\n      \"source\": 3\n    },\n    {\n      \"name\": \"Enoteca Talceni\",\n      \"source\": 4\n    },\n    {\n      \"name\": \"Enoteca Talzuno\",\n      \"source\": 5\n    }\n  ],\n  \"explanation\": \"Questi tre venditori offrono vino rosso italiano in bottiglie da 750 ml al prezzo richiesto di 20 euro.\"\n}",
+  "parsed": {
+    "decision": "recommend",
+    "recommended": [
+      "v029",
+      "v001",
+      "v005"
+    ],
+    "unknown_names": [],
+    "unsupported_recommendations": [],
+    "literal_mentions": [
+      "v001",
+      "v005",
+      "v029"
+    ],
+    "explanation": "Questi tre venditori offrono vino rosso italiano in bottiglie da 750 ml al prezzo richiesto di 20 euro."
+  },
+  "finished_at": 1789317247.765446
+}

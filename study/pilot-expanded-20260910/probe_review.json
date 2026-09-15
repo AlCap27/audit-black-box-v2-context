@@ -1,0 +1,12 @@
+{
+  "date": "2026-09-13",
+  "proceed": true,
+  "scope": "Exploratory pilot only; not confirmation that all names have no model prior",
+  "attempts": 32,
+  "valid_known_false": 31,
+  "known_true": 0,
+  "missing": ["v019"],
+  "missing_reason": "HTTP 503 on 2026-09-10, not retried",
+  "exclusions": [],
+  "rationale": "No positive collision evidence from exact V1/web screening or completed probes. Retain all identities and disclose incomplete memory screening. Confirmatory screening gate remains incomplete for v019."
+}

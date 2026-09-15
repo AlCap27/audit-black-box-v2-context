@@ -1,0 +1,59 @@
+{
+  "request_id": "a001-q16-r000",
+  "assignment_id": "a001",
+  "query_id": "q16",
+  "repetition": 0,
+  "trace_sha256": "d175a7ff39795b5cc64fe7621c44e281a79752978087f96bd68924b854f3039f",
+  "started_at": 1789316626.7545362,
+  "synthetic": false,
+  "status": "valid",
+  "raw_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"decision\": \"recommend\",\n  \"recommendations\": [\n    {\n      \"name\": \"Enoteca Talbula\",\n      \"source\": 1\n    },\n    {\n      \"name\": \"Enoteca Zelpali\",\n      \"source\": 2\n    },\n    {\n      \"name\": \"Enoteca Ralsula\",\n      \"source\": 3\n    }\n  ],\n  \"explanation\": \"Queste enoteche offrono vino rosso italiano in bottiglie da 750 ml, rispettando i criteri di ricerca richiesti.\"\n}",
+              "thoughtSignature": "EnEKbwERTTIPV+K3+IcGneYPLWD3xM1mkye7VuBcSdgS9K+kiIKixymL61gPOdlToDuHQHW50g0zGZzRVfbWd/Sfbv0/z5B7fMAYToj2T/VI+ZbFsZouMNPeI+0CE176CDp9XkU7B/1MFcvsmnrXIAxBhg=="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 624,
+      "candidatesTokenCount": 134,
+      "totalTokenCount": 758,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 624
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.1-flash-lite",
+    "responseId": "E86matL5CLjixN8Pp5-RoQg"
+  },
+  "text": "{\n  \"decision\": \"recommend\",\n  \"recommendations\": [\n    {\n      \"name\": \"Enoteca Talbula\",\n      \"source\": 1\n    },\n    {\n      \"name\": \"Enoteca Zelpali\",\n      \"source\": 2\n    },\n    {\n      \"name\": \"Enoteca Ralsula\",\n      \"source\": 3\n    }\n  ],\n  \"explanation\": \"Queste enoteche offrono vino rosso italiano in bottiglie da 750 ml, rispettando i criteri di ricerca richiesti.\"\n}",
+  "parsed": {
+    "decision": "recommend",
+    "recommended": [
+      "v004",
+      "v024",
+      "v016"
+    ],
+    "unknown_names": [],
+    "unsupported_recommendations": [],
+    "literal_mentions": [
+      "v004",
+      "v016",
+      "v024"
+    ],
+    "explanation": "Queste enoteche offrono vino rosso italiano in bottiglie da 750 ml, rispettando i criteri di ricerca richiesti."
+  },
+  "finished_at": 1789316628.191097
+}

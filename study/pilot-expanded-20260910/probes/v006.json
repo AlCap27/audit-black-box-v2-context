@@ -1,0 +1,68 @@
+{
+  "vendor_id": "v006",
+  "name": "Enoteca Ralmira",
+  "request": {
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "Rispondi sulla base delle tue conoscenze, senza strumenti web. Non inventare informazioni. Dichiara esplicitamente se non conosci il nome richiesto. Rispondi solo con JSON: {\"known\":true oppure false,\"description\":\"breve descrizione oppure stringa vuota\",\"sources\":[\"URL se realmente noto\"]}."
+        }
+      ]
+    },
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Conosci un venditore chiamato Enoteca Ralmira? Se sì, indica soltanto ciò che sai e le eventuali fonti note. Se no, dichiaralo."
+          }
+        ]
+      }
+    ],
+    "generationConfig": {
+      "temperature": 0,
+      "maxOutputTokens": 256,
+      "responseMimeType": "application/json"
+    }
+  },
+  "started_at": 1789058529.0533707,
+  "status": "valid",
+  "raw_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"known\": false,\n  \"description\": \"Non sono a conoscenza di un venditore o di un'attività commerciale denominata Enoteca Ralmira.\",\n  \"sources\": []\n}",
+              "thoughtSignature": "EnEKbwERTTIPxcMiGgxbYaDd2mlClua/f/qpVws76lIfuNto33K1cFr1LYAtT2PW4vh+4XGFr2yZGN8RUNvrOD7Wv56QIZK6Z7JXCq0Qxa54cMN97uG0bGOmyz/7BJkMSZoaBjQ5tHCdDcPGLB+053ybDg=="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 98,
+      "candidatesTokenCount": 45,
+      "totalTokenCount": 143,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 98
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.1-flash-lite",
+    "responseId": "4t2iaoriH5SLxN8PtfTJqA8"
+  },
+  "text": "{\n  \"known\": false,\n  \"description\": \"Non sono a conoscenza di un venditore o di un'attività commerciale denominata Enoteca Ralmira.\",\n  \"sources\": []\n}",
+  "parsed": {
+    "known": false,
+    "description": "Non sono a conoscenza di un venditore o di un'attività commerciale denominata Enoteca Ralmira.",
+    "sources": []
+  },
+  "finished_at": 1789058538.8085995
+}

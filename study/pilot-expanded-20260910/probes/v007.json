@@ -1,0 +1,68 @@
+{
+  "vendor_id": "v007",
+  "name": "Enoteca Nerzuno",
+  "request": {
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "Rispondi sulla base delle tue conoscenze, senza strumenti web. Non inventare informazioni. Dichiara esplicitamente se non conosci il nome richiesto. Rispondi solo con JSON: {\"known\":true oppure false,\"description\":\"breve descrizione oppure stringa vuota\",\"sources\":[\"URL se realmente noto\"]}."
+        }
+      ]
+    },
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Conosci un venditore chiamato Enoteca Nerzuno? Se sì, indica soltanto ciò che sai e le eventuali fonti note. Se no, dichiaralo."
+          }
+        ]
+      }
+    ],
+    "generationConfig": {
+      "temperature": 0,
+      "maxOutputTokens": 256,
+      "responseMimeType": "application/json"
+    }
+  },
+  "started_at": 1789058538.8253465,
+  "status": "valid",
+  "raw_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"known\": false,\n  \"description\": \"Non sono a conoscenza di un venditore o di un'attività commerciale denominata Enoteca Nerzuno.\",\n  \"sources\": []\n}",
+              "thoughtSignature": "EnEKbwERTTIPR7dFy+Y1YuaxodXNTeoBwF8kcQOVjDFjGH7qKafVZkZBw1mF+jZ9ss9jfZUhm+qwFNndvzPVu66Oczje6Wo6Q4kO87hKEL/jSMq3ks3RNnaEs65hmF8xbg6UKHkMq5qTEFH/tRFRiPXGUg=="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 98,
+      "candidatesTokenCount": 45,
+      "totalTokenCount": 143,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 98
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.1-flash-lite",
+    "responseId": "6t2iao6aHoLQvdIP0O6QmQk"
+  },
+  "text": "{\n  \"known\": false,\n  \"description\": \"Non sono a conoscenza di un venditore o di un'attività commerciale denominata Enoteca Nerzuno.\",\n  \"sources\": []\n}",
+  "parsed": {
+    "known": false,
+    "description": "Non sono a conoscenza di un venditore o di un'attività commerciale denominata Enoteca Nerzuno.",
+    "sources": []
+  },
+  "finished_at": 1789058547.131899
+}

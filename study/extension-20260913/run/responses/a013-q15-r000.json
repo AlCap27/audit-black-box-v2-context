@@ -1,0 +1,57 @@
+{
+  "request_id": "a013-q15-r000",
+  "assignment_id": "a013",
+  "query_id": "q15",
+  "repetition": 0,
+  "trace_sha256": "d4a229c778652972b40514ae734f8e94f219ec8841052d5501970473da4aeca7",
+  "started_at": 1789335890.6290016,
+  "synthetic": false,
+  "status": "valid",
+  "raw_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"decision\": \"recommend\",\n  \"recommendations\": [\n    {\n      \"name\": \"Enoteca Fesnelo\",\n      \"source\": 4\n    },\n    {\n      \"name\": \"Enoteca Ralsula\",\n      \"source\": 5\n    }\n  ],\n  \"explanation\": \"Le due enoteche indicate offrono il vino rosso italiano richiesto, specificandone il prezzo, il formato e le condizioni di spedizione.\"\n}",
+              "thoughtSignature": "EnEKbwERTTIPq3GO2x6ccXGBs5RMuPLIxqyskqji7oyszXx1Rw/HGURrFvhe12HOeZP/R1xX4YWBNn583lVnvu5OqZ7ks4t9PwNv57+wUmxYdR+YISmrHV1vGSiKmDDEzNYNfIY1qv1mdiUPAQUzvHSmgw=="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 524,
+      "candidatesTokenCount": 110,
+      "totalTokenCount": 634,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 524
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.1-flash-lite",
+    "responseId": "UxmnasH5Eayu28oP3b6y-Ao"
+  },
+  "text": "{\n  \"decision\": \"recommend\",\n  \"recommendations\": [\n    {\n      \"name\": \"Enoteca Fesnelo\",\n      \"source\": 4\n    },\n    {\n      \"name\": \"Enoteca Ralsula\",\n      \"source\": 5\n    }\n  ],\n  \"explanation\": \"Le due enoteche indicate offrono il vino rosso italiano richiesto, specificandone il prezzo, il formato e le condizioni di spedizione.\"\n}",
+  "parsed": {
+    "decision": "recommend",
+    "recommended": [
+      "v027",
+      "v016"
+    ],
+    "unknown_names": [],
+    "unsupported_recommendations": [],
+    "literal_mentions": [
+      "v016",
+      "v027"
+    ],
+    "explanation": "Le due enoteche indicate offrono il vino rosso italiano richiesto, specificandone il prezzo, il formato e le condizioni di spedizione."
+  },
+  "finished_at": 1789335892.2461731
+}

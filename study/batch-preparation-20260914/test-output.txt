@@ -1,0 +1,18 @@
+test_admission_calculates_reservation (__main__.OfflineTests.test_admission_calculates_reservation) ... ok
+test_admission_requires_exact_counts_and_controls (__main__.OfflineTests.test_admission_requires_exact_counts_and_controls) ... ok
+test_all_control_outcomes (__main__.OfflineTests.test_all_control_outcomes) ... ok
+test_balance_and_factor_isolation (__main__.OfflineTests.test_balance_and_factor_isolation) ... ok
+test_budget_restart_uncertain_and_cap (__main__.OfflineTests.test_budget_restart_uncertain_and_cap) ... ok
+test_conflicts_versions_errors_pending (__main__.OfflineTests.test_conflicts_versions_errors_pending) ... ok
+test_discovery (__main__.OfflineTests.test_discovery) ... ok
+test_malformed_key_quarantined (__main__.OfflineTests.test_malformed_key_quarantined) ... ok
+test_malformed_raw_import_preserved (__main__.OfflineTests.test_malformed_raw_import_preserved) ... ok
+test_reproducibility (__main__.OfflineTests.test_reproducibility) ... ok
+test_requests_and_context (__main__.OfflineTests.test_requests_and_context) ... ok
+test_shuffle_identical_duplicate_missing (__main__.OfflineTests.test_shuffle_identical_duplicate_missing) ... ok
+test_truncation_not_abstention (__main__.OfflineTests.test_truncation_not_abstention) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 7.900s
+
+OK

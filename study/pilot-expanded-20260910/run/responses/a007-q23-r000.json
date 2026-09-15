@@ -1,0 +1,59 @@
+{
+  "request_id": "a007-q23-r000",
+  "assignment_id": "a007",
+  "query_id": "q23",
+  "repetition": 0,
+  "trace_sha256": "590df707f5b5b1602bc357cdd6a8b066e326a82f7daf4843926c59ed6ac26409",
+  "started_at": 1789316642.819936,
+  "synthetic": false,
+  "status": "valid",
+  "raw_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"decision\": \"recommend\",\n  \"recommendations\": [\n    {\n      \"name\": \"Enoteca Fesnelo\",\n      \"source\": 3\n    },\n    {\n      \"name\": \"Enoteca Sovvemi\",\n      \"source\": 4\n    },\n    {\n      \"name\": \"Enoteca Lumvemi\",\n      \"source\": 5\n    }\n  ],\n  \"explanation\": \"Queste tre enoteche offrono vino rosso italiano da 750 ml al prezzo richiesto di 20 euro.\"\n}",
+              "thoughtSignature": "EnEKbwERTTIPWfy7XP+NapwJ1KYRIXHAQGNDCXljbkDhFR0u5gVAM+EJiR//QMF7y14GSNDij4v2rJvO/IO929IUAO09DhKAFtdfBjdvKqv3XrC4widMxdJOZ7rs3DOkRCGHbnj6oCktJuWVPmEdtzSx1w=="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 581,
+      "candidatesTokenCount": 133,
+      "totalTokenCount": 714,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 581
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.1-flash-lite",
+    "responseId": "I86mar-pAqmc3boP0tn-iA4"
+  },
+  "text": "{\n  \"decision\": \"recommend\",\n  \"recommendations\": [\n    {\n      \"name\": \"Enoteca Fesnelo\",\n      \"source\": 3\n    },\n    {\n      \"name\": \"Enoteca Sovvemi\",\n      \"source\": 4\n    },\n    {\n      \"name\": \"Enoteca Lumvemi\",\n      \"source\": 5\n    }\n  ],\n  \"explanation\": \"Queste tre enoteche offrono vino rosso italiano da 750 ml al prezzo richiesto di 20 euro.\"\n}",
+  "parsed": {
+    "decision": "recommend",
+    "recommended": [
+      "v027",
+      "v023",
+      "v019"
+    ],
+    "unknown_names": [],
+    "unsupported_recommendations": [],
+    "literal_mentions": [
+      "v019",
+      "v023",
+      "v027"
+    ],
+    "explanation": "Queste tre enoteche offrono vino rosso italiano da 750 ml al prezzo richiesto di 20 euro."
+  },
+  "finished_at": 1789316645.6273587
+}

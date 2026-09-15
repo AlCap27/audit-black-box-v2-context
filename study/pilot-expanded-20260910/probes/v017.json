@@ -1,0 +1,68 @@
+{
+  "vendor_id": "v017",
+  "name": "Enoteca Taldavo",
+  "request": {
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "Rispondi sulla base delle tue conoscenze, senza strumenti web. Non inventare informazioni. Dichiara esplicitamente se non conosci il nome richiesto. Rispondi solo con JSON: {\"known\":true oppure false,\"description\":\"breve descrizione oppure stringa vuota\",\"sources\":[\"URL se realmente noto\"]}."
+        }
+      ]
+    },
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Conosci un venditore chiamato Enoteca Taldavo? Se sì, indica soltanto ciò che sai e le eventuali fonti note. Se no, dichiaralo."
+          }
+        ]
+      }
+    ],
+    "generationConfig": {
+      "temperature": 0,
+      "maxOutputTokens": 256,
+      "responseMimeType": "application/json"
+    }
+  },
+  "started_at": 1789058597.4367223,
+  "status": "valid",
+  "raw_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"known\": false,\n  \"description\": \"Non ho informazioni su un venditore chiamato Enoteca Taldavo.\",\n  \"sources\": []\n}",
+              "thoughtSignature": "EnEKbwERTTIP6JbFQoVw468CWSSfmiMk6zrnPG81fidaJy5J4Ov+sOX5b1In9AO/3dh4k9DCKeAG32Nspvgo2nFIPsn/ZMYrIb0zIfmRwCUdNzHe4T5VQhFQhDYyZcB9hEBi/O6Zy+3DC8b6qYz51RN0jg=="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 98,
+      "candidatesTokenCount": 37,
+      "totalTokenCount": 135,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 98
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.1-flash-lite",
+    "responseId": "KN6iapbZHIeo28oPzr2csAE"
+  },
+  "text": "{\n  \"known\": false,\n  \"description\": \"Non ho informazioni su un venditore chiamato Enoteca Taldavo.\",\n  \"sources\": []\n}",
+  "parsed": {
+    "known": false,
+    "description": "Non ho informazioni su un venditore chiamato Enoteca Taldavo.",
+    "sources": []
+  },
+  "finished_at": 1789058604.428587
+}

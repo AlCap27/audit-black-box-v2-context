@@ -1,0 +1,59 @@
+{
+  "request_id": "a018-q17-r000",
+  "assignment_id": "a018",
+  "query_id": "q17",
+  "repetition": 0,
+  "trace_sha256": "45811d05919690eec8a851ecbf2027c1d2862c8004c36d1cdc16b139c395984b",
+  "started_at": 1789334730.6886535,
+  "synthetic": false,
+  "status": "valid",
+  "raw_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"decision\": \"recommend\",\n  \"recommendations\": [\n    {\n      \"name\": \"Enoteca Vorzuno\",\n      \"source\": 1\n    },\n    {\n      \"name\": \"Enoteca Vorbula\",\n      \"source\": 2\n    },\n    {\n      \"name\": \"Enoteca Talbula\",\n      \"source\": 3\n    }\n  ],\n  \"explanation\": \"Questi venditori offrono il vino rosso italiano richiesto con i tempi di consegna specificati di 3-5 giorni.\"\n}",
+              "thoughtSignature": "EnEKbwERTTIPOY1VgxDufl90iOMcWH1d824I8BJcgHicApQOdB9HlK88qF738jPlQgKXHruajjebLdWIZmjpwCAL+ea6guNMJnUtTetMzlOnCy8q39sjlv2URObHjyJSRlxIU8ke98vMvwFRW/mDnGSBkA=="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 618,
+      "candidatesTokenCount": 131,
+      "totalTokenCount": 749,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 618
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.1-flash-lite",
+    "responseId": "yxSnap3sJfvj7M8PlsPK6Ao"
+  },
+  "text": "{\n  \"decision\": \"recommend\",\n  \"recommendations\": [\n    {\n      \"name\": \"Enoteca Vorzuno\",\n      \"source\": 1\n    },\n    {\n      \"name\": \"Enoteca Vorbula\",\n      \"source\": 2\n    },\n    {\n      \"name\": \"Enoteca Talbula\",\n      \"source\": 3\n    }\n  ],\n  \"explanation\": \"Questi venditori offrono il vino rosso italiano richiesto con i tempi di consegna specificati di 3-5 giorni.\"\n}",
+  "parsed": {
+    "decision": "recommend",
+    "recommended": [
+      "v008",
+      "v012",
+      "v004"
+    ],
+    "unknown_names": [],
+    "unsupported_recommendations": [],
+    "literal_mentions": [
+      "v004",
+      "v008",
+      "v012"
+    ],
+    "explanation": "Questi venditori offrono il vino rosso italiano richiesto con i tempi di consegna specificati di 3-5 giorni."
+  },
+  "finished_at": 1789334732.6255646
+}

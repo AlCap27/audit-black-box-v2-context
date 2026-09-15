@@ -1,0 +1,57 @@
+{
+  "request_id": "a017-q05-r000",
+  "assignment_id": "a017",
+  "query_id": "q05",
+  "repetition": 0,
+  "trace_sha256": "2a7bae894e8f7222a673b64eaf85c9df8d3039d4d68dd15daf3bc83532eb5241",
+  "started_at": 1789335245.2373548,
+  "synthetic": false,
+  "status": "valid",
+  "raw_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"decision\": \"recommend\",\n  \"recommendations\": [\n    {\n      \"name\": \"Enoteca Vorzuno\",\n      \"source\": 4\n    },\n    {\n      \"name\": \"Enoteca Nertaro\",\n      \"source\": 5\n    }\n  ],\n  \"explanation\": \"Enoteca Vorzuno ed Enoteca Nertaro offrono vino rosso italiano con consegna prevista entro 3-5 giorni.\"\n}",
+              "thoughtSignature": "EnEKbwERTTIPbAJ9f4LmjgdQzxYOh8wyTIOTZF560SvUVQrBT/Jw0D8Hu1QIQJhhMNHmmte3+5EgRj2ZDiabDtVyfnWqyt7gE9VL/UiliIlqxYDF0E8DXk7yZS7UQv8l+R3L4soyT6De3YIVjiI3OwgNwQ=="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 541,
+      "candidatesTokenCount": 107,
+      "totalTokenCount": 648,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 541
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.1-flash-lite",
+    "responseId": "zRanaqLnCvmVxN8P8Yez0AI"
+  },
+  "text": "{\n  \"decision\": \"recommend\",\n  \"recommendations\": [\n    {\n      \"name\": \"Enoteca Vorzuno\",\n      \"source\": 4\n    },\n    {\n      \"name\": \"Enoteca Nertaro\",\n      \"source\": 5\n    }\n  ],\n  \"explanation\": \"Enoteca Vorzuno ed Enoteca Nertaro offrono vino rosso italiano con consegna prevista entro 3-5 giorni.\"\n}",
+  "parsed": {
+    "decision": "recommend",
+    "recommended": [
+      "v008",
+      "v020"
+    ],
+    "unknown_names": [],
+    "unsupported_recommendations": [],
+    "literal_mentions": [
+      "v008",
+      "v020"
+    ],
+    "explanation": "Enoteca Vorzuno ed Enoteca Nertaro offrono vino rosso italiano con consegna prevista entro 3-5 giorni."
+  },
+  "finished_at": 1789335246.2129037
+}

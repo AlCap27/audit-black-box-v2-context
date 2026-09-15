@@ -1,0 +1,68 @@
+{
+  "vendor_id": "v025",
+  "name": "Enoteca Nerrivo",
+  "request": {
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "Rispondi sulla base delle tue conoscenze, senza strumenti web. Non inventare informazioni. Dichiara esplicitamente se non conosci il nome richiesto. Rispondi solo con JSON: {\"known\":true oppure false,\"description\":\"breve descrizione oppure stringa vuota\",\"sources\":[\"URL se realmente noto\"]}."
+        }
+      ]
+    },
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Conosci un venditore chiamato Enoteca Nerrivo? Se sì, indica soltanto ciò che sai e le eventuali fonti note. Se no, dichiaralo."
+          }
+        ]
+      }
+    ],
+    "generationConfig": {
+      "temperature": 0,
+      "maxOutputTokens": 256,
+      "responseMimeType": "application/json"
+    }
+  },
+  "started_at": 1789316008.8602664,
+  "status": "valid",
+  "raw_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"known\": false,\n  \"description\": \"Non conosco un venditore o un'attività commerciale denominata Enoteca Nerrivo.\",\n  \"sources\": []\n}",
+              "thoughtSignature": "EnEKbwERTTIPzPCP/w+bI02CMCfw9/HZ8zj9JF/JxOGvT+nqbvxiu3xoP7oN6EEci45hkUlqGGQsNdSZDfjeqqIZsSgS28vqZ3gDcdOp2lYleJgdLQK3ziSccKWShGWXjM47DRkjlBlhoN2NzeARPYgiWA=="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 98,
+      "candidatesTokenCount": 41,
+      "totalTokenCount": 139,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 98
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.1-flash-lite",
+    "responseId": "rcumar5Pl5Ldug-Iz4qABQ"
+  },
+  "text": "{\n  \"known\": false,\n  \"description\": \"Non conosco un venditore o un'attività commerciale denominata Enoteca Nerrivo.\",\n  \"sources\": []\n}",
+  "parsed": {
+    "known": false,
+    "description": "Non conosco un venditore o un'attività commerciale denominata Enoteca Nerrivo.",
+    "sources": []
+  },
+  "finished_at": 1789316014.264667
+}

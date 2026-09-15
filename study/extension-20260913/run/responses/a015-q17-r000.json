@@ -1,0 +1,59 @@
+{
+  "request_id": "a015-q17-r000",
+  "assignment_id": "a015",
+  "query_id": "q17",
+  "repetition": 0,
+  "trace_sha256": "279901bd013597bd8c212f0a8d2e3e42a00acccfc409b6c1493fcc20b19f9586",
+  "started_at": 1789335119.3569677,
+  "synthetic": false,
+  "status": "valid",
+  "raw_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"decision\": \"recommend\",\n  \"recommendations\": [\n    {\n      \"name\": \"Enoteca Vorbula\",\n      \"source\": 1\n    },\n    {\n      \"name\": \"Enoteca Lumzuno\",\n      \"source\": 2\n    },\n    {\n      \"name\": \"Enoteca Ralgoro\",\n      \"source\": 3\n    }\n  ],\n  \"explanation\": \"Questi tre venditori offrono il rosso italiano richiesto con le tempistiche di consegna specificate di 3-5 giorni.\"\n}",
+              "thoughtSignature": "EnEKbwERTTIPEuMMKT3yQaFaMD7ZkCMs2nha4M619b9jJfuMyqVcVFI7/644csX10nd1S2rS/uqs30levO+ZVatEJkaRq0LjbAntBsZnphiLWhsGRhNNm583/1LaJ4DYREcIK1STndubJPTJmA1iH8pUMA=="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 618,
+      "candidatesTokenCount": 132,
+      "totalTokenCount": 750,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 618
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.1-flash-lite",
+    "responseId": "UBanauHrB-KT3boP-pKs0AU"
+  },
+  "text": "{\n  \"decision\": \"recommend\",\n  \"recommendations\": [\n    {\n      \"name\": \"Enoteca Vorbula\",\n      \"source\": 1\n    },\n    {\n      \"name\": \"Enoteca Lumzuno\",\n      \"source\": 2\n    },\n    {\n      \"name\": \"Enoteca Ralgoro\",\n      \"source\": 3\n    }\n  ],\n  \"explanation\": \"Questi tre venditori offrono il rosso italiano richiesto con le tempistiche di consegna specificate di 3-5 giorni.\"\n}",
+  "parsed": {
+    "decision": "recommend",
+    "recommended": [
+      "v012",
+      "v028",
+      "v032"
+    ],
+    "unknown_names": [],
+    "unsupported_recommendations": [],
+    "literal_mentions": [
+      "v012",
+      "v028",
+      "v032"
+    ],
+    "explanation": "Questi tre venditori offrono il rosso italiano richiesto con le tempistiche di consegna specificate di 3-5 giorni."
+  },
+  "finished_at": 1789335121.138423
+}

@@ -1,0 +1,59 @@
+{
+  "request_id": "a019-q16-r000",
+  "assignment_id": "a019",
+  "query_id": "q16",
+  "repetition": 0,
+  "trace_sha256": "30bab8e55d4b72b79c62afd64ba53adbd301741044dd130fadb963798e11100d",
+  "started_at": 1789335573.852155,
+  "synthetic": false,
+  "status": "valid",
+  "raw_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"decision\": \"recommend\",\n  \"recommendations\": [\n    {\n      \"name\": \"Enoteca Ralsula\",\n      \"source\": 1\n    },\n    {\n      \"name\": \"Enoteca Nertaro\",\n      \"source\": 2\n    },\n    {\n      \"name\": \"Enoteca Vorbula\",\n      \"source\": 3\n    }\n  ],\n  \"explanation\": \"Questi tre venditori offrono Rosso italiano in bottiglia da 750 ml, rispettando i criteri richiesti.\"\n}",
+              "thoughtSignature": "EnEKbwERTTIPZf6n+cXDw/vYEVZSLaAg/Yy6DT9s4eXkSgSXLvavBjMI5HrWizdn5imyUDqqnfQgBMgyCeGKXTeboe9vBiE3IdTyt+96TQS81aseZAfQrS9xXhuijvx+ch/Oy9PbwsdKSPsKopPEutDP6Q=="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 613,
+      "candidatesTokenCount": 131,
+      "totalTokenCount": 744,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 613
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.1-flash-lite",
+    "responseId": "FRinapC3LuW8vdIPndXk0A0"
+  },
+  "text": "{\n  \"decision\": \"recommend\",\n  \"recommendations\": [\n    {\n      \"name\": \"Enoteca Ralsula\",\n      \"source\": 1\n    },\n    {\n      \"name\": \"Enoteca Nertaro\",\n      \"source\": 2\n    },\n    {\n      \"name\": \"Enoteca Vorbula\",\n      \"source\": 3\n    }\n  ],\n  \"explanation\": \"Questi tre venditori offrono Rosso italiano in bottiglia da 750 ml, rispettando i criteri richiesti.\"\n}",
+  "parsed": {
+    "decision": "recommend",
+    "recommended": [
+      "v016",
+      "v020",
+      "v012"
+    ],
+    "unknown_names": [],
+    "unsupported_recommendations": [],
+    "literal_mentions": [
+      "v012",
+      "v016",
+      "v020"
+    ],
+    "explanation": "Questi tre venditori offrono Rosso italiano in bottiglia da 750 ml, rispettando i criteri richiesti."
+  },
+  "finished_at": 1789335576.0097725
+}

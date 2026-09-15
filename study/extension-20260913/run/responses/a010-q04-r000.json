@@ -1,0 +1,57 @@
+{
+  "request_id": "a010-q04-r000",
+  "assignment_id": "a010",
+  "query_id": "q04",
+  "repetition": 0,
+  "trace_sha256": "c93b8a194c585f42d205c48543dc61b210c4f49f1a21f678d74dcf3c6f227434",
+  "started_at": 1789335395.6160192,
+  "synthetic": false,
+  "status": "valid",
+  "raw_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"decision\": \"recommend\",\n  \"recommendations\": [\n    {\n      \"name\": \"Enoteca Vorvemi\",\n      \"source\": 4\n    },\n    {\n      \"name\": \"Enoteca Talzuno\",\n      \"source\": 5\n    }\n  ],\n  \"explanation\": \"Le fonti 4 e 5 indicano due enoteche online che vendono vino rosso italiano in bottiglia da 750 ml.\"\n}",
+              "thoughtSignature": "EnEKbwERTTIPQNyOnwmI8sNBojnKvIvl91MMMtdZYHtXQupyJJwKFNyTyltp4JQRiZ5qG8aSxBP071AU4AI+Hn8KgkPZuqMF/tOqpejgaJzRX1h8b4+uT9Go1W1TkpkRI/D68d31HRxjt4yqssGTMLXFfA=="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 548,
+      "candidatesTokenCount": 109,
+      "totalTokenCount": 657,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 548
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.1-flash-lite",
+    "responseId": "ZBenat2WH6CckdUP5YiFyQY"
+  },
+  "text": "{\n  \"decision\": \"recommend\",\n  \"recommendations\": [\n    {\n      \"name\": \"Enoteca Vorvemi\",\n      \"source\": 4\n    },\n    {\n      \"name\": \"Enoteca Talzuno\",\n      \"source\": 5\n    }\n  ],\n  \"explanation\": \"Le fonti 4 e 5 indicano due enoteche online che vendono vino rosso italiano in bottiglia da 750 ml.\"\n}",
+  "parsed": {
+    "decision": "recommend",
+    "recommended": [
+      "v013",
+      "v005"
+    ],
+    "unknown_names": [],
+    "unsupported_recommendations": [],
+    "literal_mentions": [
+      "v005",
+      "v013"
+    ],
+    "explanation": "Le fonti 4 e 5 indicano due enoteche online che vendono vino rosso italiano in bottiglia da 750 ml."
+  },
+  "finished_at": 1789335398.0093331
+}

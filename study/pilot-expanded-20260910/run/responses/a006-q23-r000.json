@@ -1,0 +1,59 @@
+{
+  "request_id": "a006-q23-r000",
+  "assignment_id": "a006",
+  "query_id": "q23",
+  "repetition": 0,
+  "trace_sha256": "f039b4795e58ace5620cef4fa844b9d866e31bb85d56572c50f3fd4bec415654",
+  "started_at": 1789316679.15514,
+  "synthetic": false,
+  "status": "valid",
+  "raw_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"decision\": \"recommend\",\n  \"recommendations\": [\n    {\n      \"name\": \"Enoteca Vorvemi\",\n      \"source\": 3\n    },\n    {\n      \"name\": \"Enoteca Taldavo\",\n      \"source\": 4\n    },\n    {\n      \"name\": \"Enoteca Ralvemi\",\n      \"source\": 5\n    }\n  ],\n  \"explanation\": \"Queste enoteche offrono vino rosso italiano in bottiglia da 750 ml al prezzo richiesto di 20 euro.\"\n}",
+              "thoughtSignature": "EnEKbwERTTIPnGOwcfsH815dys3jMC95f8k4f90KVJ6PWZHFVdBO+hbugVlAFJSGvI/QmvRmulVzI3WqYPncW69EaiSaeeRaG4o2pMkoZ4VmXuqC6mYpVdcwNBPbPD5EaurBvOpnuAeEFTT5SiNv9y1VzA=="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 584,
+      "candidatesTokenCount": 134,
+      "totalTokenCount": 718,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 584
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.1-flash-lite",
+    "responseId": "R86matHdGuW8vdIPndXk0A0"
+  },
+  "text": "{\n  \"decision\": \"recommend\",\n  \"recommendations\": [\n    {\n      \"name\": \"Enoteca Vorvemi\",\n      \"source\": 3\n    },\n    {\n      \"name\": \"Enoteca Taldavo\",\n      \"source\": 4\n    },\n    {\n      \"name\": \"Enoteca Ralvemi\",\n      \"source\": 5\n    }\n  ],\n  \"explanation\": \"Queste enoteche offrono vino rosso italiano in bottiglia da 750 ml al prezzo richiesto di 20 euro.\"\n}",
+  "parsed": {
+    "decision": "recommend",
+    "recommended": [
+      "v013",
+      "v017",
+      "v021"
+    ],
+    "unknown_names": [],
+    "unsupported_recommendations": [],
+    "literal_mentions": [
+      "v013",
+      "v017",
+      "v021"
+    ],
+    "explanation": "Queste enoteche offrono vino rosso italiano in bottiglia da 750 ml al prezzo richiesto di 20 euro."
+  },
+  "finished_at": 1789316680.366732
+}

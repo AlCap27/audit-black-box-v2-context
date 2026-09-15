@@ -1,0 +1,59 @@
+{
+  "request_id": "a014-q17-r000",
+  "assignment_id": "a014",
+  "query_id": "q17",
+  "repetition": 0,
+  "trace_sha256": "bde87ec77754602cef3dae0714e4d013c0c287834fc3d68bf82bab010707f6bb",
+  "started_at": 1789335446.3373256,
+  "synthetic": false,
+  "status": "valid",
+  "raw_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"decision\": \"recommend\",\n  \"recommendations\": [\n    {\n      \"name\": \"Enoteca Vorzuno\",\n      \"source\": 1\n    },\n    {\n      \"name\": \"Enoteca Zelpali\",\n      \"source\": 2\n    },\n    {\n      \"name\": \"Enoteca Talbula\",\n      \"source\": 3\n    }\n  ],\n  \"explanation\": \"Questi tre venditori offrono rosso italiano al prezzo di 20.00 EUR con tempi di consegna conformi alla richiesta di 3-5 giorni.\"\n}",
+              "thoughtSignature": "EnEKbwERTTIPZDixVeaTbEuqMNQXemWlGYcMIyJQP1tGfGFuLZ4MUjIu5akzfXX9bBKsekymJsjuYkxJnDCXNM+5P/0wPc9Jk7albxTcRcdMDTNZILyrL6GR05io3jj0yqDKPLjz2vLLQobnRAnDKzdmEQ=="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 618,
+      "candidatesTokenCount": 139,
+      "totalTokenCount": 757,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 618
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.1-flash-lite",
+    "responseId": "lhenau-yNba_vdIPw5rFuQs"
+  },
+  "text": "{\n  \"decision\": \"recommend\",\n  \"recommendations\": [\n    {\n      \"name\": \"Enoteca Vorzuno\",\n      \"source\": 1\n    },\n    {\n      \"name\": \"Enoteca Zelpali\",\n      \"source\": 2\n    },\n    {\n      \"name\": \"Enoteca Talbula\",\n      \"source\": 3\n    }\n  ],\n  \"explanation\": \"Questi tre venditori offrono rosso italiano al prezzo di 20.00 EUR con tempi di consegna conformi alla richiesta di 3-5 giorni.\"\n}",
+  "parsed": {
+    "decision": "recommend",
+    "recommended": [
+      "v008",
+      "v024",
+      "v004"
+    ],
+    "unknown_names": [],
+    "unsupported_recommendations": [],
+    "literal_mentions": [
+      "v004",
+      "v008",
+      "v024"
+    ],
+    "explanation": "Questi tre venditori offrono rosso italiano al prezzo di 20.00 EUR con tempi di consegna conformi alla richiesta di 3-5 giorni."
+  },
+  "finished_at": 1789335447.903942
+}

@@ -1,0 +1,57 @@
+{
+  "request_id": "a019-q05-r000",
+  "assignment_id": "a019",
+  "query_id": "q05",
+  "repetition": 0,
+  "trace_sha256": "d39432e79a375f8c36785f162df146c660d5a1e2cfc959217b494fde64522a76",
+  "started_at": 1789335483.2188318,
+  "synthetic": false,
+  "status": "valid",
+  "raw_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"decision\": \"recommend\",\n  \"recommendations\": [\n    {\n      \"name\": \"Enoteca Ralsula\",\n      \"source\": 4\n    },\n    {\n      \"name\": \"Enoteca Nertaro\",\n      \"source\": 5\n    }\n  ],\n  \"explanation\": \"Entrambi i venditori offrono vino rosso italiano con consegna entro i 3-5 giorni richiesti.\"\n}",
+              "thoughtSignature": "EnEKbwERTTIP7GbhWnnOJl5vguxTiY3HPkQBXLZNmg3SE88ViUMDhF6pzYQ/KUdD9lSiUnypsVJVZ3WHEbvVWZHrofTTn2BblHYBQob9HzFOkFZ8dMt+8z7OY4om8IJnd2pgodHBD7eHW4ishrIHOXBbeg=="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 541,
+      "candidatesTokenCount": 102,
+      "totalTokenCount": 643,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 541
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.1-flash-lite",
+    "responseId": "uxenarSBDJ2Y28oPmMW58Qo"
+  },
+  "text": "{\n  \"decision\": \"recommend\",\n  \"recommendations\": [\n    {\n      \"name\": \"Enoteca Ralsula\",\n      \"source\": 4\n    },\n    {\n      \"name\": \"Enoteca Nertaro\",\n      \"source\": 5\n    }\n  ],\n  \"explanation\": \"Entrambi i venditori offrono vino rosso italiano con consegna entro i 3-5 giorni richiesti.\"\n}",
+  "parsed": {
+    "decision": "recommend",
+    "recommended": [
+      "v016",
+      "v020"
+    ],
+    "unknown_names": [],
+    "unsupported_recommendations": [],
+    "literal_mentions": [
+      "v016",
+      "v020"
+    ],
+    "explanation": "Entrambi i venditori offrono vino rosso italiano con consegna entro i 3-5 giorni richiesti."
+  },
+  "finished_at": 1789335485.3581018
+}

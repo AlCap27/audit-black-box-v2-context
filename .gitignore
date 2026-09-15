@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.env
+.env.*
+*.pem
+*.key
+credentials/
+secrets/
+work/ssh/
+*api-key.txt
+*tunnel-token*
+runtime/

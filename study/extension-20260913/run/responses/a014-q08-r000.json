@@ -1,0 +1,57 @@
+{
+  "request_id": "a014-q08-r000",
+  "assignment_id": "a014",
+  "query_id": "q08",
+  "repetition": 0,
+  "trace_sha256": "ee7d04df5465a0c8cca44918db96eb8c064813dd1cb864416e951058d9cac248",
+  "started_at": 1789334704.4709628,
+  "synthetic": false,
+  "status": "valid",
+  "raw_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"decision\": \"recommend\",\n  \"recommendations\": [\n    {\n      \"name\": \"Enoteca Talzuno\",\n      \"source\": 4\n    },\n    {\n      \"name\": \"Enoteca Talceni\",\n      \"source\": 5\n    }\n  ],\n  \"explanation\": \"Le fonti 4 e 5 identificano due enoteche online indipendenti che vendono vino rosso italiano.\"\n}",
+              "thoughtSignature": "EnEKbwERTTIPyMo6trup19/BgmsMf7HwgTP/fniTAwsUGq3i3kXGzmUOBDlxXUkIaZdMH+0Bk6HAn8Ol3SzSR5kPyUfDcxAaH1/Ywy+XEuMsHVy3luf9YHCDIF04aXetTxy9uXTk8UM1g12mABsXPAhQ5g=="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 536,
+      "candidatesTokenCount": 102,
+      "totalTokenCount": 638,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 536
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.1-flash-lite",
+    "responseId": "sBSnatW-GNixnsEP_tHe4Ac"
+  },
+  "text": "{\n  \"decision\": \"recommend\",\n  \"recommendations\": [\n    {\n      \"name\": \"Enoteca Talzuno\",\n      \"source\": 4\n    },\n    {\n      \"name\": \"Enoteca Talceni\",\n      \"source\": 5\n    }\n  ],\n  \"explanation\": \"Le fonti 4 e 5 identificano due enoteche online indipendenti che vendono vino rosso italiano.\"\n}",
+  "parsed": {
+    "decision": "recommend",
+    "recommended": [
+      "v005",
+      "v001"
+    ],
+    "unknown_names": [],
+    "unsupported_recommendations": [],
+    "literal_mentions": [
+      "v001",
+      "v005"
+    ],
+    "explanation": "Le fonti 4 e 5 identificano due enoteche online indipendenti che vendono vino rosso italiano."
+  },
+  "finished_at": 1789334707.3523595
+}

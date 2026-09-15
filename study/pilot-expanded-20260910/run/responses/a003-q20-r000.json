@@ -1,0 +1,57 @@
+{
+  "request_id": "a003-q20-r000",
+  "assignment_id": "a003",
+  "query_id": "q20",
+  "repetition": 0,
+  "trace_sha256": "8c0104ebb60eadc61c32f656edde3be1328a5fd42d0ad46fdcc0ddf5c8f0caf3",
+  "started_at": 1789316096.4743698,
+  "synthetic": false,
+  "status": "valid",
+  "raw_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"decision\": \"recommend\",\n  \"recommendations\": [\n    {\n      \"name\": \"Enoteca Vorceni\",\n      \"source\": 4\n    },\n    {\n      \"name\": \"Enoteca Nerrivo\",\n      \"source\": 5\n    }\n  ],\n  \"explanation\": \"Le enoteche selezionate sono le uniche presenti nelle fonti fornite che operano come enoteche online indipendenti per la vendita di vino rosso.\"\n}",
+              "thoughtSignature": "EnEKbwERTTIPlajCbgicue3SRnKCQxHJL0IC/8T0Rb5a67nzfiwcg7Q2CKCL8zqCjOvOCJK7ZtcAj9lXlGKMgwbatSIkIBfAwZMf9aRFHSbPftI6mEiw5LvyKvgfLVHQP3ty89M/Efyp5mtgqxJVjXTwlA=="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 537,
+      "candidatesTokenCount": 111,
+      "totalTokenCount": 648,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 537
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.1-flash-lite",
+    "responseId": "AMymaqXfK5ye3boPz9_kiQU"
+  },
+  "text": "{\n  \"decision\": \"recommend\",\n  \"recommendations\": [\n    {\n      \"name\": \"Enoteca Vorceni\",\n      \"source\": 4\n    },\n    {\n      \"name\": \"Enoteca Nerrivo\",\n      \"source\": 5\n    }\n  ],\n  \"explanation\": \"Le enoteche selezionate sono le uniche presenti nelle fonti fornite che operano come enoteche online indipendenti per la vendita di vino rosso.\"\n}",
+  "parsed": {
+    "decision": "recommend",
+    "recommended": [
+      "v029",
+      "v025"
+    ],
+    "unknown_names": [],
+    "unsupported_recommendations": [],
+    "literal_mentions": [
+      "v025",
+      "v029"
+    ],
+    "explanation": "Le enoteche selezionate sono le uniche presenti nelle fonti fornite che operano come enoteche online indipendenti per la vendita di vino rosso."
+  },
+  "finished_at": 1789316097.8162954
+}

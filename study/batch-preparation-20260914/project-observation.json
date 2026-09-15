@@ -1,0 +1,15 @@
+{
+  "observed_date": "2026-09-14",
+  "method": "read-only AI Studio rendered UI",
+  "project_id": "gen-lang-client-0393363402",
+  "project_name": "audit black-box",
+  "tier": "free",
+  "model_ui_label": "Gemini 3.1 Flash Lite",
+  "ordinary_limits": {"RPM": 15, "TPM": 250000, "RPD": 500},
+  "historical_peak_last_28_days": {"RPM": 13, "TPM_rounded": 6890, "RPD": 494},
+  "remaining_today": null,
+  "batch_project_limit": null,
+  "batch_project_limit_reason": "Not exposed by the observed rate-limit page; public tier table is not project evidence",
+  "generation_api_calls": 0,
+  "billing_activated": false
+}

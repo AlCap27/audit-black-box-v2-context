@@ -1,0 +1,57 @@
+{
+  "request_id": "a001-q03-r000",
+  "assignment_id": "a001",
+  "query_id": "q03",
+  "repetition": 0,
+  "trace_sha256": "af6306b7d032eee87a34d173f3293dfb567892ff957795d4f68c54dcb2bf0ed4",
+  "started_at": 1789317081.6265423,
+  "synthetic": false,
+  "status": "valid",
+  "raw_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"decision\": \"recommend\",\n  \"recommendations\": [\n    {\n      \"name\": \"Enoteca Sovmira\",\n      \"source\": 4\n    },\n    {\n      \"name\": \"Enoteca Ralpali\",\n      \"source\": 5\n    }\n  ],\n  \"explanation\": \"Le fonti 4 e 5 identificano due enoteche online dove è possibile acquistare il vino Rosso italiano richiesto.\"\n}",
+              "thoughtSignature": "EnEKbwERTTIPeAf4S8qPN2D9xg6YB+Vq2xK3hAv2rNep1hncxCJ595pUjX7CXl8ZqZHMDC35ksKlX+cZaZujauVVKRIXUhbmLfiMM7eIOVMRhuBzDmd9FT6xQQvboCClWABdhXMwltmwoUno4ovohpROLQ=="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 513,
+      "candidatesTokenCount": 104,
+      "totalTokenCount": 617,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 513
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.1-flash-lite",
+    "responseId": "2c-maqmKN7jixN8Pp5-RoQg"
+  },
+  "text": "{\n  \"decision\": \"recommend\",\n  \"recommendations\": [\n    {\n      \"name\": \"Enoteca Sovmira\",\n      \"source\": 4\n    },\n    {\n      \"name\": \"Enoteca Ralpali\",\n      \"source\": 5\n    }\n  ],\n  \"explanation\": \"Le fonti 4 e 5 identificano due enoteche online dove è possibile acquistare il vino Rosso italiano richiesto.\"\n}",
+  "parsed": {
+    "decision": "recommend",
+    "recommended": [
+      "v030",
+      "v002"
+    ],
+    "unknown_names": [],
+    "unsupported_recommendations": [],
+    "literal_mentions": [
+      "v002",
+      "v030"
+    ],
+    "explanation": "Le fonti 4 e 5 identificano due enoteche online dove è possibile acquistare il vino Rosso italiano richiesto."
+  },
+  "finished_at": 1789317082.8032997
+}

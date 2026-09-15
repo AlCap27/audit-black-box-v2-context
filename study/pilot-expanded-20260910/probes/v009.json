@@ -1,0 +1,68 @@
+{
+  "vendor_id": "v009",
+  "name": "Enoteca Sovgoro",
+  "request": {
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "Rispondi sulla base delle tue conoscenze, senza strumenti web. Non inventare informazioni. Dichiara esplicitamente se non conosci il nome richiesto. Rispondi solo con JSON: {\"known\":true oppure false,\"description\":\"breve descrizione oppure stringa vuota\",\"sources\":[\"URL se realmente noto\"]}."
+        }
+      ]
+    },
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Conosci un venditore chiamato Enoteca Sovgoro? Se sì, indica soltanto ciò che sai e le eventuali fonti note. Se no, dichiaralo."
+          }
+        ]
+      }
+    ],
+    "generationConfig": {
+      "temperature": 0,
+      "maxOutputTokens": 256,
+      "responseMimeType": "application/json"
+    }
+  },
+  "started_at": 1789058555.3824558,
+  "status": "valid",
+  "raw_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"known\": false,\n  \"description\": \"Non sono a conoscenza di un venditore o attività commerciale denominata Enoteca Sovgoro.\",\n  \"sources\": []\n}",
+              "thoughtSignature": "EnEKbwERTTIPOp8rfQTPd2rnxvVuEozXWcjc6A3qgVm1PHEeLVK944cHctj49Je1CP86Zw6acd5OXH8YMJ3oSnhVCGGGcX5U+P4NVgrznx88EWU0eqbLvdPmSnSKmuAkO6XHVn05TLEzobVtYKll1YbRVQ=="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 98,
+      "candidatesTokenCount": 42,
+      "totalTokenCount": 140,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 98
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.1-flash-lite",
+    "responseId": "-t2iaqu-OMjskdUPlev16QM"
+  },
+  "text": "{\n  \"known\": false,\n  \"description\": \"Non sono a conoscenza di un venditore o attività commerciale denominata Enoteca Sovgoro.\",\n  \"sources\": []\n}",
+  "parsed": {
+    "known": false,
+    "description": "Non sono a conoscenza di un venditore o attività commerciale denominata Enoteca Sovgoro.",
+    "sources": []
+  },
+  "finished_at": 1789058562.386715
+}

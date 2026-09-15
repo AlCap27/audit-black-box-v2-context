@@ -1,0 +1,59 @@
+{
+  "request_id": "a000-q16-r000",
+  "assignment_id": "a000",
+  "query_id": "q16",
+  "repetition": 0,
+  "trace_sha256": "e7dc7d9227e280ac1b7f22739e854edc27c0f8471557b0204a0001107bfd80c1",
+  "started_at": 1789316879.3250122,
+  "synthetic": false,
+  "status": "valid",
+  "raw_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"decision\": \"recommend\",\n  \"recommendations\": [\n    {\n      \"name\": \"Enoteca Vorbula\",\n      \"source\": 1\n    },\n    {\n      \"name\": \"Enoteca Zelpali\",\n      \"source\": 2\n    },\n    {\n      \"name\": \"Enoteca Lumzuno\",\n      \"source\": 3\n    }\n  ],\n  \"explanation\": \"Questi tre venditori offrono vino rosso italiano in bottiglie da 750 ml alle medesime condizioni di prezzo e spedizione.\"\n}",
+              "thoughtSignature": "EnEKbwERTTIPd+DqHXiuSk0nEiOtpTKEG19LPBk/SwUn4kRiS4DxjEk+jVTlMFdgBODhjKA05mCg+MDrEiyJUlP5Nl7vh0ziXVqKlUyUaB0oiDJUILpXdJro/2ttx7Il3TosstxqPEsWIZUMYOb44earyQ=="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 614,
+      "candidatesTokenCount": 135,
+      "totalTokenCount": 749,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 614
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.1-flash-lite",
+    "responseId": "D8-matWOIMaU3boPu9PewAo"
+  },
+  "text": "{\n  \"decision\": \"recommend\",\n  \"recommendations\": [\n    {\n      \"name\": \"Enoteca Vorbula\",\n      \"source\": 1\n    },\n    {\n      \"name\": \"Enoteca Zelpali\",\n      \"source\": 2\n    },\n    {\n      \"name\": \"Enoteca Lumzuno\",\n      \"source\": 3\n    }\n  ],\n  \"explanation\": \"Questi tre venditori offrono vino rosso italiano in bottiglie da 750 ml alle medesime condizioni di prezzo e spedizione.\"\n}",
+  "parsed": {
+    "decision": "recommend",
+    "recommended": [
+      "v012",
+      "v024",
+      "v028"
+    ],
+    "unknown_names": [],
+    "unsupported_recommendations": [],
+    "literal_mentions": [
+      "v012",
+      "v024",
+      "v028"
+    ],
+    "explanation": "Questi tre venditori offrono vino rosso italiano in bottiglie da 750 ml alle medesime condizioni di prezzo e spedizione."
+  },
+  "finished_at": 1789316880.3607442
+}

@@ -1,0 +1,68 @@
+{
+  "vendor_id": "v004",
+  "name": "Enoteca Talbula",
+  "request": {
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "Rispondi sulla base delle tue conoscenze, senza strumenti web. Non inventare informazioni. Dichiara esplicitamente se non conosci il nome richiesto. Rispondi solo con JSON: {\"known\":true oppure false,\"description\":\"breve descrizione oppure stringa vuota\",\"sources\":[\"URL se realmente noto\"]}."
+        }
+      ]
+    },
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Conosci un venditore chiamato Enoteca Talbula? Se sì, indica soltanto ciò che sai e le eventuali fonti note. Se no, dichiaralo."
+          }
+        ]
+      }
+    ],
+    "generationConfig": {
+      "temperature": 0,
+      "maxOutputTokens": 256,
+      "responseMimeType": "application/json"
+    }
+  },
+  "started_at": 1789058518.987158,
+  "status": "valid",
+  "raw_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"known\": false,\n  \"description\": \"Non ho informazioni su un venditore chiamato Enoteca Talbula.\",\n  \"sources\": []\n}",
+              "thoughtSignature": "EnEKbwERTTIPyHlPTOUlqMq0ovYnty9dZb7X9uk4UbHomXCmYzHdRd6NNjp6dgiqiPDzjHt3dO/ufB8vg/aUJLhZl1gJRs/iqYvDQ9JClxuwz4okLx18Cmsz87r9zfQ+urPsssqCkg4UMVz/ct+Gjrro/Q=="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 98,
+      "candidatesTokenCount": 37,
+      "totalTokenCount": 135,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 98
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.1-flash-lite",
+    "responseId": "2N2iaq7SDY2UvdIP3uaIwQ8"
+  },
+  "text": "{\n  \"known\": false,\n  \"description\": \"Non ho informazioni su un venditore chiamato Enoteca Talbula.\",\n  \"sources\": []\n}",
+  "parsed": {
+    "known": false,
+    "description": "Non ho informazioni su un venditore chiamato Enoteca Talbula.",
+    "sources": []
+  },
+  "finished_at": 1789058525.8645325
+}

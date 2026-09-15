@@ -1,0 +1,68 @@
+{
+  "vendor_id": "v013",
+  "name": "Enoteca Vorvemi",
+  "request": {
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "Rispondi sulla base delle tue conoscenze, senza strumenti web. Non inventare informazioni. Dichiara esplicitamente se non conosci il nome richiesto. Rispondi solo con JSON: {\"known\":true oppure false,\"description\":\"breve descrizione oppure stringa vuota\",\"sources\":[\"URL se realmente noto\"]}."
+        }
+      ]
+    },
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Conosci un venditore chiamato Enoteca Vorvemi? Se sì, indica soltanto ciò che sai e le eventuali fonti note. Se no, dichiaralo."
+          }
+        ]
+      }
+    ],
+    "generationConfig": {
+      "temperature": 0,
+      "maxOutputTokens": 256,
+      "responseMimeType": "application/json"
+    }
+  },
+  "started_at": 1789058577.6705236,
+  "status": "valid",
+  "raw_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"known\": false,\n  \"description\": \"Non conosco un venditore o un'attività commerciale denominata Enoteca Vorvemi.\",\n  \"sources\": []\n}",
+              "thoughtSignature": "EnEKbwERTTIPJToDmEcRoS/T752gfFNI/CZq/gJet1Wk1NRsmwV1YNvaz141xIyGkI+EfZs1R3iQijAItcK+lQw/KjwLIDuagCbaW3N14Pbn8RNkmbHAtKp7vlaJx2s9kBWIaqOmkTv46GftZAvOAgkuXg=="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 98,
+      "candidatesTokenCount": 41,
+      "totalTokenCount": 139,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 98
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.1-flash-lite",
+    "responseId": "Ed6iaqv6GJGCxs0P_L7WkQ8"
+  },
+  "text": "{\n  \"known\": false,\n  \"description\": \"Non conosco un venditore o un'attività commerciale denominata Enoteca Vorvemi.\",\n  \"sources\": []\n}",
+  "parsed": {
+    "known": false,
+    "description": "Non conosco un venditore o un'attività commerciale denominata Enoteca Vorvemi.",
+    "sources": []
+  },
+  "finished_at": 1789058585.850998
+}

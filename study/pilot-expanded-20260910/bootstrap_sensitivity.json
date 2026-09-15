@@ -1,0 +1,73 @@
+{
+  "status": "EMPIRICAL_SHAPE_SENSITIVITY_NOT_VALIDATED_GENERATIVE_MODEL",
+  "simulations_per_scenario": 10000,
+  "seed": 20260913,
+  "source": "Eight observed assignment contrasts centered to zero; resampling with replacement; alternative is additive +.02.",
+  "limits": [
+    "Only eight empirical contrasts, unknown tail shape.",
+    "Resampling preserves observed between-assignment shape, but additive alternative is not a mechanistic model of retrieval or top-3 competition.",
+    "Not sufficient alone to pass confirmatory power gate."
+  ],
+  "rows": [
+    {
+      "assignments": 8,
+      "assumed_additive_effect": 0,
+      "rejection_rate": 0.1092,
+      "monte_carlo_se": 0.003118899806021348
+    },
+    {
+      "assignments": 8,
+      "assumed_additive_effect": 0.02,
+      "rejection_rate": 0.276,
+      "monte_carlo_se": 0.004470167782086037
+    },
+    {
+      "assignments": 23,
+      "assumed_additive_effect": 0,
+      "rejection_rate": 0.0662,
+      "monte_carlo_se": 0.0024863137372423457
+    },
+    {
+      "assignments": 23,
+      "assumed_additive_effect": 0.02,
+      "rejection_rate": 0.9328,
+      "monte_carlo_se": 0.0025036804907974984
+    },
+    {
+      "assignments": 32,
+      "assumed_additive_effect": 0,
+      "rejection_rate": 0.0593,
+      "monte_carlo_se": 0.0023618532977304073
+    },
+    {
+      "assignments": 32,
+      "assumed_additive_effect": 0.02,
+      "rejection_rate": 0.9907,
+      "monte_carlo_se": 0.0009598703037389986
+    },
+    {
+      "assignments": 64,
+      "assumed_additive_effect": 0,
+      "rejection_rate": 0.0574,
+      "monte_carlo_se": 0.0023260533097932213
+    },
+    {
+      "assignments": 64,
+      "assumed_additive_effect": 0.02,
+      "rejection_rate": 1.0,
+      "monte_carlo_se": 0.0
+    },
+    {
+      "assignments": 88,
+      "assumed_additive_effect": 0,
+      "rejection_rate": 0.0511,
+      "monte_carlo_se": 0.0022020170299068987
+    },
+    {
+      "assignments": 88,
+      "assumed_additive_effect": 0.02,
+      "rejection_rate": 1.0,
+      "monte_carlo_se": 0.0
+    }
+  ]
+}

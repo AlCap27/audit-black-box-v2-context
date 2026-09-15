@@ -1,0 +1,11 @@
+{
+  "bounded_inference.py": "404f3163ea16d8237792f73d04df16616bf039e0d0bb7530de94bfe4ccce6bcd",
+  "DECISIONS.md": "3c16ffe7f95087cf26ff550911a43c0473127060a9ce257d848a526891b3dbeb",
+  "DESIGN.md": "1f03dfbe777ce3ae757a5a750a8fbc27be8933ec3bce704a9f2ee4c78622514a",
+  "power-results.json": "669c68170d269b1da298d3edccb52044f26e44a3cb7e260add3441e879e31080",
+  "power-sensitivity.md": "149b42657c13384a58515ae83b31129c3acd6656fafea2ca5f47b9bc36a79a60",
+  "power_analysis.py": "5adda6bebbfaea471419e88ce0db192acca32421f72355b8f96e97f57ef4d339",
+  "PROTOCOL.md": "d5c9a2d5725bb30e558239bfaf4f0be71c871f9dde735279b880aa4c867d0798",
+  "render_power_report.py": "127ebce9009b845989aba180c994d68c91d3d29414abc6e26e9723c601570e17",
+  "test_planning.py": "c95b9816033aab1a8a02ae459bab998f4e50636cd67fed3d5311f92531ad2f5e"
+}

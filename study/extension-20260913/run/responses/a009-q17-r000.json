@@ -1,0 +1,59 @@
+{
+  "request_id": "a009-q17-r000",
+  "assignment_id": "a009",
+  "query_id": "q17",
+  "repetition": 0,
+  "trace_sha256": "ebbb29faf8c4d5d006e4ec5d6f656fd78599fc25ce0f32cdedda7a6917ec7a15",
+  "started_at": 1789335159.3234413,
+  "synthetic": false,
+  "status": "valid",
+  "raw_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"decision\": \"recommend\",\n  \"recommendations\": [\n    {\n      \"name\": \"Enoteca Vorzuno\",\n      \"source\": 1\n    },\n    {\n      \"name\": \"Enoteca Nertaro\",\n      \"source\": 2\n    },\n    {\n      \"name\": \"Enoteca Zelpali\",\n      \"source\": 3\n    }\n  ],\n  \"explanation\": \"Questi tre venditori offrono il vino rosso italiano richiesto e garantiscono una consegna entro i 3-5 giorni indicati.\"\n}",
+              "thoughtSignature": "EnEKbwERTTIPMWRMCihXWQvSPFPpyH1yCRP0h88UItvMArFdhY3HgJLwW90zppihqcWduiiGuZoxCKHzf5U4AoStfMchuvlagnBCdB3eJILfRqgpZBvuHU8S+k0DWciUKZD4+f23lGCzBHJlsneBRTRblQ=="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 618,
+      "candidatesTokenCount": 133,
+      "totalTokenCount": 751,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 618
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.1-flash-lite",
+    "responseId": "eBanarfbBsbinsEPxuutwAo"
+  },
+  "text": "{\n  \"decision\": \"recommend\",\n  \"recommendations\": [\n    {\n      \"name\": \"Enoteca Vorzuno\",\n      \"source\": 1\n    },\n    {\n      \"name\": \"Enoteca Nertaro\",\n      \"source\": 2\n    },\n    {\n      \"name\": \"Enoteca Zelpali\",\n      \"source\": 3\n    }\n  ],\n  \"explanation\": \"Questi tre venditori offrono il vino rosso italiano richiesto e garantiscono una consegna entro i 3-5 giorni indicati.\"\n}",
+  "parsed": {
+    "decision": "recommend",
+    "recommended": [
+      "v008",
+      "v020",
+      "v024"
+    ],
+    "unknown_names": [],
+    "unsupported_recommendations": [],
+    "literal_mentions": [
+      "v008",
+      "v020",
+      "v024"
+    ],
+    "explanation": "Questi tre venditori offrono il vino rosso italiano richiesto e garantiscono una consegna entro i 3-5 giorni indicati."
+  },
+  "finished_at": 1789335161.398188
+}

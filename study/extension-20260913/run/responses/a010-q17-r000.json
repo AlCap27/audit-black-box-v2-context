@@ -1,0 +1,59 @@
+{
+  "request_id": "a010-q17-r000",
+  "assignment_id": "a010",
+  "query_id": "q17",
+  "repetition": 0,
+  "trace_sha256": "364c2765756317dfdf56f1eb32853b54543124c9bc969d6367890c67e1eaa1a1",
+  "started_at": 1789335109.2239723,
+  "synthetic": false,
+  "status": "valid",
+  "raw_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"decision\": \"recommend\",\n  \"recommendations\": [\n    {\n      \"name\": \"Enoteca Ralsula\",\n      \"source\": 1\n    },\n    {\n      \"name\": \"Enoteca Vorzuno\",\n      \"source\": 2\n    },\n    {\n      \"name\": \"Enoteca Vorbula\",\n      \"source\": 3\n    }\n  ],\n  \"explanation\": \"Questi venditori offrono vino rosso italiano a 20.00 EUR con consegna prevista in 3-5 giorni lavorativi.\"\n}",
+              "thoughtSignature": "EnEKbwERTTIPVdyF1GlWOAMjDyQ7ZaduuQRhbAhkz7RxE8+X1ibSt9+1H6CZwBnYuUujr2beq0eTKJ3/Jwqdk6294Ii8e0AfaxEUcTJQR17bPvUIE1rfhKsnp+i1IZ0hw2W/aF/Ff+TmHMh8LLFK+LjlgA=="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 613,
+      "candidatesTokenCount": 134,
+      "totalTokenCount": 747,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 613
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.1-flash-lite",
+    "responseId": "RhanavTiC_G6nsEPjbf84Ac"
+  },
+  "text": "{\n  \"decision\": \"recommend\",\n  \"recommendations\": [\n    {\n      \"name\": \"Enoteca Ralsula\",\n      \"source\": 1\n    },\n    {\n      \"name\": \"Enoteca Vorzuno\",\n      \"source\": 2\n    },\n    {\n      \"name\": \"Enoteca Vorbula\",\n      \"source\": 3\n    }\n  ],\n  \"explanation\": \"Questi venditori offrono vino rosso italiano a 20.00 EUR con consegna prevista in 3-5 giorni lavorativi.\"\n}",
+  "parsed": {
+    "decision": "recommend",
+    "recommended": [
+      "v016",
+      "v008",
+      "v012"
+    ],
+    "unknown_names": [],
+    "unsupported_recommendations": [],
+    "literal_mentions": [
+      "v008",
+      "v012",
+      "v016"
+    ],
+    "explanation": "Questi venditori offrono vino rosso italiano a 20.00 EUR con consegna prevista in 3-5 giorni lavorativi."
+  },
+  "finished_at": 1789335111.1448727
+}
