@@ -1,4 +1,4 @@
-# Stato corrente — 15 settembre2026
+# Stato corrente — 16 settembre 2026
 
 ## Decisioni attuali
 
@@ -36,8 +36,34 @@ non eseguiti. IlPC può spegnersi durante il job, ma download richiede breve rie
 entro24ore; non esiste archiviatore remoto. Nessun lancio confermativo autorizzato
 da questo file.
 
-GitHub: account connettore AlCap27 verificato. Creazione via browser bloccata da
-preferenza salvata dell'utente per github.com. Repo locale pronta; non dichiarare
-pubblicazione finché commit remoto non verificato. Non usare altri percorsi per
-aggirare quel blocco. Nessun link condiviso del thread creato, poiché il registro
-grezzo contiene [rimosso]; export depurato predisposto.
+## Trasferimento verificato — 16 settembre 2026
+
+Repository privata `AlCap27/audit-black-box-v2-context` pubblicata e accessibile.
+Workspace del [rimosso] allineato a `main`, upstream `origin/main`, commit
+`2c4631ead0b0c19e4a3148e0000d27f93b691b60`. Nessuna storia creata su `master`.
+Remote origin: `https://github.com/AlCap27/audit-black-box-v2-context.git`.
+
+Prima degli aggiornamenti documentali: working tree pulito; `git fsck --full`
+senza errori; SHA-256 ricalcolati sui byte locali con esito completo:
+- manifest di trasferimento: 4615/4615;
+- pilot: 1479/1479; estensione: 2152/2152;
+- protocollo: 9/9; copia source-protocol: 9/9;
+- pacchetto Batch: 949/949; manifest dati: 919/919.
+Nessun file mancante o hash discrepante. I 4617 file tracciati comprendono anche
+`.gitattributes` e `transfer-manifest.json`, esclusi dall'elenco del manifest.
+
+Il manifest di trasferimento originale resta immutato come riferimento del commit
+importato. I successivi aggiornamenti autorizzati a README.md, current-state.md e
+next-steps.md differiscono intenzionalmente dai suoi hash. Pacchetti e sigilli in
+study/ non sono modificati. Il commit documentale di migrazione segue il commit
+importato sulla stessa storia di main. Nessun push degli aggiornamenti eseguito;
+la pubblicazione di questo commit locale richiede conferma esplicita.
+
+Questa sessione autorizza solo trasferimento, verifica e aggiornamento documentale.
+Nessuna chiamata Google, invio Batch, attivazione fatturazione o controllo reale
+eseguito. I test scientifici/offline precedenti non sono stati rieseguiti: qui sono
+stati ricalcolati gli hash. Attendere conferma prima di altre attività operative;
+il trasferimento non certifica quota, cap output, freeze o autorizzazione al lancio.
+
+Nessun link condiviso del thread creato, poiché il registro grezzo contiene
+[rimosso]; l'export depurato è disponibile nella repository.

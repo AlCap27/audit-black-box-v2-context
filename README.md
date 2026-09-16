@@ -21,7 +21,11 @@ ripresa attuale prevale su proposte superate nella cronologia.
 
 ## Sul [rimosso]
 
-1. Clonare la repository privata quando pubblicata e aprire la cartella in Codex.
+1. Repository privata pubblicata e trasferita sul [rimosso] il 16 settembre 2026.
+   Workspace su `main`, upstream `origin/main`, commit verificato
+   `2c4631ead0b0c19e4a3148e0000d27f93b691b60`; manifest e sigilli verificati
+   integralmente prima degli aggiornamenti documentali. Vedere `current-state.md`.
+   Per altri dispositivi, clonare `AlCap27/audit-black-box-v2-context`.
 2. Selezionare Astra e incollare il prompt in `START-HERE.md`.
 3. Eseguire `git pull --ff-only` prima di lavorare; a fine sessione aggiornare stato
    e attività, fare commit e push. Non lavorare simultaneamente sullo stesso ramo
