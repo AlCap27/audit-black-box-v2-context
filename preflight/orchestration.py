@@ -56,6 +56,8 @@ def _archived(state, ref, kind):
 
 
 def _load(state, data, version=None):
+    if (state / 'external-job.json').exists():
+        raise ValueError('Pre-existing provider job requires manual reconciliation; no new submission')
     data = Path(data).resolve()
     verify(data)
     manifest = digest(read(data / 'manifest.json'))
@@ -118,6 +120,10 @@ def report_allows(report, keys, version, controls=False):
 
 
 def _admission(state, data, journal, budget, shard, attempt):
+    if journal.get('mode') == 'CANARY_ONLY':
+        raise ValueError('Canary runtime never authorizes campaign submissions')
+    if journal.get('mode') == 'EXTERNAL_REVIEW':
+        raise ValueError('External controls reviewed; final campaign approval still required')
     if journal['halted'] or attempt in journal['attempts']:
         raise ValueError('Campaign halted or attempt already recorded')
     completed = []
@@ -265,11 +271,15 @@ def _observe(state, data, journal, attempt, raw):
             observation_errors.append(observation)
             journal['halted'] = True
     traces = {r['key']: r for r in map(json.loads, (Path(data) / 'traces.jsonl').read_text(encoding='utf-8').splitlines())}
+    canary = journal.get('mode') == 'CANARY_ONLY'
     report = reconcile(_keys(data, item['shard']), list(rows.values()), traces,
                        read(Path(data) / 'design.json')['identities'],
-                       status in TERMINAL, journal['version'])
+                       status in TERMINAL, None if canary else journal['version'])
+    # The canary observes version; it never promotes that observation to a
+    # pre-approved campaign version or lifts campaign admission gates.
+    checked_version = (report['versions'][0] if len(report['versions']) == 1 else '') if canary else journal['version']
     success = status == 'SUCCEEDED' and report_allows(
-        report, _keys(data, item['shard']), journal['version'], item['shard'] == 'controls')
+        report, _keys(data, item['shard']), checked_version, item['shard'] == 'controls')
     stats = raw['metadata'].get('batchStats')
     if stats is not None and status == 'SUCCEEDED':
         expected = len(_keys(data, item['shard']))
@@ -294,6 +304,11 @@ def _observe(state, data, journal, attempt, raw):
         report['controls_pass'] = success and not journal['halted']
     report['stop_future_submissions'] = not success or journal['halted']
     report['operational_approval'] = success and not journal['halted']
+    if canary:
+        report['canary_pass'] = success and not journal['halted']
+        report['version_policy'] = 'OBSERVE_ONLY_NOT_APPROVED_FOR_MAIN'
+        report['operational_approval'] = False
+        report['stop_future_submissions'] = True
     item['report'] = _archive(state, 'report', report)
     item['phase'] = 'RECONCILED' if report['operational_approval'] else ('HALTED' if journal['halted'] else 'PENDING')
     item['recovery_pending'] = False

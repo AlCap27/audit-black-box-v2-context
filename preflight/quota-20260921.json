@@ -1,0 +1,21 @@
+{
+  "project_id": "gen-lang-client-0393363402",
+  "project_name": "audit black-box",
+  "model": "gemini-3.1-flash-lite",
+  "tier": 1,
+  "source": "Authenticated Google AI Studio, project-selected API Batch section",
+  "url": "https://aistudio.google.com/u/1/rate-limit?project=gen-lang-client-0393363402",
+  "observed_date": "2026-09-21",
+  "batch_enqueued_token_limit": 10000000,
+  "concurrent_batch_limit": 100,
+  "historical_peak_enqueued_display": "5.49K / 10M",
+  "historical_peak_concurrent_display": "1 / 100",
+  "historical_peaks_are_not_current_occupancy": true,
+  "active_jobs_from_complete_api_list": 0,
+  "list_archive_sha256": "55fabdfaa39a0f495428d8fd1145b225340df5cb93502580f9d793d51108201f",
+  "available_enqueued_tokens_at_check": 10000000,
+  "largest_main_input_tokens": 753451,
+  "capacity_status": "VERIFIED_AT_CHECK",
+  "basis": "Project-specific displayed limit minus zero active jobs from complete authenticated API list; recheck active jobs before each sequential submission",
+  "provider_admission_guaranteed": false
+}

@@ -1,0 +1,27 @@
+{
+  "repository_handoff_complete": true,
+  "protocol_frozen": true,
+  "launch_authorized": true,
+  "model_project_verified": true,
+  "batch_quota_verified": true,
+  "token_count_verified": true,
+  "output_cap_verified": true,
+  "price_current": true,
+  "billing_decision_recorded": true,
+  "retention_plan_confirmed": true,
+  "model": "gemini-3.1-flash-lite",
+  "expected_model_version": "gemini-3.1-flash-lite",
+  "input_price": 0.125,
+  "output_price": 0.75,
+  "available_batch_tokens": 10000000,
+  "evidence": {
+    "launch_authorization": "User 2026-09-21: verify capacity, commit and push final freeze, then start experiment; activation only after verified push",
+    "quota": "quota-20260921.json plus fresh complete Batch list required before each main",
+    "project": "User-confirmed API key association; authenticated project-selected AI Studio verifies project and Tier 1",
+    "output_cap": "Official GenerateContent thinking documentation: maxOutputTokens includes thinking and answer; documentary verification, not stress-tested boundary",
+    "output_cap_url": "https://ai.google.dev/gemini-api/docs/generate-content/thinking",
+    "price": "Batch pricing reviewed 2026-09-21: .125/.75 USD per million input/output",
+    "retention": "Atomic runtime archive/journal/ledger plus verified runtime and operational ZIP snapshots; preserve directory across session interruptions",
+    "budget": "Controls accounted once at conservative 0.03 USD; remaining 29.97 USD; full mains with 20 percent margin 10.37945775 USD"
+  }
+}

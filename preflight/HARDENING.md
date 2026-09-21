@@ -1,5 +1,30 @@
 # Orchestrazione offline pre-lancio
 
+## Percorso canary autorizzato il 21 settembre 2026
+
+preflight/canary.py offre submit_controls_once: solo le 24 chiavi frozen dei
+controlli, nessun parametro shard, nessun cambiamento a request/generationConfig.
+Autorizzazione specifica, associazione progetto confermata dall'utente, verifica
+ricevute e manifest precedono l'intento e la riserva. Non usa flag fittizi per
+superare i gate di campagna. Quota, versione di risposta, enforcement del cap e
+freeze restano esplicitamente non verificati. Il journal CANARY_ONLY impedisce
+ogni ulteriore submission nel percorso campagna anche se il test riesce.
+Versione osservata, controlli semantici, usage e cap sono riconciliati senza
+promuovere una versione osservata a versione approvata per i main.
+
+Per prudenza l'intera allocazione di 30 USD viene trattenuta nel ledger fino a
+riconciliazione manuale: è una riserva locale, non una spesa o un hard cap Google.
+Stima dei 24 controlli con margine: 0.02677725 USD alle tariffe Batch verificate
+il 21 settembre (.125/.75 USD/M). Timeout, crash e runtime preesistente vietano
+un secondo tentativo. Una directory runtime nuova non è una strategia di retry.
+
+Durante il controllo live precedente all'invio è stato trovato un job di 24
+controlli già riuscito il 20 settembre. Nessun POST è stato eseguito qui.
+runtime/audit-v2/external-job.json blocca sia il canary sia la campagna; contiene
+l'identità da recuperare. La risposta GET archiviata e il rapporto locale sono
+prove recuperate, non un journal originale di submission. Prima di una campagna
+servono riconciliazione della provenienza, budget e autorizzazione separata.
+
 Questo strato operativo è esterno a `study/batch-preparation-20260914`.
 Non cambia richieste, prompt, parametri, manifest o sigilli sperimentali.
 Non ha CLI live, loop di polling, fallback, retry di submission o rilascio di riserve.
@@ -131,3 +156,11 @@ Restano accesso/quote progetto, billing/saldo, applicabilità del cap,
 modelVersion attesa verificabile, piano di rientro/backup, accettazione reale
 delle primitive/formati e 24 controlli reali. Il freeze finale e la campagna
 richiedono ancora decisione e autorizzazione esplicite.
+# Adozione offline di controlli esterni — 21 settembre 2026
+
+adopt_controls.py registra nel journal il job già concluso, con riferimento
+all'archivio GET verificato e provenienza confermata dall'utente. Riesegue il
+validatore completo; non fabbrica un payload originale, non usa rete, non
+rilascia budget e non rimuove il marker esterno. La modalità EXTERNAL_REVIEW
+impedisce submission anche qualora il marker mancasse. Ripresa ammessa solo
+con stessa evidenza, manifest, versione e prenotazione. Sei test dedicati.
