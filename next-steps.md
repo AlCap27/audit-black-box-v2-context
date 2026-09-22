@@ -1,4 +1,49 @@
-# Prossime attività — aggiornamento 21 settembre 2026
+# Prossime attività — aggiornamento 22 settembre 2026
+
+## Analisi offline completata — prossimo passo: revisione del report
+
+Leggere analysis/results-20260922/REPORT.md e le tabelle/provenienze collegate.
+Prima della diffusione: revisione scientifica delle assunzioni e controllo
+umano di un campione di parsing; non cambiare test, esclusioni o soglie in base
+ai risultati. Commit/push dell'analisi e delle note autorizzati il 22 settembre;
+archivio della raccolta incluso in review/ per trasferimento e revisione.
+Su un altro PC usare clone/pull e review/README.md, senza riavviare il runner.
+Nessuna generazione o nuovo Batch necessario; non ripetere controlli o main.
+Fattura finale ancora da confrontare con la stima usage di 1.24666525 USD;
+nessun rilascio automatico della riserva. Le attività di raccolta sotto sono
+storiche e superate da questo stato.
+
+## Raccolta conclusa — non avviare altri Batch
+
+12/12 main conclusi e riconciliati, 8808/8808 validi, zero quarantena; controlli
+24 originali, mai ripetuti. Driver terminato con successo. Stato autorevole:
+runtime/audit-v2/operations.json e collection-summary.json. Nessun job da
+reinviare o driver da riavviare. Le indicazioni di polling sotto sono storiche.
+Conservazione locale e analisi statistica del protocollo frozen completate,
+senza modifiche a esclusioni, ipotesi, soglie o prompt.
+Costo stimato complessivo 1.24666525 USD, fattura finale non verificata;
+riserva locale 10.40945775 USD ancora conservata. Nessun nuovo commit/push.
+
+## Driver attivo — non duplicare la sequenza
+
+runtime/continue_campaign.py prosegue i main autorizzati in sequenza; processo
+54773, letture ogni 30s, limite un'ora, nessun retry POST. Ultimo checkpoint:
+main-00 e main-01 validi (1468 risultati); main-02 RUNNING. Non avviare un
+secondo driver: verificare prima processo e journal, che possono essere più
+avanzati di queste note. Se il driver si ferma, recuperare il job pendente;
+se è halted, indagare senza ripetere generazioni o modificare protocollo.
+Questa nota sostituisce l'indicazione precedente di assenza polling automatico.
+
+## Campagna avviata: recuperare main-00, non reinviarlo
+
+Freeze pubblicato f7606d529d0a4c44f628eb11286c8b6d1088747d.
+main-00 è già inviato: batches/8sme2gcrcsvztcpvv0w1c85mrlg17ark5ebv,
+tentativo audit-v2-main-00, 734 richieste. Ultimo GET RUNNING.
+Alla ripresa eseguire solo recover_once sul runtime/audit-v2 esistente; se
+completato, verificare rapporto completo. Solo allora main-01, secondo
+l'autorizzazione e il piano sequenziale già registrati. Nessun controllo da
+ripetere, nessun retry del main-00 e nessun runtime nuovo.
+La sessione non ha lasciato un processo di polling o invio automatico attivo.
 
 ## Ripresa dal freeze v2 READY_FOR_LAUNCH
 

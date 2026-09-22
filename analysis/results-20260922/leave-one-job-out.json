@@ -1,0 +1,62 @@
+[
+  {
+    "omitted_job": "main-00",
+    "L_total": 0.002376455288580631,
+    "label": "descriptive leave-one-job-out; no alternative test"
+  },
+  {
+    "omitted_job": "main-01",
+    "L_total": 0.002376455288580631,
+    "label": "descriptive leave-one-job-out; no alternative test"
+  },
+  {
+    "omitted_job": "main-02",
+    "L_total": 0.0023996779786970533,
+    "label": "descriptive leave-one-job-out; no alternative test"
+  },
+  {
+    "omitted_job": "main-03",
+    "L_total": 0.0027789819172652948,
+    "label": "descriptive leave-one-job-out; no alternative test"
+  },
+  {
+    "omitted_job": "main-04",
+    "L_total": -0.00012385434728759068,
+    "label": "descriptive leave-one-job-out; no alternative test"
+  },
+  {
+    "omitted_job": "main-05",
+    "L_total": 0.002376455288580631,
+    "label": "descriptive leave-one-job-out; no alternative test"
+  },
+  {
+    "omitted_job": "main-06",
+    "L_total": 0.002376455288580631,
+    "label": "descriptive leave-one-job-out; no alternative test"
+  },
+  {
+    "omitted_job": "main-07",
+    "L_total": 0.002229378251176615,
+    "label": "descriptive leave-one-job-out; no alternative test"
+  },
+  {
+    "omitted_job": "main-08",
+    "L_total": 0.002376455288580631,
+    "label": "descriptive leave-one-job-out; no alternative test"
+  },
+  {
+    "omitted_job": "main-09",
+    "L_total": 0.002376455288580631,
+    "label": "descriptive leave-one-job-out; no alternative test"
+  },
+  {
+    "omitted_job": "main-10",
+    "L_total": 0.002221637354471142,
+    "label": "descriptive leave-one-job-out; no alternative test"
+  },
+  {
+    "omitted_job": "main-11",
+    "L_total": 0.002376455288580631,
+    "label": "descriptive leave-one-job-out; no alternative test"
+  }
+]

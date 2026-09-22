@@ -1,0 +1,82 @@
+{
+  "integrity": {
+    "study/confirmatory-design-20260914/sha256.json": 9,
+    "study/extension-20260913/sha256.json": 2152,
+    "study/pilot-expanded-20260910/sha256.json": 1479,
+    "study/batch-preparation-20260914/source-protocol/sha256.json": 9,
+    "study/batch-preparation-20260914/package-sha256.json": 949,
+    "study/batch-preparation-20260914/data/manifest.json": 919
+  },
+  "raw_reparsed": 8832,
+  "shards": {
+    "controls": {
+      "job": "batches/bnse2tr3db6kvqm3mzp4uyru0d6h271pceqz",
+      "report": "78c63bb8a9ec16c8b318f359b6d212460fd18cc0c527ff477f7d9f915ee00582",
+      "get": "520959931112ecace309f87b7ba4014d995d5f936e89f77126ddd6641b295114"
+    },
+    "main-00": {
+      "job": "batches/8sme2gcrcsvztcpvv0w1c85mrlg17ark5ebv",
+      "report": "604636c34832e52ca72c31ad9cd7581c0f0bc147fe59d814fcdb316694e187e5",
+      "get": "92db9492aa145623113f0bbe76e191136d841e2c33de5ac9c4a3924751d53211"
+    },
+    "main-01": {
+      "job": "batches/fougwlggf020o170inairz2qh4nsyi3sg5cp",
+      "report": "1311514cc5d06bab799fbee4d9e814db17fd8da52a92b2d2f641692e9c88cb9d",
+      "get": "8d2ae134fef0aecd8b08bf0c0dd04dd715a3c06105c679de83d5ddb6e8d4eaf9"
+    },
+    "main-02": {
+      "job": "batches/li9n5x62slf3hm6snvhrickyjpumvby8p0ox",
+      "report": "e4dcc28271b137130ef5e18b3359b582cfa56ba84179bc6b2af6d943733a3a6b",
+      "get": "6523646ca6b7e767ab2075edab45ee4d178def1ce134e6d64c1a43f51532ac88"
+    },
+    "main-03": {
+      "job": "batches/lvpm5cxq5xg27gequ28fgx7rpa4ruagxcgzz",
+      "report": "7806b87cf8e232df6ad792ec464b4ad192929b79a20cccb56c982ba6f7510b69",
+      "get": "fdd5a5e9022e5f99ea4d7bb3bcb2d2c5203ac385161de4c78eb0c8a4967a4c2e"
+    },
+    "main-04": {
+      "job": "batches/dc8mtbhvqse6w5irxxnw87r94brsng3msu1k",
+      "report": "5e777cb903da2a032c5aefc588791e29ea3bd28ba2bdeccdb1e00b8a369282f6",
+      "get": "8952b81098667c25c0e4a36095f792cf17afc7974e5b70db5107d422354c37a8"
+    },
+    "main-05": {
+      "job": "batches/m78clor15va526227dsr2n97lqlg1de24ua7",
+      "report": "70c56c16d5b2b992445c10f1a24d747243f4ea343dc3f1254d50cdd9a9abcc12",
+      "get": "59884dab9a7f92c4d42b7dbdda27ca59905a8a5fbb7bb248d94cfb9eafd63cce"
+    },
+    "main-06": {
+      "job": "batches/gx2of45pz3ug22ufq3rudunna1zz4q1efq8o",
+      "report": "4cb6202193404eefa6bbdeb1b7200bda07cf9cbdd0da55d81378c35bb3d3ec5a",
+      "get": "10fdf76d49f36ba29341457ed9b5c6b1b77efde2a60b0a10086428d8cfc1b8ad"
+    },
+    "main-07": {
+      "job": "batches/rm9olwz67x1u8se4nsc50sijy0ni9yh3ghbl",
+      "report": "bb0a577c26ade8879e0c50a399295864010e2c18097b0aa8de3a8eace7c994a1",
+      "get": "eda3d1bdbcfae312db6ca8023113d668dd8965bd12b57773c796d39416056569"
+    },
+    "main-08": {
+      "job": "batches/v6jhzg7habs65uzhrwhca6r6be3ylfmz5e4d",
+      "report": "8817f09d32a67b881130f272321248aafa3cb905bc77d3aa347a835ed4b12dad",
+      "get": "705f806d0e2b983e8c08c0aa79fc250bed209f9f086a9013832439846b61988f"
+    },
+    "main-09": {
+      "job": "batches/12bn2aa7seu5j9famsawaur6uw23zwaxdm9l",
+      "report": "cd69ba016c8276bb5eb905e176a85639b36314e27458d6484272641a8c51e133",
+      "get": "7b770c48f38ade36abf5953efa5145bfc5179b32bb0b60255732f049dfa0a05f"
+    },
+    "main-10": {
+      "job": "batches/165c8tsxi8xjhj0915mapcuzsa5u4t63c3lr",
+      "report": "1c347ba301670d4b9e78805b232ebb6acb4f1c6ba6bec942dd231e9746f7ac7f",
+      "get": "99ffbb0051023f3113d59d50eaab45577c8a41d18e92857a686a52dd4ca62afe"
+    },
+    "main-11": {
+      "job": "batches/8vtcqkb427mkkq1f3j77mi0c5ajuxn5oc470",
+      "report": "a0d146cdf45dc812bbd55bc5b0f814395e72d7087764a4e872f94d6e646109ab",
+      "get": "3c49ebd47ee19ec39795af387a52e1fcb62b5c14459aea689b5e62ebde16d08a"
+    }
+  },
+  "script_sha256": "c4442246e630f1abae9fbecd4a72cc3b7a13322c5944f4a2330887ca84f5a26a",
+  "freeze_sha256": "a1f9a3d5a31f6cb92f84b4cfa17b5ddca743dcbb1de2a7873e76e33142957541",
+  "network_calls": 0,
+  "note": "Analysis adapter authored after collection; frozen inference functions unchanged"
+}

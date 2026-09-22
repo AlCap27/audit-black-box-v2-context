@@ -1,0 +1,40 @@
+{
+  "label": "Global pipeline sensitivity, descriptive only",
+  "canonical_text_definition": "One canonical body copy; schema and llms excluded; fixed identity/template markup retained",
+  "implementation_timing": "Adapter and exact canonical-text implementation authored after collection; not a new confirmatory test",
+  "results": {
+    "no-schema": {
+      "requests": 8808,
+      "changed_vendor_sets": 2681,
+      "vendor_retrievals": 11010,
+      "retrieval_effects": {
+        "S": 0.0004541326067211693,
+        "L": 0.0018165304268846494,
+        "T": 0.07291666666666666
+      },
+      "recommendation_outcomes_reused": false
+    },
+    "no-llms": {
+      "requests": 8808,
+      "changed_vendor_sets": 2512,
+      "vendor_retrievals": 14313,
+      "retrieval_effects": {
+        "S": 0.0026041666666666713,
+        "L": 0.0001915871934604907,
+        "T": 0.09114583333333334
+      },
+      "recommendation_outcomes_reused": false
+    },
+    "canonical-text": {
+      "requests": 8808,
+      "changed_vendor_sets": 4352,
+      "vendor_retrievals": 11744,
+      "retrieval_effects": {
+        "S": -0.0010501816530426866,
+        "L": 4.2574931880111355e-05,
+        "T": -0.0010076067211625753
+      },
+      "recommendation_outcomes_reused": false
+    }
+  }
+}

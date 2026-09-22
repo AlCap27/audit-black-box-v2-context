@@ -1,0 +1,132 @@
+[
+  {
+    "shard": "controls",
+    "metadata": {
+      "model": "models/gemini-3.1-flash-lite",
+      "createTime": "2026-09-20T16:30:10.057117375Z",
+      "endTime": "2026-09-20T16:32:17.715875360Z",
+      "updateTime": "2026-09-20T16:32:17.715875390Z",
+      "state": "BATCH_STATE_SUCCEEDED"
+    }
+  },
+  {
+    "shard": "main-00",
+    "metadata": {
+      "model": "models/gemini-3.1-flash-lite",
+      "createTime": "2026-09-21T13:11:24.737952979Z",
+      "endTime": "2026-09-21T13:13:46.493406945Z",
+      "updateTime": "2026-09-21T13:13:46.493406965Z",
+      "state": "BATCH_STATE_SUCCEEDED"
+    }
+  },
+  {
+    "shard": "main-01",
+    "metadata": {
+      "model": "models/gemini-3.1-flash-lite",
+      "createTime": "2026-09-21T13:26:49.858627092Z",
+      "endTime": "2026-09-21T13:29:10.890839641Z",
+      "updateTime": "2026-09-21T13:29:10.890839665Z",
+      "state": "BATCH_STATE_SUCCEEDED"
+    }
+  },
+  {
+    "shard": "main-02",
+    "metadata": {
+      "model": "models/gemini-3.1-flash-lite",
+      "createTime": "2026-09-21T13:29:36.944726062Z",
+      "endTime": "2026-09-21T13:32:38.733502850Z",
+      "updateTime": "2026-09-21T13:32:38.733502873Z",
+      "state": "BATCH_STATE_SUCCEEDED"
+    }
+  },
+  {
+    "shard": "main-03",
+    "metadata": {
+      "model": "models/gemini-3.1-flash-lite",
+      "createTime": "2026-09-21T13:32:58.934997812Z",
+      "endTime": "2026-09-21T13:35:43.544235333Z",
+      "updateTime": "2026-09-21T13:35:43.544235363Z",
+      "state": "BATCH_STATE_SUCCEEDED"
+    }
+  },
+  {
+    "shard": "main-04",
+    "metadata": {
+      "model": "models/gemini-3.1-flash-lite",
+      "createTime": "2026-09-21T13:36:16.962266889Z",
+      "endTime": "2026-09-21T13:39:10.301650538Z",
+      "updateTime": "2026-09-21T13:39:10.301650570Z",
+      "state": "BATCH_STATE_SUCCEEDED"
+    }
+  },
+  {
+    "shard": "main-05",
+    "metadata": {
+      "model": "models/gemini-3.1-flash-lite",
+      "createTime": "2026-09-21T13:39:36.051770706Z",
+      "endTime": "2026-09-21T13:42:09.085520503Z",
+      "updateTime": "2026-09-21T13:42:09.085520573Z",
+      "state": "BATCH_STATE_SUCCEEDED"
+    }
+  },
+  {
+    "shard": "main-06",
+    "metadata": {
+      "model": "models/gemini-3.1-flash-lite",
+      "createTime": "2026-09-21T13:42:25.802597461Z",
+      "endTime": "2026-09-21T13:43:27.024673337Z",
+      "updateTime": "2026-09-21T13:43:27.024673370Z",
+      "state": "BATCH_STATE_SUCCEEDED"
+    }
+  },
+  {
+    "shard": "main-07",
+    "metadata": {
+      "model": "models/gemini-3.1-flash-lite",
+      "createTime": "2026-09-21T13:43:42.030188717Z",
+      "endTime": "2026-09-21T13:46:16.234308154Z",
+      "updateTime": "2026-09-21T13:46:16.234308174Z",
+      "state": "BATCH_STATE_SUCCEEDED"
+    }
+  },
+  {
+    "shard": "main-08",
+    "metadata": {
+      "model": "models/gemini-3.1-flash-lite",
+      "createTime": "2026-09-21T13:46:32.336554049Z",
+      "endTime": "2026-09-21T13:49:24.312203742Z",
+      "updateTime": "2026-09-21T13:49:24.312203772Z",
+      "state": "BATCH_STATE_SUCCEEDED"
+    }
+  },
+  {
+    "shard": "main-09",
+    "metadata": {
+      "model": "models/gemini-3.1-flash-lite",
+      "createTime": "2026-09-21T13:49:52.822793205Z",
+      "endTime": "2026-09-21T13:51:51.506481200Z",
+      "updateTime": "2026-09-21T13:51:51.506481223Z",
+      "state": "BATCH_STATE_SUCCEEDED"
+    }
+  },
+  {
+    "shard": "main-10",
+    "metadata": {
+      "model": "models/gemini-3.1-flash-lite",
+      "createTime": "2026-09-21T13:52:10.517905525Z",
+      "endTime": "2026-09-21T13:56:13.460410153Z",
+      "updateTime": "2026-09-21T13:56:13.460410173Z",
+      "state": "BATCH_STATE_SUCCEEDED"
+    }
+  },
+  {
+    "shard": "main-11",
+    "metadata": {
+      "model": "models/gemini-3.1-flash-lite",
+      "createTime": "2026-09-21T13:56:33.574552300Z",
+      "endTime": "2026-09-21T13:58:54.745475407Z",
+      "updateTime": "2026-09-21T13:58:54.745475437Z",
+      "state": "BATCH_STATE_SUCCEEDED"
+    }
+  }
+]

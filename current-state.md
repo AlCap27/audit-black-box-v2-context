@@ -1,4 +1,78 @@
-# Stato corrente — aggiornamento 21 settembre 2026
+# Stato corrente — aggiornamento 22 settembre 2026
+
+## ANALYSIS_COMPLETE_OFFLINE — stato prevalente sulle note storiche
+
+Checkpoint di revisione autorizzato dall'utente il 22 settembre: codice analitico,
+risultati, note e archivio completo della raccolta inclusi nel commit di questa
+sezione. review/README.md è il punto di ingresso per un altro PC o revisore.
+review/collection-complete-20260922.zip è copia byte-identica del backup locale,
+verificata per integrità e credenziali prima dell'inclusione nella repository
+privata. runtime/ resta ignorata. Nessuna nuova API, generazione o fatturazione.
+L'hash del checkpoint è il commit che introduce questa sezione, consultabile
+con git log; il freeze di lancio resta f7606d529d0a4c44f628eb11286c8b6d1088747d.
+Le indicazioni di mancato commit/push sotto descrivono gli snapshot precedenti.
+
+Analisi completata sulle 8808 generazioni principali, senza esclusioni né nuove
+chiamate API. I 24 controlli originali non sono stati ripetuti. Tutte le 8832
+risposte archiviate sono state riparsate e confrontate con i rapporti nel journal.
+Report: analysis/results-20260922/REPORT.md; provenienza e tabelle nella stessa
+directory. Primaria llms.txt: +0.218 pp, intervallo 97.5% [-2.680, +3.115] pp:
+zero non escluso, nessuna dimostrazione di equivalenza. Fra le secondarie,
+duplicazione body: totale +6.645 pp e retrieval +7.695 pp, intervalli corretti
+per molteplicità che escludono zero. Interpretazione limitata alla pipeline
+studiata e alle assunzioni prespecificate, inclusa indipendenza dei cluster.
+
+Verificati i sei manifest originali e il freeze operativo; artefatti sigillati
+invariati. Quattro test dell'analisi superati. Backup locale della raccolta:
+runtime/collection-complete-20260922.zip, 97 file verificati; hash e ricevuta
+in analysis/results-20260922/backup-receipt.json. Nessuna copia fuori dispositivo
+ancora verificata. Costo stimato totale invariato: 1.24666525 USD, non fattura.
+Codice analitico e analisi di sensibilità aggiunti dopo la raccolta, dichiarati
+come tali. Nessun commit/push aggiuntivo. Le sezioni di esecuzione sotto sono
+storiche: driver terminato, nessun job da reinviare.
+
+## Raccolta completata — 12/12 main validi
+
+Il driver è terminato con exit code 0 e campaign_complete. Verifica locale
+dei rapporti archiviati: 12 main SUCCEEDED/RECONCILED, 8808/8808 risultati
+validi, zero quarantena, journal non halted. I 24 controlli originali rimangono
+validi e non sono stati ripetuti. Nessuna nuova submission necessaria.
+Riepilogo in runtime/audit-v2/collection-summary.json.
+Usage main: 5778785 input, 696641 output, zero thought token distinti riportati.
+Costo main stimato dal listino frozen: 1.244828875 USD; inclusi i controlli
+1.24666525 USD. Non è la fattura definitiva. Riserva ledger conservata:
+10.40945775 USD, entro 30 USD; nessun rilascio automatico effettuato.
+La raccolta è validata operativamente; l'analisi statistica è ora completata
+come riportato sopra. Validità del parsing e risultato scientifico sono distinti.
+Freeze remoto f7606d529d0a4c44f628eb11286c8b6d1088747d invariato.
+Note di esecuzione non committate; nessun commit/push aggiuntivo.
+
+## Sequenza in corso — main-00 e main-01 validi
+
+main-00 e main-01 riconciliati: 734/734 validi ciascuno, zero quarantena,
+approvazione operativa true. main-02 inviato e RUNNING:
+batches/li9n5x62slf3hm6snvhrickyjpumvby8p0ox. Journal non halted.
+Driver locale runtime/continue_campaign.py attivo nella sessione processo
+54773: solo funzioni operative frozen, un main alla volta, lettura ogni 30s,
+arresto su qualsiasi anomalia/errore, nessun retry POST. Scadenza massima del
+driver un'ora dal suo avvio; alla scadenza non annulla il job provider.
+Non avviare un secondo driver né inviare manualmente mentre questo è attivo.
+Alla ripresa controllare processo e journal: questo riepilogo è uno snapshot,
+il runtime può essere avanzato. Nessun nuovo commit/push.
+
+## Esperimento avviato — main-00 in esecuzione
+
+Freeze pubblicato e verificato prima del lancio:
+f7606d529d0a4c44f628eb11286c8b6d1088747d, main = origin/main, working tree
+pulito all'invio. Attivazione autorizzata archiviata nel runtime; marker esterno
+conservato come external-job-adopted.json. Nessun reinvio dei 24 controlli.
+Un solo POST main eseguito: main-00, 734 richieste, tentativo audit-v2-main-00,
+job batches/8sme2gcrcsvztcpvv0w1c85mrlg17ark5ebv.
+Primo GET: RUNNING, terminal=false, risultati validi 0/734 perché non ancora
+disponibili. Non è un fallimento. Stop invii successivi attivo finché non sarà
+riconciliato. Riserva main-00 0.84799020 USD; controlli 0.03 USD.
+Queste note di esecuzione sono successive al commit del freeze; non alterano
+snapshot operativo o pacchetto sperimentale. Nessun ulteriore commit/push fatto.
 
 ## Checkpoint di lancio v2 — quota del progetto verificata
 

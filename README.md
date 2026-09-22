@@ -9,9 +9,12 @@ BM25 e sulla raccomandazione del vendor nella pipeline controllata. Tre stadi
 distinti: discovery, retrieval, recommendation. Non generalizzare agli agenti
 di acquisto nel loro complesso. Riportare anche effetti nulli e contrari alle attese.
 
-Stato15settembre2026: materiali offline completi; preflight tecnico in corso,
-nessuna campagna confermativa avviata. Budget30USD totale, generatore esclusivamente
-gemini-3.1-flash-lite tramite Batch; assistente esclusivamente Astra.
+Stato 22 settembre 2026: raccolta e analisi offline completate, 8808 main validi
+e 24 controlli originali non ripetuti. Report in
+`analysis/results-20260922/REPORT.md`; pacchetto e istruzioni di revisione in
+`review/README.md`, inclusi dati grezzi e journal archiviati. Non avviare nuovi
+Batch. Budget 30 USD totale; costo usage stimato 1.24666525 USD, fattura non
+verificata. Generatore gemini-3.1-flash-lite; assistente esclusivamente Astra.
 
 `study/batch-preparation-20260914/` contiene corpus, richieste, tracce, codice e
 protocollo. Le campagne precedenti sono prove pilot sigillate, non dati confermativi.
