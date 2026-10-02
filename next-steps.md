@@ -7,6 +7,9 @@ Controllo umano di un campione di parsing: ESEGUITO (70 casi, seed 20260922,
 zero discrepanze; vedi REPORT.md e review/review-giudizi.csv). Prima della
 diffusione resta la revisione scientifica/metodologica indipendente delle
 assunzioni; non cambiare test, esclusioni o soglie in base ai risultati.
+Interventi documentali di pubblicazione (dichiarazione COI, chiusura della
+revisione del parsing, evidenza tracciata in review/) committati e pubblicati
+il 2 ottobre 2026: commit 31bcda1, d804f21, 12bc41d su origin/main.
 Commit/push dell'analisi e delle note autorizzati il 22 settembre;
 archivio della raccolta incluso in review/ per trasferimento e revisione.
 Su un altro PC usare clone/pull e review/README.md, senza riavviare il runner.
