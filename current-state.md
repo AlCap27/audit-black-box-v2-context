@@ -1,6 +1,39 @@
-# Stato corrente — aggiornamento 22 settembre 2026
+# Stato corrente — aggiornamento 2 ottobre 2026
 
-## ANALYSIS_COMPLETE_OFFLINE — stato prevalente sulle note storiche
+## PUBLICATION_CHECKPOINT — stato prevalente su tutte le note storiche
+
+Quattro interventi documentali per lo stato "pubblicabile" committati e
+pubblicati il 2 ottobre 2026: commit `31bcda1` su `origin/main`, push
+verificato (ahead/behind 0/0, working tree pulito). Nessuna modifica a
+parser, dati grezzi o analyze.py: solo documenti, più l'aggiunta di
+evidenza della revisione.
+
+1. Dichiarazione di conflitto d'interesse (l'autore sviluppa Agentabile,
+   agentabile.dev) e nota di framing/ambito inserite in testa a
+   `analysis/results-20260922/REPORT.md`, testo concordato verbatim con
+   l'utente.
+2. Chiusa nello stesso REPORT.md la discrepanza "revisione umana del
+   parsing da fare": revisione ESEGUITA su un campione stratificato di 70
+   casi (25 astensioni, 25 raccomandazioni, 20 lunghe/atipiche; seed fisso
+   20260922) tratti dalle 8808 risposte confermative. Zero discrepanze
+   semantiche: astensioni tutte genuine, mappature nome→vendor tutte
+   esatte, coerente con unknown_names=0 e unsupported_recommendations=0
+   sull'intero corpus.
+3. `review/review-giudizi.csv` (i 70 giudizi umani, colonna giudizio_umano
+   compilata "sì" su tutti i casi, nessuna nota) e
+   `review/vendor-canonici.csv` (i 32 nomi canonici da identity-source.json)
+   tracciati come evidenza della revisione. `.gitignore` verificato coerente:
+   esclude solo il materiale di lavoro usa-e-getta
+   `review/review-sample.html`, non le due CSV.
+4. Allineati i riferimenti obsoleti che dichiaravano ancora la revisione del
+   parsing "da effettuare" in `next-steps.md` e `review/README.md`.
+
+Resta aperta, distinta dalla revisione semantica del parsing ora chiusa, la
+revisione scientifica/metodologica indipendente delle assunzioni (vedi
+"Domande al revisore" in `review/README.md`). Le sezioni sotto, incluso lo
+stato ANALYSIS_COMPLETE_OFFLINE, restano storiche e sono superate da questa.
+
+## ANALYSIS_COMPLETE_OFFLINE — stato storico, superato da PUBLICATION_CHECKPOINT
 
 Checkpoint di revisione autorizzato dall'utente il 22 settembre: codice analitico,
 risultati, note e archivio completo della raccolta inclusi nel commit di questa
