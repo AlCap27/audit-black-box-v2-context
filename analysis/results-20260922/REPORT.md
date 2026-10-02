@@ -155,10 +155,14 @@ assunzioni inferenziali dichiarate. Non si generalizza a siti reali, mercati,
 query nuove o agenti di acquisto completi; non si sostiene una mediazione causale.
 
 Raccolta e analisi principale sono concluse. Prima di una pubblicazione:
-revisione metodologica/semantica indipendente e conservazione del runtime su
-un secondo supporto. Nessuna nuova campagna necessaria per completare questo
-report. Costo stimato complessivo già riportato: 1,24666525 USD; fattura finale
-non verificata. Nessun commit o push eseguito per questa analisi.
+revisione metodologica indipendente delle assunzioni (la revisione semantica
+del parsing è ESEGUITA, vedi sopra) e conservazione del runtime su un secondo
+supporto. Nessuna nuova campagna necessaria per completare questo report.
+Costo stimato complessivo già riportato: 1,24666525 USD; fattura finale non
+verificata. Nessun commit o push eseguito per la generazione originale di
+questa analisi (22 settembre 2026); i successivi interventi documentali del
+2 ottobre 2026 sono stati committati e pubblicati su origin/main
+(commit 31bcda1, d804f21).
 
 I file JSON e observations.jsonl permettono di ricostruire stime, cluster,
 sensibilità, tracciabilità e controlli; non contengono credenziali.
