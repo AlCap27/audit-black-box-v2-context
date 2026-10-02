@@ -18,9 +18,7 @@ verificata. Generatore gemini-3.1-flash-lite; assistente esclusivamente Astra.
 
 `study/batch-preparation-20260914/` contiene corpus, richieste, tracce, codice e
 protocollo. Le campagne precedenti sono prove pilot sigillate, non dati confermativi.
-`conversation-history.md` è un export testuale selezionato e depurato dei messaggi,
-non contiene ragionamento interno, logstrumenti o allegati binari. Il punto di
-ripresa attuale prevale su proposte superate nella cronologia.
+Il punto di ripresa attuale prevale su proposte superate nella cronologia.
 
 ## Sul [rimosso]
 

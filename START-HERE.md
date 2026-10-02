@@ -12,4 +12,3 @@ non autorizzazione a riattivare il runner su un altro PC.
 Se serve una credenziale, chiedi dove reperirla localmente senza inserirla inchat/Git.
 
 Il vecchio thread è conservato sulPCdi casa; non è necessario sincronizzarlo.
-Leggi conversation-history.md solo per dettagli storici non risolti dai file attuali.
