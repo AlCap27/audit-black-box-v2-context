@@ -1,6 +1,6 @@
 # Audit Black Box V2 — analisi dei risultati
 
-[Dichiarazione di conflitto d'interesse
+Dichiarazione di conflitto d'interesse
 
 L'autore di questo studio sviluppa e intende commercializzare Agentabile (agentabile.dev), uno strumento che assegna un punteggio di "agent-readiness" tecnica a siti web, valutando tra l'altro proprio le caratteristiche testate qui (llms.txt, dati strutturati schema.org/JSON-LD). L'autore ha quindi un interesse economico diretto nel dominio di questo studio.
 
@@ -16,7 +16,7 @@ Ipotesi primaria (llms.txt) e JSON-LD: nessun effetto statisticamente rilevato. 
 Duplicazione del corpo testuale (effetto T): +6,645 punti percentuali, statisticamente rilevato secondo il test pre-registrato. Tuttavia l'effetto non sopravvive alla variante di controllo canonica (una sola copia del body, senza schema né llms): il delta scende a circa −0,1 pp. Poiché la variante canonica rimuove più componenti contemporaneamente, questo risultato sostiene che l'effetto è sensibile al preprocessing e verosimilmente attribuibile alla meccanica del retrieval BM25 (frequenza dei termini, lunghezza del documento), ma non isola in modo definitivo che l'intero effetto sia un artefatto: il disegno confonde più fattori e non permette di escludere una componente residua. In ogni caso, l'effetto è specifico di questa pipeline e non è presentato come proprietà trasferibile ai sistemi reali.
 Scostamento dal disegno pre-registrato
 
-Il documento di disegno (DECISIONS.md) prevedeva 318 assegnazioni generative; ne sono state raccolte 367. Si tratta di un aumento della numerosità (maggiore potenza, non minore), congelato nel manifest sha256 il 2026-09-14, prima della raccolta dati — non è quindi una selezione a posteriori della numerosità. Lo si annota qui per piena trasparenza rispetto al numero indicato nel disegno.]
+Il documento di disegno (DECISIONS.md) prevedeva 318 assegnazioni generative; ne sono state raccolte 367. Si tratta di un aumento della numerosità (maggiore potenza, non minore), congelato nel manifest sha256 il 2026-09-14, prima della raccolta dati — non è quindi una selezione a posteriori della numerosità. Lo si annota qui per piena trasparenza rispetto al numero indicato nel disegno.
 
 22 settembre 2026. Analisi offline della raccolta del 21 settembre. Protocollo
 scientifico e addendum Batch sigillati; freeze operativo remoto
