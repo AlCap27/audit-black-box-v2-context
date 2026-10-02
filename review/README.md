@@ -1,10 +1,9 @@
 # Checkpoint di revisione — 22 settembre 2026
 
 Raccolta conclusa: 8808 main, 24 controlli originali; nessuna richiesta da
-ripetere. Il repository privato contiene il materiale per la revisione offline.
-Git trasferisce i file, non la conversazione nell'app. Su un altro PC clonare
-AlCap27/audit-black-box-v2-context oppure aggiornare main con git pull --ff-only,
-quindi leggere START-HERE.md e current-state.md. Non riattivare il runner.
+ripetere. Questo repository contiene il materiale per la revisione offline:
+clonare AlCap27/audit-black-box-v2-context e leggere current-state.md.
+Non riattivare il runner.
 
 ## Materiale da esaminare
 
