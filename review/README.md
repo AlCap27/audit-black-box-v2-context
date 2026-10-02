@@ -9,6 +9,9 @@ quindi leggere START-HERE.md e current-state.md. Non riattivare il runner.
 ## Materiale da esaminare
 
 - Risultati e limiti: ../analysis/results-20260922/REPORT.md e JSON/JSONL accanto.
+- Revisione umana del parsing (ESEGUITA): review-giudizi.csv (70 casi giudicati,
+  seed 20260922) e vendor-canonici.csv (tabella di riferimento dei 32 nomi);
+  dettagli in REPORT.md, sezione "Discovery e controllo del parser".
 - Codice analitico post-raccolta: ../analysis/ e relativi test.
 - Protocollo Batch: ../study/batch-preparation-20260914/PROTOCOL-BATCH.md;
   protocollo e funzioni statistiche frozen nella sottocartella source-protocol/.
@@ -55,5 +58,6 @@ Verificare aderenza al protocollo, denominatori e trattamento delle astensioni,
 intervalli e correzione per molteplicità, plausibilità dell'indipendenza dei
 cluster e limiti delle conclusioni nel disegno sintetico BM25. Analisi di
 sensibilità post-raccolta e confronti descrittivi non sostituiscono i test frozen.
-Revisione umana di un campione di parsing ancora da effettuare. Costo usage
+Revisione umana di un campione di parsing: ESEGUITA, zero discrepanze semantiche
+(vedi REPORT.md e review-giudizi.csv). Costo usage
 stimato 1.24666525 USD; fattura definitiva non verificata.

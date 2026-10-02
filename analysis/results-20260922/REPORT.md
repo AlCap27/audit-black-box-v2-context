@@ -1,5 +1,23 @@
 # Audit Black Box V2 — analisi dei risultati
 
+[Dichiarazione di conflitto d'interesse
+
+L'autore di questo studio sviluppa e intende commercializzare Agentabile (agentabile.dev), uno strumento che assegna un punteggio di "agent-readiness" tecnica a siti web, valutando tra l'altro proprio le caratteristiche testate qui (llms.txt, dati strutturati schema.org/JSON-LD). L'autore ha quindi un interesse economico diretto nel dominio di questo studio.
+
+Si segnala esplicitamente che i risultati di questo studio non favoriscono tale interesse commerciale: l'ipotesi primaria — che la presenza di llms.txt aumenti la probabilità di raccomandazione — non ha prodotto un effetto statisticamente rilevato, e l'unico effetto positivo osservato (duplicazione del corpo testuale) non sopravvive a un controllo che neutralizza il preprocessing della pipeline. Lo studio è pubblicato integralmente, dati grezzi inclusi, proprio perché il lettore possa verificare in autonomia ogni cifra.
+
+Nota di framing e ambito
+
+Questo non è uno studio osservazionale sul comportamento degli agenti d'acquisto reali. È un esperimento controllato in vitro su una pipeline sintetica: recupero lessicale BM25 su un corpus-giocattolo di 24 query in un singolo dominio (vini italiani), con un solo modello generativo (gemini-3.1-flash-lite) e 32 identità di negozio sintetiche. Nessuna conclusione qui riportata si trasferisce direttamente a sistemi di produzione (Google AI Overviews, ChatGPT, Perplexity, Gemini nella loro forma reale), che usano retrieval neurale/ibrido, ranking proprietari e discovery su web reale — nessuno dei quali è rappresentato in questo disegno.
+
+Precisazioni sui risultati principali, per evitare sovra-interpretazione:
+
+Ipotesi primaria (llms.txt) e JSON-LD: nessun effetto statisticamente rilevato. Questo non equivale a dimostrare l'assenza di un effetto: gli intervalli sono ampi (primaria: [−2,68; +3,12] punti percentuali) e lo studio non ha potenza per escludere un effetto piccolo. Il risultato è compatibile sia con l'assenza di effetto sia con un effetto piccolo non rilevabile a questa numerosità.
+Duplicazione del corpo testuale (effetto T): +6,645 punti percentuali, statisticamente rilevato secondo il test pre-registrato. Tuttavia l'effetto non sopravvive alla variante di controllo canonica (una sola copia del body, senza schema né llms): il delta scende a circa −0,1 pp. Poiché la variante canonica rimuove più componenti contemporaneamente, questo risultato sostiene che l'effetto è sensibile al preprocessing e verosimilmente attribuibile alla meccanica del retrieval BM25 (frequenza dei termini, lunghezza del documento), ma non isola in modo definitivo che l'intero effetto sia un artefatto: il disegno confonde più fattori e non permette di escludere una componente residua. In ogni caso, l'effetto è specifico di questa pipeline e non è presentato come proprietà trasferibile ai sistemi reali.
+Scostamento dal disegno pre-registrato
+
+Il documento di disegno (DECISIONS.md) prevedeva 318 assegnazioni generative; ne sono state raccolte 367. Si tratta di un aumento della numerosità (maggiore potenza, non minore), congelato nel manifest sha256 il 2026-09-14, prima della raccolta dati — non è quindi una selezione a posteriori della numerosità. Lo si annota qui per piena trasparenza rispetto al numero indicato nel disegno.]
+
 22 settembre 2026. Analisi offline della raccolta del 21 settembre. Protocollo
 scientifico e addendum Batch sigillati; freeze operativo remoto
 `f7606d529d0a4c44f628eb11286c8b6d1088747d`. Nessuna nuova generazione.
@@ -112,8 +130,21 @@ il target orfano nei due ordini; nei grafi diretto, catena e ciclo il target è
 già raggiungibile. Nessuna inferenza su Google o sulla discovery del web.
 Nel main W=1 per costruzione.
 Il replay automatico del parser copre tutti gli output, e non ci sono casi
-ambigui segnalati. Una revisione semantica umana indipendente di un campione non
-è stata eseguita: la validità formale non certifica da sola correttezza commerciale.
+ambigui segnalati. Revisione umana della validità semantica del parser: ESEGUITA
+su un campione stratificato di 70 casi (25 astensioni, 25 raccomandazioni, 20
+risposte lunghe/atipiche; seed fisso 20260922), tratti dalle 8808 risposte
+confermative. Zero discrepanze semantiche: tutte le astensioni esaminate sono
+rifiuti genuini (nessuna raccomandazione occulta nel campo explanation con
+recommendations vuoto); tutte le mappature nome→vendor del campione sono esatte.
+Questo è coerente con i contatori aggregati unknown_names=0 e
+unsupported_recommendations=0 su tutte le 8808 risposte. LIMITE: si tratta di
+un campione (70/8808); l'assenza di discrepanze è compatibile con un tasso
+d'errore reale basso ma non necessariamente nullo. Non si conclude che il
+parser sia esente da errori, ma che non emergono errori sistematici di
+classificazione o mappatura. Le explanation, sia di astensione sia di
+raccomandazione, sono fortemente stereotipate — artefatto atteso del decoding
+JSON vincolato e del corpus sintetico, non un difetto di parsing. Evidenza
+della revisione: review/review-giudizi.csv.
 
 ## Conclusione sostenibile e prossimo passo
 

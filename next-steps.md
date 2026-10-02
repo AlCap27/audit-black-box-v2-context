@@ -3,9 +3,11 @@
 ## Analisi offline completata — prossimo passo: revisione del report
 
 Leggere analysis/results-20260922/REPORT.md e le tabelle/provenienze collegate.
-Prima della diffusione: revisione scientifica delle assunzioni e controllo
-umano di un campione di parsing; non cambiare test, esclusioni o soglie in base
-ai risultati. Commit/push dell'analisi e delle note autorizzati il 22 settembre;
+Controllo umano di un campione di parsing: ESEGUITO (70 casi, seed 20260922,
+zero discrepanze; vedi REPORT.md e review/review-giudizi.csv). Prima della
+diffusione resta la revisione scientifica/metodologica indipendente delle
+assunzioni; non cambiare test, esclusioni o soglie in base ai risultati.
+Commit/push dell'analisi e delle note autorizzati il 22 settembre;
 archivio della raccolta incluso in review/ per trasferimento e revisione.
 Su un altro PC usare clone/pull e review/README.md, senza riavviare il runner.
 Nessuna generazione o nuovo Batch necessario; non ripetere controlli o main.
